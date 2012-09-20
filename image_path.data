@@ -1,0 +1,2 @@
+s:	<IMG SRC="([^"]+)\.tif"([^>]+)>
+r:	<IMG SRC="images/\1.jpg"\2>

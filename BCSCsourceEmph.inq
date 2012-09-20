@@ -1,0 +1,5 @@
+s:	<source>\n\s+<i>\(Courtesy of Jeffrey A\. Nerad, MD\.\)</i>\n\s+</source>
+r:	<source>(Courtesy of Jeffrey A. Nerad, MD.)</source>
+
+s:	<source>\n\s+<i>\(Courtesy of Jerry Popham, MD\.\)</i>\n\s+</source>
+r:	<source>(Courtesy of Jerry Popham, MD.)</source>

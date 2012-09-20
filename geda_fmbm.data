@@ -1,0 +1,8 @@
+c:	Penta styletags xprt cleanup for GEDA FM/BM
+c:	-------------------------------------------
+c:	Lose the <&entity;> crap.
+s:	<&
+r:	&
+s:	;>
+r:	;
+

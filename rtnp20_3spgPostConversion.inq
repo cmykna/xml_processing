@@ -1,0 +1,14 @@
+c:	Remove empty keyword groups.
+s:	<kwd-group/>
+r:	
+c:	Move kwd-group onto one line.
+s:	<kwd-group>\n
+r:	<kwd-group>
+s:	</kwd>\n<x>; </x>\n<kwd>
+r:	</kwd><x>; </x><kwd>
+s:	\n</kwd-group>
+r:	</kwd-group>
+
+c:	fix pub-date
+s:	<pub-date pub-type="article">\n<month/>\n<year>2006</year>\n</pub-date>
+r:	<pub-date pub-type="ppub">\n<season>Fall</season>\n<year>2006</year>\n<string-date>Fall 2006</string-date>\n</pub-date>

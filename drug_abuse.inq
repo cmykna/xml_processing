@@ -1,0 +1,6 @@
+s:	(?s)<A NAME="([^"]+)"></A>\s*<H4>DRUG ABUSE AND DEPENDENCE</H4>(.*?)<([a-z]+)>
+r:	<drug_abuse>\n<A NAME="PDRDRU01"></A>\n<A NAME="\1"></A>\n<H4>DRUG ABUSE AND DEPENDENCE</H4>\n\2\n</drug_abuse>\n<\3>
+s:	(?s)<A NAME="([^"]+)"></A>\s*<H4>DRUG ABUSE AND ADDICTION</H4>(.*?)<([a-z]+)>
+r:	<drug_abuse>\n<A NAME="PDRDRU01"></A>\n<A NAME="\1"></A>\n<H4>DRUG ABUSE AND ADDICTION</H4>\n\2\n</drug_abuse>\n<\3>
+s:	(?s)<A NAME="([^"]+)"></A>\s*<H4>DRUG ABUSE AND DEPENDENCY</H4>(.*?)<([a-z]+)>
+r:	<drug_abuse>\n<A NAME="PDRDRU01"></A>\n<A NAME="\1"></A>\n<H4>DRUG ABUSE AND DEPENDENCY</H4>\n\2\n</drug_abuse>\n<\3>

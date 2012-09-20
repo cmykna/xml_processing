@@ -1,0 +1,16 @@
+c: Cleanup regexes for Acrobat's crappy HTML 4.01 export. For Harper Collins.
+c: Created: 10/06/06 cmc
+
+c:	Add quotes around certain attributes.
+s:	width=(\d+)
+r:	width="\1"
+
+s:	height=(\d+)
+r:	height="\1"
+
+s:	colspan=(\d+)
+r:	colspan="\1"
+
+c:	Gimme a fucking break, acrobat.
+s:	<BODY bgcolor=white text=black link=blue vlink=purple alink=fushia >
+r:	<BODY>

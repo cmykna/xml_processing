@@ -1,0 +1,60 @@
+c:	Make sure all existing comment delimiters are properly spaced
+c:	so we can use them as reliable hooks later on.
+s:	<!--<
+r:	<!-- <
+s:	>-->
+r:	> -->
+
+c:	Fix ghetto-ass comment delimiters around table-here :P
+s:	&lt;!- -<table-here([^>]+)>- -&gt;
+r:	<!-- <table-here\1> -->
+
+c:	Finish escaping //linkHtml[ancestor::title]
+s:	&lt;!- -<linkHtml([^>]+)>
+r:	<!-- <linkHtml\1> -->
+s:	</linkHtml>- -&gt;
+r:	<!-- </linkHtml> -->	
+
+c:	Finish escaping //content[ancestor::linkHtml]
+s:	&lt;!- -<content([^>]+)>
+r:	<!-- <content\1> -->
+s:	</content>- -&gt;
+r:	<!-- </content> -->
+
+c:	Finish escaping //id[@compId]
+s:	&lt;!- -<id compId="([^"]+)" root="([^"]+)"/>- -&gt;
+r:	<!-- <id compId="\1" root="\2"/> -->
+
+c:	Remove @styleCode attribute from //colgroup and preserve the value in an XML comment.
+c:	Assumes that only @align and @styleCode are used (as is the case currently).
+c:	TODO: Generalize this for additional attributes.
+c:	Reorder @styleCode and @align, just in case.
+s:	<colgroup align="([^"]+) styleCode="([^"]+)">
+r:	<colgroup styleCode="\1" align="\2">
+c:	Process 2-attribute elements.
+s:	<colgroup styleCode="([^"]+)" align="([^"]+)">
+r:	<!-- CDATA @styleCode from SPL+: styleCode="\1" -->\n<colgroup align="\2">
+c:	And now, //colgroups with just @styleCode.
+s:	<colgroup styleCode="([^"]+)">
+r:	<!-- CDATA @styleCode from SPL+: styleCode="\1" -->\n<colgroup>
+
+c:	Same idea as above, but we're doing it for a single @styleCode value in certain //col
+c:	elements in one file. I'll look into a less specific fix if this starts happening more.
+s:	 styleCode="(colsep-g\.3,v7,g\.3,v7)"/>
+r:	/><!-- CDATA @styleCode from SPL+: styleCode="\1" -->
+
+c:	Once again, same as above, except for a //th element in one file.
+s:	 styleCode="colsep-g1,v10"/>
+r:	/><!-- CDATA @styleCode from SPL+: styleCode="\1" -->
+c:	NOTE: Trashing this approach for now, since it steps all over ids that have already been commented.
+c:	See splschema_cleanup.xsl line 62, and line 
+c:	Removing @compId and preserving in a comment. I think that they should just be zapped in the XSLT, but
+c:	QUERY! there are certain cases where they can't simply be inferred from @root, so I guess that's why they stay.
+c:	QUERY! Why these ones didn't get taken care of in the initial conversion is also something to look into.
+	s:	<id compId="([^"]+)" root="([^"]+)"/>
+	r:	<id root="\1"/>\n<!-- <id compId="\1" root="\2"/> -->
+
+c:	Reinsert schema decleration
+s:	<\?xml version="1.0" encoding="UTF-8"\?>\s*<document type="PDR07-product">
+r:	<?xml version="1.0" encoding="UTF-8"?>\n<?xml-stylesheet href="spl.xsl" type="text/xsl"?>\n<document xmlns="urn:hl7-org:v3" xsi:schemaLocation="urn:hl7-org:v3 PORR_MT050020.xsd" xmlns:voc="urn:hl7-org:v3/voc" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:splx="urn:hl7-org:splx" type="PDR07-product">
+

@@ -1,0 +1,35 @@
+c:	fix double open and close tags inside Penta PIs
+s:	<<0
+r:	!opentag0
+
+s:	(\d)>>
+r:	\1!closetag
+
+c:	fix autosort in element
+
+s:	;eq;dp
+r:	="
+
+s:	;eq"
+r:	="
+
+c:	=;dp
+s:	=;dp
+r:	="
+
+s:	;dp\s*>
+r:	">
+
+s:	;dp\s*/>
+r:	"/>
+
+c:	="middle;dp or ="indent;dp   etc.
+s:	="([^ ";]+?);dp ([^>]+?)>
+r:	="\1" \2>
+
+s:	="([^ ";]+?);dp ([^>]+?)>
+r:	="\1" \2>
+
+
+
+

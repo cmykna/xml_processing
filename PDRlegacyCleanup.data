@@ -1,0 +1,42 @@
+s:	<br></br>
+r:	<br />
+s:	&#8478;
+r:	(Rx)
+s:	<img src="([^"]+)\.tif"([^>]+)></img>
+r:	<img src="images/\1.jpg"\2/>
+s:	&#8195;
+r:	&#160;&#160;&#160;
+s:	&#8194;
+r:	&#160;&#160;
+s:	&amp;CII;
+r:	(CII)
+s:	&amp;CIII;
+r:	(CIII)
+s:	&amp;CIV;
+r:	(CIV)
+s:	&amp;CV;
+r:	(CV)
+s:	\(Rx\) OnlyPRESCRIBING INFORMATION
+r:	(Rx) Only<br />PRESCRIBING INFORMATION
+s:	(?s)<!DOCTYPE html\n\s*PUBLIC "-//W3C//DTD XHTML 1\.0 Transitional//EN" "http://www\.w3\.org/TR/xhtml1/DTD/xhtml1-transitional\.dtd">
+r:	
+s:	<!-- - - - - - - - - - - - - - - - - - - - - - - - -\s*Comp Metadata\s*- - - - - - - - - - - - - - - - - - - - - - - - - - -->
+r:	
+s:	<!-- - - - - - - - - - - - - - - - - - - - - - - - -\s*SPL Body\s*- - - - - - - - - - - - - - - - - - - - - - - - - - -->
+r:	
+s:	<!-- - - - - - - - - - - - - - - - - - - - - - - - -\s*Title section\s*- - - - - - - - - - - - - - - - - - - - - - - - - - -->
+r:	
+s:	<h1 class="[^"]+">
+r:	<h4>
+s:	<h2 class="[^"]+">
+r:	<h4>
+s:	<h3 class="[^"]+">
+r:	<h4>
+s:	<h4 class="[^"]+">
+r:	<h4>
+s:	<h5 class="[^"]+">
+r:	<h4>
+s:	<h6 class="[^"]+">
+r:	<h4>
+s:	</h[1-6]>
+r:	</h4>

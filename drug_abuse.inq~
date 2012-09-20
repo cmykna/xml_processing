@@ -1,0 +1,2 @@
+s:	<A NAME="([^"]+)"></A>\s*<H4>([DRUG ABUSE AND DEPENDENCE]|[DRUG ABUSE AND ADDICTION]|[DRUG ABUSE AND DEPENDENCY])</H4>(.*?)<([a-z]+)>
+r:	<drug_abuse>\n<A NAME="PDRDRU01"></A>\n<A NAME="\1"></A>\n<H4>\2</H4>\n\3\n</drug_abuse>\n<\4>

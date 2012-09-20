@@ -1,0 +1,1 @@
+normalize_markup --tagname_case=upper --attname_case=upper --strip_doctype --strip_comments --strip_pis *.htm

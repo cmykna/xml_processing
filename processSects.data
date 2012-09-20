@@ -1,0 +1,380 @@
+c:	match more top level sections
+
+s:	(<H\d CLASS="h\d">)\s*<SPAN>(CLINICAL PHARMA[^<]+?)</SPAN>
+r:	\1\2
+
+s:	(<H\d CLASS="h\d">)\s*<SPAN>(ADVERSE REACT[^<]+?)</SPAN>
+r:	\1\2
+
+s:	(<H\d CLASS="h\d">)\s*<SPAN>(ANIMAL PHARMA[^<]+?)</SPAN>
+r:	\1\2
+
+s:	(<H\d CLASS="h\d">)\s*(CLINICAL STU[^<]+?)</SPAN>
+r:	\1\2
+
+s:	(<H\d CLASS="h\d">)\s*(CONTRAINDICATION[^<]*?)</SPAN>
+r:	\1\2
+
+s:	(<H\d CLASS="h\d">)\s*<SPAN>(DESCRIPT[^<]+?)</SPAN>
+r:	\1\2
+
+s:	(<H\d CLASS="h\d">)\s*<SPAN>(DOSAGE[^<]+?)</SPAN>
+r:	\1\2
+
+s:	(<H\d CLASS="h\d">)\s*<SPAN>(HOW SUPPL[^<]+?)</SPAN>
+r:	\1\2
+
+s:	(<H\d CLASS="h\d">)\s*<SPAN>(SUPPLIED)</SPAN>
+r:	\1\2
+
+s:	(<H\d CLASS="h\d">)\s*<SPAN>(INDICATION[^<]*?)</SPAN>
+r:	\1\2
+
+s:	(<H\d CLASS="h\d">)\s*<SPAN>(USAGE[^<]*?)</SPAN>
+r:	\1\2
+
+s:	(<H\d CLASS="h\d">)\s*<SPAN>(OVERDOS[^<]+?)</SPAN>
+r:	\1\2
+
+s:	(<H\d CLASS="h\d">)\s*<SPAN>(PRECAUT[^<]+?)</SPAN>
+r:	\1\2
+
+s:	(<H\d CLASS="h\d">)\s*<SPAN>(REFERENCES)</SPAN>
+r:	\1\2
+
+s:	(<H\d CLASS="h\d">)\s*<SPAN>(WARNINGS)</SPAN>
+r:	\1\2
+
+s:	(<H\d CLASS="h\d">)\s*
+r:	\1
+
+s:	\s*(</H\d>)
+r:	\1
+
+s:	(?<!<actions>\n)?(\s*<A.*?</A>)\s*(<H\d CLASS="h\d">\s*CLINICAL PHARMA)
+r:	<actions><A NAME="PDRACT01"></A>\1\n\2
+
+s:	<actions>\s*<actions>\s*<A NAME="PDRACT01"></A>\s*<A NAME="PDRACT01"></A>
+r:	<actions><A NAME="PDRACT01"></A>
+
+s:	<actions>\s*<A NAME="PDRACT01"></A>\s*<actions>\s*<A NAME="PDRACT01"></A>
+r:	<actions><A NAME="PDRACT01"></A>
+
+s:	<A NAME="PDRACT01"></A>\s*<A NAME="PDRACT01"></A>
+r:	<A NAME="PDRACT01"></A>
+
+s:	(?<!<adverse_reactions>\n)?(\s*<A.*?</A>)\s*(<H\d CLASS="h\d">\s*ADVERSE REACT)
+r:	<adverse_reactions><A NAME="PDRADV01"></A>\1\n\2
+
+s:	<adverse_reactions>\s*<adverse_reactions>\s*<A NAME="PDRADV01"></A>\s*<A NAME="PDRADV01"></A>
+r:	<adverse_reactions><A NAME="PDRADV01"></A>
+
+s:	<adverse_reactions>\s*<A NAME="PDRADV01"></A>\s*<adverse_reactions>\s*<A NAME="PDRADV01"></A>
+r:	<adverse_reactions><A NAME="PDRADV01"></A>
+
+s:	<A NAME="PDRADV01"></A>\s*<A NAME="PDRADV01"></A>
+r:	<A NAME="PDRADV01"></A>
+
+s:	(?<!<animal_pharmacology>\n)?(\s*<A.*?</A>)\s*(<H\d CLASS="h\d">\s*ANIMAL PHARMA)
+r:	<animal_pharmacology><A NAME="PDRANI01"></A>\1\n\2
+
+s:	<animal_pharmacology>\s*<animal_pharmacology>\s*<A NAME="PDRANI01"></A>\s*<A NAME="PDRANI01"></A>
+r:	<animal_pharmacology><A NAME="PDRANI01"></A>
+
+s:	<animal_pharmacology>\s*<A NAME="PDRANI01"></A>\s*<animal_pharmacology>\s*<A NAME="PDRANI01"></A>
+r:	<animal_pharmacology><A NAME="PDRANI01"></A>
+
+s:	<A NAME="PDRANI01"></A>\s*<A NAME="PDRANI01"></A>
+r:	<A NAME="PDRANI01"></A>
+
+s:	(?<!<clinical_studies>\n)?(\s*<A.*?</A>)\s*(<H\d CLASS="h\d">\s*CLINICAL STU)
+r:	<clinical_studies><A NAME="PDRCLI01"></A>\1\n\2
+
+s:	<clinical_studies>\s*<clinical_studies><A NAME="PDRCLI01"></A>\s*<A NAME="PDRCLI01"></A>
+r:	<clinical_studies><A NAME="PDRCLI01"></A>
+
+s:	<clinical_studies>\s*<A NAME="PDRCLI01"></A>\s*<clinical_studies>\s*<A NAME="PDRCLI01"></A>
+r:	<clinical_studies><A NAME="PDRCLI01"></A>
+
+s:	<A NAME="PDRCLI01"></A>\s*<A NAME="PDRCLI01"></A>
+r:	<A NAME="PDRCLI01"></A>
+
+s:	(?<!<contraindications>\n)?(\s*<A.*?</A>)\s*(<H\d CLASS="h\d">\s*CONTRAINDICATION)
+r:	<contraindications><A NAME="PDRCON01"></A>\1\n\2
+
+s:	<contraindications>\s*<contraindications>\s*<A NAME="PDRCON01"></A>\s*<A NAME="PDRCON01"></A>
+r:	<contraindications><A NAME="PDRCON01"></A>
+
+s:	<contraindications>\s*<A NAME="PDRCON01"></A>\s*<contraindications>\s*<A NAME="PDRCON01"></A>
+r:	<contraindications><A NAME="PDRCON01"></A>
+
+s:	<A NAME="PDRCON01"></A>\s*<A NAME="PDRCON01"></A>
+r:	<A NAME="PDRCON01"></A>
+
+s:	(?<!<description>\n)?(\s*<A.*?</A>)\s*(<H\d CLASS="h\d">\s*DESCRIPT)
+r:	<description><A NAME="PDRDES01"></A>\1\n\2
+
+s:	<description>\s*<description>\s*<A NAME="PDRDES01"></A>\s*<A NAME="PDRDES01"></A>
+r:	<description><A NAME="PDRDES01"></A>
+
+s:	<description>\s*<A NAME="PDRDES01"></A>\s*<description>\s*<A NAME="PDRDES01"></A>
+r:	<description><A NAME="PDRDES01"></A>
+
+s:	<A NAME="PDRDES01"></A>\s*<A NAME="PDRDES01"></A>
+r:	<A NAME="PDRDES01"></A>
+
+s:	(?<!<dosage>\n)?(\s*<A.*?</A>)\s*(<H\d CLASS="h\d">\s*DOSAGE)
+r:	<dosage><A NAME="PDRDOS01"></A>\1\n\2
+
+s:	<dosage>\s*<dosage>\s*<A NAME="PDRDOS01"></A>\s*<A NAME="PDRDOS01"></A>
+r:	<dosage><A NAME="PDRDOS01"></A>
+
+s:	<dosage>\s*<A NAME="PDRDOS01"></A>\s*<dosage>\s*<A NAME="PDRDOS01"></A>
+r:	<dosage><A NAME="PDRDOS01"></A>
+
+s:	<A NAME="PDRDOS01"></A>\s*<A NAME="PDRDOS01"></A>
+r:	<A NAME="PDRDOS01"></A>
+
+s:	(?<!<how_supplied>\n)?(\s*<A.*?</A>)\s*(<H\d CLASS="h\d">\s*HOW SUPPL)
+r:	<how_supplied><A NAME="PDRHOW01"></A>\1\n\2
+
+s:	(?<!<how_supplied>\n)?(\s*<A.*?</A>)\s*(<H\d CLASS="h\d">\s*SUPPLIED</)
+r:	<how_supplied><A NAME="PDRHOW01"></A>\1\n\2
+
+s:	<how_supplied>\s*<how_supplied>\s*<A NAME="PDRHOW01"></A>\s*<A NAME="PDRHOW01"></A>
+r:	<how_supplied><A NAME="PDRHOW01"></A>
+
+s:	<how_supplied>\s*<A NAME="PDRHOW01"></A>\s*<how_supplied>\s*<A NAME="PDRHOW01"></A>
+r:	<how_supplied><A NAME="PDRHOW01"></A>
+
+s:	<A NAME="PDRHOW01"></A>\s*<A NAME="PDRHOW01"></A>
+r:	<A NAME="PDRHOW01"></A>
+
+s:	(?<!<indications>\n)?(\s*<A.*?</A>)\s*(<H\d CLASS="h\d">\s*INDICATION)
+r:	<indications><A NAME="PDRIND01"></A>\1\n\2
+
+s:	(?<!<indications>\n)?(\s*<A.*?</A>)\s*(<H\d CLASS="h\d">\s*USAGE)
+r:	<indications>\s*<A NAME="PDRIND01"></A>\1\n\2
+
+s:	<indications>\s*<indications>\s*<A NAME="PDRIND01"></A>\s*<A NAME="PDRIND01"></A>
+r:	<indications><A NAME="PDRIND01"></A>
+
+s:	<indications>\s*<A NAME="PDRIND01"></A>\s*<indications>\s*<A NAME="PDRIND01"></A>
+r:	<indications><A NAME="PDRIND01"></A>
+
+s:	<A NAME="PDRIND01"></A>\s*<A NAME="PDRIND01"></A>
+r:	<A NAME="PDRIND01"></A>
+
+s:	(?<!<overdose>\n)?(\s*<A.*?</A>)\s*(<H\d CLASS="h\d">\s*OVERDOS)
+r:	<overdose><A NAME="PDROVE01"></A>\1\n\2
+
+s:	<overdose>\s*<overdose>\s*<A NAME="PDROVE01"></A>\s*<A NAME="PDROVE01"></A>
+r:	<overdose><A NAME="PDROVE01"></A>
+
+s:	<overdose>\s*<A NAME="PDROVE01"></A>\s*<overdose>\s*<A NAME="PDROVE01"></A>
+r:	<overdose><A NAME="PDROVE01"></A>
+
+s:	<A NAME="PDROVE01"></A>\s*<A NAME="PDROVE01"></A>
+r:	<A NAME="PDROVE01"></A>
+
+s:	(?<!<precautions>\n)?(\s*<A.*?</A>)\s*(<H\d CLASS="h\d">\s*PRECAUT)
+r:	<precautions><A NAME="PDRPRE01"></A>\1\n\2
+
+s:	<precautions>\s*<precautions>\s*<A NAME="PDRPRE01"></A>\s*<A NAME="PDRPRE01"></A>
+r:	<precautions><A NAME="PDRPRE01"></A>
+
+s:	<precautions>\s*<A NAME="PDRPRE01"></A>\s*<precautions>\s*<A NAME="PDRPRE01"></A>
+r:	<precautions><A NAME="PDRPRE01"></A>
+
+s:	<A NAME="PDRPRE01"></A>\s*<A NAME="PDRPRE01"></A>
+r:	<A NAME="PDRPRE01"></A>
+
+s:	(?<!<references>\n)?(\s*<A.*?</A>)\s*(<H\d CLASS="h\d">\s*REFERENCES)
+r:	<references><A NAME="PDRREF01"></A>\1\n\2
+
+s:	<references>\s*<references>\s*<A NAME="PDRREF01"></A>\s*<A NAME="PDRREF01"></A>
+r:	<references><A NAME="PDRREF01"></A>
+
+s:	<references>\s*<A NAME="PDRREF01"></A>\s*<references>\s*<A NAME="PDRREF01"></A>
+r:	<references><A NAME="PDRREF01"></A>
+
+s:	<A NAME="PDRREF01"></A>\s*<A NAME="PDRREF01"></A>
+r:	<A NAME="PDRREF01"></A>
+
+s:	(?<!<warnings>\n)?(\s*<A.*?</A>)\s*(<H\d CLASS="h\d">\s*WARNINGS)
+r:	<warnings><A NAME="PDRWAR01"></A>\1\n\2
+
+s:	<warnings>\s*<warnings>\s*<A NAME="PDRWAR01"></A>\s*<A NAME="PDRWAR01"></A>
+r:	<warnings><A NAME="PDRWAR01"></A>
+
+s:	<warnings>\s*<A NAME="PDRWAR01"></A>\s*<warnings>\s*<A NAME="PDRWAR01"></A>
+r:	<warnings><A NAME="PDRWAR01"></A>
+
+s:	<A NAME="PDRWAR01"></A>\s*<A NAME="PDRWAR01"></A>
+r:	<A NAME="PDRWAR01"></A>
+
+s:	(<H\d CLASS="h\d">)\s*
+r:	\1
+
+s:	\s*(</H\d>)
+r:	\1
+
+s:	>\s*(<actions>)\s*
+r:	>\n\1\n
+
+s:	>\s*(<adverse_reactions>)\s*
+r:	>\n\1\n
+
+s:	>\s*(<animal_pharmacology>)\s*
+r:	>\n\1\n
+
+s:	>\s*(<clinical_studies>)\s*
+r:	>\n\1\n
+
+s:	>\s*(<contraindications>)\s*
+r:	>\n\1\n
+
+s:	>\s*(<description>)\s*
+r:	>\n\1\n
+
+s:	>\s*(<dosage>)\s*
+r:	>\n\1\n
+
+s:	>\s*(<header>)\s*
+r:	>\n\1\n
+
+s:	>\s*(<how_supplied>)\s*
+r:	>\n\1\n
+
+s:	>\s*(<indications>)\s*
+r:	>\n\1\n
+
+s:	>\s*(<overdose>)\s*
+r:	>\n\1\n
+
+s:	>\s*(<precautions>)\s*
+r:	>\n\1\n
+
+s:	>\s*(<references>)\s*
+r:	>\n\1\n
+
+s:	>\s*(<warnings>)\s*
+r:	>\n\1\n
+
+s:	>\s*(</actions>)\s*
+r:	>\n\1\n
+
+s:	>\s*(</adverse_reactions>)\s*
+r:	>\n\1\n
+
+s:	>\s*(</animal_pharmacology>)\s*
+r:	>\n\1\n
+
+s:	>\s*(</clinical_studies>)\s*
+r:	>\n\1\n
+
+s:	>\s*(</contraindications>)\s*
+r:	>\n\1\n
+
+s:	>\s*(</description>)\s*
+r:	>\n\1\n
+
+s:	>\s*(</dosage>)\s*
+r:	>\n\1\n
+
+s:	>\s*(</header>)\s*
+r:	>\n\1\n
+
+s:	>\s*(</how_supplied>)\s*
+r:	>\n\1\n
+
+s:	>\s*(</indications>)\s*
+r:	>\n\1\n
+
+s:	>\s*(</overdose>)\s*
+r:	>\n\1\n
+
+s:	>\s*(</precautions>)\s*
+r:	>\n\1\n
+
+s:	>\s*(</references>)\s*
+r:	>\n\1\n
+
+s:	>\s*(</warnings>)\s*
+r:	>\n\1\n
+
+
+            s:	<actions>
+            r:	</description>\n\n<actions>
+            
+            s:	</description>\s*</description>
+            r:	</description>\n
+            
+            s:	<indications>
+            r:	</actions>\n\n<indications>
+            
+            s:	</actions>\s*</actions>
+            r:	</actions>\n
+            
+            s:	<contraindications>
+            r:	</indications>\n\n<contraindications>
+            
+            s:	</indications>\s*</indications>
+            r:	</indications>\n
+            
+            s:	<warnings>
+            r:	</contraindications>\n\n<warnings>
+            
+            s:	</contraindications>\s*</contraindications>
+            r:	</contraindications>\n
+            
+            s:	<precautions>
+            r:	</warnings>\n\n<precautions>
+            
+            s:	</warnings>\s*</warnings>
+            r:	</warnings>\n
+            
+            s:	<adverse_reactions>
+            r:	</precautions>\n\n<adverse_reactions>
+            
+            s:	</precautions>\s*</precautions>
+            r:	</precautions>\n
+            
+            s:	<overdose>
+            r:	</adverse_reactions>\n\n<overdose>
+            
+            s:	</adverse_reactions>\s*</adverse_reactions>
+            r:	</adverse_reactions>\n
+            
+            s:	<dosage>
+            r:	</overdose>\n\n<dosage>
+            
+            s:	</overdose>\s*</overdose>
+            r:	</overdose>\n
+            
+            s:	<how_supplied>
+            r:	</dosage>\n\n<how_supplied>
+            
+            s:	</dosage>\s*</dosage>
+            r:	</dosage>\n
+            
+            s:	<clinical_studies>
+            r:	</how_supplied>\n\n<clinical_studies>
+            
+            s:	</how_supplied>\s*</how_supplied>
+            r:	</how_supplied>\n
+            
+            s:	<animal_pharmacology>
+            r:	</clinical_studies>\n\n<animal_pharmacology>
+            
+            s:	</clinical_studies>\s*</clinical_studies>
+            r:	</clinical_studies>\n
+            
+            s:	<references>
+            r:	</animal_pharmacology>\n\n<references>
+            
+            s:	</animal_pharmacology>\s*</animal_pharmacology>
+            r:	</animal_pharmacology>\n
+            
+            
+

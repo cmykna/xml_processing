@@ -1,0 +1,6 @@
+c: simple dumb thingy to strip/insert newlines
+s:	><
+r:	>\n<
+	s:	\n
+	r:	
+

@@ -1,0 +1,53 @@
+c: Cleanup regexes for Acrobat's crappy HTML 4.01 export. For Harper Collins.
+c: Created: 10/06/06 cmc NOTE: Assumes file is well-formed and, normalized, 
+c: and pretty-printed w/no newlines or indents (thanks, conditional hyphens :P).
+
+c:	Bite me, normalize_markup.py :P
+s:	xhtml1-strict.dtd">>
+r:	xhtml1-strict.dtd">
+
+c:	Useless meta-tags w/Acrobat export info.
+s:	<meta\s*name="[^"]+"\s*content="[^"]+">
+r:	
+
+c:	Acrobat comments.
+s:	<!-- Created.*?-->\n\n<!-- Mapping.*?-->
+r:	
+
+c:	Add @alt to <img>.
+s:	<img([^>]+)>
+r:	<img\1 alt="alt_text_here">
+
+c:	Add an empty //head/title for parsing in case Acrobat ALWAYS exports w/out
+c:	it. If there IS one already it can be deleted during file prep.
+s:	</head>
+r:	<title/></head>
+
+c:	Get rid of styling info in header and replace with external css link.
+s:	<style[^<]+</style>
+r:	<link rel="stylesheet" type="text/css" href="hcWebStyle.css"/>
+
+c:	************************************************
+c:	ZOMG the hyphenation!
+s:	<span[^>]+>\-</span>
+r:	
+
+c:	Fucking emphasis info in //span/@style and not *gasp* emphasis tags!
+	s:	<span.*?font-style:italic.*?>(.*?)</span>
+	r:	<i>\1</i>
+
+	s:	<span.*?font-variant:small-caps.*?>(.*?)</span>
+	r:	<span style="font-variant:small-caps">\1</span>
+	
+	s:	<span style="font-family:'serif', 'Goudy', serif; font-size:11.2pt; font-stretch:normal; color:#221E1F">
+	r:	
+
+c:	Lose positioning info in remaining tags.
+	s:	<([^\s]+)\sstyle=[^>]+>
+	r:	<\1>
+
+	s:	(?s)<caption>\s*?<p[^>]+>(.*?)</p>\s*?</caption>
+	r:	<caption>\1</caption>
+
+	s:	<(/?)span>
+	r:	

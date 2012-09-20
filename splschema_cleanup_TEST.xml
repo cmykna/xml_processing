@@ -1,0 +1,3454 @@
+<?xml version="1.0" encoding="UTF-8"?><document type="PDR07-product">
+<!--<document type="PDR07-product"-->
+<!-- legacy references preserved in XML comment:<entry id="PDRM80750000" medecid="000-000-000-000" shortname="Takeda"/>
+<company shortname="Takeda"/>
+<entry id="PDRM80750250" medecid="000-000-000-000" shortname="Duetact"/>-->
+<id root="pdr8075-0250"/>
+<!-- <id compId="pdr8075-0250" root="pdr8075-0250"/> -->
+<code code="PDR" codeSystem="123" codeSystemName="PDR" displayName="Physicians_Desk_Reference"/>
+<title>Duetact™</title>
+<effectiveTime value="2006"/>
+<availabilityTime value="2006"/>
+<confidentialityCode code="N" codeSystem="temp" codeSystemName="Confidentiality"/>
+<author>
+<time value="2006"/>
+<assignedEntity>
+<id root="org8075"/>
+<!-- <id compId="org8075" root="org8075"/> -->
+<representedOrganization>
+<name>Takeda Pharmaceuticals America, Inc.</name>
+<addr>
+<streetAddressLine>475 Half Day Road</streetAddressLine> <city>Lincolnshire</city>, <state>IL</state> <postalCode>60069</postalCode>
+</addr>
+</representedOrganization>
+</assignedEntity>
+</author>
+<legalAuthenticator>
+<time value="2006"/>
+<signatureCode code=""/>
+<assignedEntity>
+<id root="org8075"/>
+<!-- <id compId="org8075" root="org8075"/> -->
+<assignedPerson>
+<name>
+<given>
+</given> <family>
+</family>
+</name>
+</assignedPerson>
+</assignedEntity>
+</legalAuthenticator>
+<component>
+<structuredBody>
+<!-- - - - - - - - - - - - - - - - - - - - - - - - -Comp Metadata- - - - - - - - - - - - - - - - - - - - - - - - - - -->
+<component>
+<section ID="pdr8075-0250">
+<id root="pdr8075-0250"/>
+<!-- <id compId="pdr8075-0250" root="pdr8075-0250"/> -->
+<code code="CMS" codeSystem="comp" codeSystemName="comp" displayName="Comp-metadata_section"/>
+<text>
+<paragraph styleCode="running-PDR-Verso-head">TAKEDA<content styleCode="space-leader-fill">
+</content>PHYSICIANS' DESK REFERENCE</paragraph> <paragraph styleCode="running-PDR-Recto-head">PRODUCT INFORMATION<content styleCode="space-leader-fill">
+</content>TAKEDA</paragraph> <paragraph styleCode="running-Product-head">Duetact</paragraph>
+</text>
+</section>
+</component>
+<!-- - - - - - - - - - - - - - - - - - - - - - - - -SPL Body- - - - - - - - - - - - - - - - - - - - - - - - - - -->
+<!-- - - - - - - - - - - - - - - - - - - - - - - - -Title section- - - - - - - - - - - - - - - - - - - - - - - - - - -->
+<component>
+<section ID="section001">
+<id root="section001"/>
+<!-- <id compId="section001" root="section001"/> -->
+<code code="TS" codeSystem="comp" codeSystemName="comp" displayName="Title_section"/>
+<?sgmlp pgbrk pg="3226"?>
+<title>DUETACT™<content styleCode="right">
+</content>℞<br/> <content styleCode="phonetic">doo-et′-ă<?penta [hm..1]?>ct</content> <content styleCode="subTitle-generic">(pioglitazone hydrochloride and glimepiride) tablets</content>
+</title>
+</section>
+</component>
+<component>
+<section ID="section002">
+<id root="section002"/>
+<!-- <id compId="section002" root="section002"/> -->
+<code code="34089-3" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="DESCRIPTION_SECTION"/>
+<title>DESCRIPTION</title>
+<text>
+<paragraph>DUETACT™ (pioglitazone hydrochloride and glimepiride) tablets contain two oral antihyperglycemic agents used in the management of type 2 diabetes: pioglitazone hydrochloride and glimepiride. The concomitant use of pioglitazone and a sulfonylurea, the class of drugs that includes glimepiride, has been previously approved based on clinical trials in patients with type 2 diabetes inadequately controlled on a sulfonylurea. Additional efficacy and safety information about pioglitazone and glimepiride monotherapies may be found in the prescribing information for each individual drug.</paragraph> <paragraph>Pioglitazone hydrochloride is an oral antihyperglycemic agent that acts primarily by decreasing insulin resistance. Pioglitazone is used in the management of type 2 diabetes. Pharmacological studies indicate that pioglitazone improves sensitivity to insulin in muscle and adipose tissue and inhibits hepatic gluconeogenesis. Pioglitazone improves glycemic control while reducing circulating insulin levels.</paragraph> <paragraph>Pioglitazone (±)<?penta [iw-2][cj0,0,0]?> - 5 - [[4 - [2 - (<?penta [ch?>5 - ethyl - 2 - pyridinyl)ethoxy]<?penta [ch[cj4,5,8][iw0]?>phenyl] methyl]-2,<?penta [ch?>4-<?penta [ch?>thiazolidinedione monohydrochloride be<?penta [ch?>longs to a different chemical class and has a different pharmacological action than the sulfonylureas, biguanides, or the α-glucosidase inhibitors. The molecule contains one asymmetric center, and the synthetic compound is a racemate. The two enantiomers of pioglitazone interconvert <content styleCode="italics">in vivo</content>. The structural formula is as shown:</paragraph> <renderMultiMedia referencedObject="MM1"/>
+<!-- graphic="80750250_fg01.tif" --> <paragraph>Pioglitazone hydrochloride is an odorless, white crystalline powder that has a molecular formula of C<sub>19</sub>H<sub>20</sub>N<sub>2</sub>O<sub>3</sub>S·HCl and a molecular weight of 392.90. It is soluble in <content styleCode="italics">N,N</content>-<?penta [ch?>dimethylformamide, slightly soluble in anhydrous ethanol, very slightly soluble in acetone and acetonitrile, practically insoluble in water, and insoluble in ether.</paragraph> <paragraph>Glimepiride 1-[[<content styleCode="italics">p</content>-[2-(<?penta [ch?>3-<?penta [ch?>ethyl-<?penta [ch?>4-<?penta [ch?>methyl-<?penta [ch?>2-oxo‐3-<?penta [ch?>pyrroline‐<?penta [cj0,0,0]?>1 - <?penta [ch?>carboxamido)ethyl]phenyl]sulfonyl] - 3 - (<content styleCode="italics">trans</content> - <?penta [ch?>4 - <?penta [ch?>methyl<?penta [ch?>cy<?penta [ch[cj4,5,8]?>clohexyl)-urea is an oral blood <?penta [ch?>glucose-<?penta [ch?>lowering drug of the sulfonylurea class and is used in the management of type 2 diabetes. The molecule is the <?penta [ch?>trans-<?penta [ch?>isomer with respect to the cyclohexyl substituents. The chemical structure is as shown:</paragraph> <renderMultiMedia referencedObject="MM2"/>
+<!-- graphic="80750250_fg02.tif" --> <paragraph>Glimepiride is a white to <?penta [ch?>yellowish-<?penta [ch?>white crystalline, odorless, to practically odorless powder, that has a molecular formula of C<sub>24</sub>H<sub>34</sub>N<sub>4</sub>O<sub>5</sub>S and a molecular weight of 490.62. It is soluble in dimethylsulfoxide, slightly soluble in acetone, very slightly soluble in acetonitrile and methanol, and practically insoluble in water.</paragraph> <paragraph>DUETACT is available as a tablet for oral administration containing 30 mg pioglitazone hydrochloride (as the base) with 2 mg glimepiride (30 mg/2 mg) or 30 mg pioglitazone hydrochloride (as the base) with 4 mg glimepiride (30 mg/4 mg) formulated with the following excipients: povidone USP, croscarmellose sodium NF, lactose monohydrate NF, magnesium stearate NF, hydroxypropyl cellulose NF, polysorbate 80 NF, and microcrystalline cellulose NF.</paragraph>
+</text>
+</section>
+</component>
+<component>
+<section ID="section003">
+<id root="section003"/>
+<!-- <id compId="section003" root="section003"/> -->
+<code code="34090-1" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="CLINICAL_PHARMACOLOGY_SECTION"/>
+<title>CLINICAL PHARMACOLOGY</title>
+<component>
+<section ID="section003sub1-001">
+<id root="section003sub1-001"/>
+<!-- <id compId="section003sub1-001" root="section003sub1-001"/> -->
+<title>
+<content styleCode="bold">Mechanism of Action</content>
+</title>
+<component>
+<section ID="section003sub2-002">
+<id root="section003sub2-002"/>
+<!-- <id compId="section003sub2-002" root="section003sub2-002"/> -->
+<title language="local">
+<content styleCode="plain-text">
+</content> <content styleCode="sans-serif">
+<content styleCode="italics">DUETACT</content>
+</content>
+</title>
+<text>
+<paragraph>DUETACT combines two antihyperglycemic agents with different mechanisms of action to improve glycemic control in patients with type 2 diabetes: pioglitazone <?penta [ch?>hydrochloride, a member of the thiazolidinedione class, and glimepiride, a member of the sulfonylurea class. Thiazolidinediones are <?penta [ch?>insulin-<?penta [ch?>sensitizing agents that act primarily by enhancing peripheral glucose utilization, whereas sulfonylureas are insulin secretogogues that act primarily by stimulating release of insulin from functioning pancreatic beta cells.</paragraph>
+</text>
+</section>
+</component>
+<component>
+<section ID="section003sub2-003">
+<id root="section003sub2-003"/>
+<!-- <id compId="section003sub2-003" root="section003sub2-003"/> -->
+<title language="local">
+<content styleCode="plain-text">
+</content> <content styleCode="sans-serif">
+<content styleCode="italics">Pioglitazone hydrochloride</content>
+</content>
+</title>
+<text>
+<paragraph>Pioglitazone depends on the presence of insulin for its mechanism of action. Pioglitazone decreases insulin resistance in the periphery and in the liver resulting in increased <?penta [ch?>insulin-<?penta [ch?>dependent glucose disposal and decreased hepatic glucose output. Pioglitazone is a potent and highly selective agonist for peroxisome <?penta [ch?>proliferator-<?penta [ch?>activated <?penta [ch?>receptor-<?penta [ch?>gamma (PPARγ). PPAR receptors are found in tissues important for insulin action such as adipose tissue, skeletal muscle, and liver. Activation of PPARγ nuclear receptors modulates the transcription of a number of insulin responsive genes involved in the control of glucose and lipid metabolism.</paragraph> <paragraph>In animal models of diabetes, pioglitazone reduces the hyperglycemia, hyperinsulinemia, and hypertriglyceridemia characteristic of <?penta [ch?>insulin-<?penta [ch?>resistant states such as type 2 diabetes. The metabolic changes produced by pioglitazone result in increased responsiveness of <?penta [ch?>insulin-<?penta [ch?>dependent tissues and are observed in numerous animal models of insulin resistance.</paragraph> <paragraph>Since pioglitazone enhances the effects of circulating insulin (by decreasing insulin resistance), it does not lower blood glucose in animal models that lack endogenous insulin.</paragraph>
+</text>
+</section>
+</component>
+<component>
+<section ID="section003sub2-004">
+<id root="section003sub2-004"/>
+<!-- <id compId="section003sub2-004" root="section003sub2-004"/> -->
+<title language="local">
+<content styleCode="plain-text">
+</content> <content styleCode="sans-serif">
+<content styleCode="italics">Glimepiride</content>
+</content>
+</title>
+<text>
+<paragraph>The primary mechanism of action of glimepiride in lowering blood glucose appears to be dependent on stimulating the release of insulin from functioning pancreatic beta cells. In addition, extrapancreatic effects may also play a role in the activity of sulfonylureas such as glimepiride. This is supported by both preclinical and clinical studies demonstrating that glimepiride administration can lead to increased sensitivity of peripheral tissues to insulin. These findings are consistent with the results of a <?penta [ch?>long-<?penta [ch?>term, randomized, <?penta [ch?>placebo-<?penta [ch?>controlled trial in which glimepiride therapy improved postprandial insulin/<?penta [ch?>C-<?penta [ch?>peptide responses and overall glycemic control without producing clinically meaningful increases in fasting insulin/<?penta [ch?>C-<?penta [ch?>peptide levels. However, as with other sulfonylureas, the mechanism by which glimepiride lowers blood glucose during <?penta [ch?>long-<?penta [ch?>term administration has not been clearly established.</paragraph>
+</text>
+</section>
+</component>
+</section>
+</component>
+<component>
+<section ID="section003sub1-005">
+<id root="section003sub1-005"/>
+<!-- <id compId="section003sub1-005" root="section003sub1-005"/> -->
+<title>
+<content styleCode="bold">Pharmacokinetics and Drug Metabolism</content>
+</title>
+<component>
+<section ID="section003sub2-006">
+<id root="section003sub2-006"/>
+<!-- <id compId="section003sub2-006" root="section003sub2-006"/> -->
+<title>
+<content styleCode="bold">Absorption and Bioavailability:</content>
+</title>
+<component>
+<section ID="section003sub3-007">
+<id root="section003sub3-007"/>
+<!-- <id compId="section003sub3-007" root="section003sub3-007"/> -->
+<title>
+<content styleCode="italics">DUETACT</content>
+</title>
+<text>
+<paragraph>Bioequivalence studies were conducted following a single dose of the DUETACT 30 mg/2 mg and 30 mg/4 mg tablets and concomitant administration of ACTOS (30 mg) and glimepiride (2 mg or 4 mg) under fasting conditions in healthy subjects.</paragraph> <paragraph>Based on the area under the curve (AUC) and maximum concentration (C<sub>max</sub>) of both pioglitazone and glimepiride, DUETACT 30 mg/2 mg and 30 mg/4 mg were bioequivalent to ACTOS 30 mg concomitantly administered with glimepiride (2 mg or 4 mg respectively) (<content styleCode="bold">Table 1</content>).</paragraph> <paragraph styleCode="comp-generated">[See table 1 at top of next page]&lt;!- -<table-here rid="pdr8075-0250-tbl001" insert-type="float"/>- -&gt;
+</paragraph> <paragraph>Food did not change the systemic exposures to glimepiride or pioglitazone following administration of DUETACT. The presence of food did not significantly alter the time to peak serum concentration of glimepiride. However, for pioglitazone, there was a delay in time to peak concentration from 1.6 to 3.6 hours when administered with food. This <?penta [ch?>food-<?penta [ch?>induced delay in time to reach maximum serum concentration (T<sub>max</sub>) was also associated with a 9% decrease in the maximum serum concentration (C<sub>max</sub>) of pioglitazone. These changes are not likely to be clinically significant.</paragraph>
+</text>
+</section>
+</component>
+<component>
+<section ID="section003sub3-008">
+<id root="section003sub3-008"/>
+<!-- <id compId="section003sub3-008" root="section003sub3-008"/> -->
+<title>
+<content styleCode="italics">Pioglitazone hydrochloride</content>
+</title>
+<text>
+<paragraph>Following oral administration, in the fasting state, pioglitazone is first measurable in serum within 30 minutes, with peak concentrations observed within 2 hours. Food slightly delays the time to peak serum concentration to 3 to 4 hours, but does not alter the extent of absorption.</paragraph>
+</text>
+</section>
+</component>
+<component>
+<section ID="section003sub3-009">
+<id root="section003sub3-009"/>
+<!-- <id compId="section003sub3-009" root="section003sub3-009"/> -->
+<title>
+<content styleCode="italics">Glimepiride</content>
+</title>
+<text>
+<paragraph>After oral administration, glimepiride is completely (100%) absorbed from the GI tract. Studies with single oral doses in normal subjects and with multiple oral doses in patients with type 2 diabetes have shown significant absorption of glimepiride within 1 hour after administration and C<sub>max</sub> at 2 to 3 hours. When glimepiride was given with meals, the mean T<sub>max</sub> was slightly increased (12%) and the mean C<sub>max</sub> and the total area under the serum <?penta [ch?>concentration-<?penta [ch?>time curve (AUC) were slightly decreased (8% and 9%, respectively).</paragraph>
+</text>
+</section>
+</component>
+</section>
+</component>
+<component>
+<section ID="section003sub2-010">
+<id root="section003sub2-010"/>
+<!-- <id compId="section003sub2-010" root="section003sub2-010"/> -->
+<title language="local">
+<content styleCode="bold">Distribution:</content>
+</title>
+<component>
+<section ID="section003sub3-011">
+<id root="section003sub3-011"/>
+<!-- <id compId="section003sub3-011" root="section003sub3-011"/> -->
+<title>
+<content styleCode="italics">Pioglitazone hydrochloride</content>
+</title>
+<text>
+<paragraph>The mean apparent volume of distribution (Vd/F) of pioglitazone following <?penta [ch?>single-<?penta [ch?>dose administration is 0.63 ± 0.41 (mean ± SD) L/kg of body weight. Pioglitazone is extensively protein bound (&gt; 99%) in human serum, principally to serum albumin. Pioglitazone also binds to other serum proteins, but with lower affinity. Metabolites <?penta [ch?>M-<?penta [ch?>III and <?penta [ch?>M-<?penta [ch?>IV also are extensively bound (&gt; 98%) to serum albumin.</paragraph>
+</text>
+</section>
+</component>
+<component>
+<section ID="section003sub3-012">
+<id root="section003sub3-012"/>
+<!-- <id compId="section003sub3-012" root="section003sub3-012"/> -->
+<title>
+<content styleCode="italics">Glimepiride</content>
+</title>
+<text>
+<paragraph>After intravenous (IV) dosing in normal subjects, Vd/F was 8.8 L (113 mL/kg), and the total body clearance (CL) was 47.8 mL/min. Protein binding was greater than 99.5%.</paragraph>
+</text>
+</section>
+</component>
+</section>
+</component>
+<component>
+<section ID="section003sub2-013">
+<id root="section003sub2-013"/>
+<!-- <id compId="section003sub2-013" root="section003sub2-013"/> -->
+<title language="local">
+<content styleCode="bold">Metabolism:</content>
+</title>
+<component>
+<section ID="section003sub3-014">
+<id root="section003sub3-014"/>
+<!-- <id compId="section003sub3-014" root="section003sub3-014"/> -->
+<title>
+<content styleCode="italics">Pioglitazone hydrochloride</content>
+</title>
+<text>
+<paragraph>Pioglitazone is extensively metabolized by hydroxylation and oxidation; the metabolites also partly convert to glucuronide or sulfate conjugates. Metabolites <?penta [ch?>M-<?penta [ch?>II and <?penta [ch?>M-<?penta [ch?>IV (hydroxy derivatives of pioglitazone) and <?penta [ch?>M-<?penta [ch?>III (keto derivative of pioglitazone) are pharmacologically active in animal models of type 2 diabetes. In addition to pioglitazone, <?sgmlp pgbrk pg="3227"?>
+<?penta [ch?> M-<?penta [ch?>III and <?penta [ch?>M-<?penta [ch?>IV are the principal <?penta [ch?>drug-<?penta [ch?>related species found in human serum following multiple dosing. At <?penta [ch?>steady-<?penta [ch?>state, in both healthy volunteers and in patients with type 2 diabetes, pioglitazone comprises approximately 30% to 50% of the total peak serum concentrations and 20% to 25% of the total AUC.</paragraph> <paragraph styleCode="SeeAlso_crossref">
+<content styleCode="italics">In vitro</content> data demonstrate that multiple CYP isoforms are involved in the metabolism of pioglitazone. The cytochrome P450 isoforms involved are CYP2C8 and, to a lesser degree, CYP3A4 with additional contributions from a variety of other isoforms including the mainly extrahepatic CYP1A1. <content styleCode="italics">In vivo</content> studies of pioglitazone in combination with P450 <?penta [ch?>inhibitors and substrates have been performed (see <content styleCode="cross-ref">
+<linkHtml href="#section007sub2-015" name="ref_section007sub2-015-001">
+
+		
+		
+			&lt;- -<content styleCode="bold">- -&gt;
+PRECAUTIONS&lt;- -</content>- -&gt;
+		
+		
+	, 
+		
+		
+			&lt;- -<content styleCode="sans-serif">- -&gt;
+Drug Interactions, 
+Pioglitazone hydrochloride
+
+&lt;- -</content>- -&gt;
+		
+		
+	
+</linkHtml>
+</content>). Urinary 6β-hydroxycortisol/cortisol ratios measured in patients treated with pioglitazone showed that pioglitazone is not a strong CYP3A4 enzyme inducer.</paragraph>
+</text>
+</section>
+</component>
+<component>
+<section ID="section003sub3-015">
+<id root="section003sub3-015"/>
+<!-- <id compId="section003sub3-015" root="section003sub3-015"/> -->
+<title>
+<content styleCode="italics">Glimepiride</content>
+</title>
+<text>
+<paragraph>Glimepiride is completely metabolized by oxidative biotransformation after either an IV or oral dose. The major metabolites are the cyclohexyl hydroxy methyl derivative (M1) and the carboxyl derivative (M2). CYP2C9 has been shown to be involved in the biotransformation of glimepiride to M1. M1 is further metabolized to M2 by one or several cytosolic enzymes. M1, but not M2, possesses about 1/3 of the pharmacological activity as compared to its parent in an animal model; however, whether the <?penta [ch?>glucose-<?penta [ch?>lowering effect of M1 is clinically meaningful is not clear.</paragraph>
+</text>
+</section>
+</component>
+</section>
+</component>
+<component>
+<section ID="section003sub2-016">
+<id root="section003sub2-016"/>
+<!-- <id compId="section003sub2-016" root="section003sub2-016"/> -->
+<title language="local">
+<content styleCode="bold">Excretion and Elimination:</content>
+</title>
+<component>
+<section ID="section003sub3-017">
+<id root="section003sub3-017"/>
+<!-- <id compId="section003sub3-017" root="section003sub3-017"/> -->
+<title>
+<content styleCode="italics">Pioglitazone hydrochloride</content>
+</title>
+<text>
+<paragraph>Following oral administration, approximately 15% to 30% of the pioglitazone dose is recovered in the urine. Renal elimination of pioglitazone is negligible and the drug is excreted primarily as metabolites and their conjugates. It is presumed that most of the oral dose is excreted into the bile either unchanged or as metabolites and eliminated in the feces.</paragraph> <paragraph>The mean serum <?penta [ch?>half-<?penta [ch?>life of pioglitazone and total pioglitazone ranges from 3 to 7 hours and 16 to 24 hours, respectively. Pioglitazone has an apparent clearance, CL/f, calculated to be 5 to 7 L/hr.</paragraph>
+</text>
+</section>
+</component>
+<component>
+<section ID="section003sub3-018">
+<id root="section003sub3-018"/>
+<!-- <id compId="section003sub3-018" root="section003sub3-018"/> -->
+<title>
+<content styleCode="italics">Glimepiride</content>
+</title>
+<text>
+<paragraph>When <sup>14</sup>
+<?penta [ch?> C-<?penta [ch?>glimepiride was given orally, approximately 60% of the total radioactivity was recovered in the urine in 7 days and M1 (predominant) and M2 accounted for 80‐90% of that recovered in the urine. Approximately 40% of the total radioactivity was recovered in feces and M1 and M2 (predominant) accounted for about 70% of that recovered in feces. No parent drug was recovered from urine or feces. After IV dosing in patients, no significant biliary excretion of glimepiride or its M1 metabolite has been observed.</paragraph>
+</text>
+</section>
+</component>
+</section>
+</component>
+</section>
+</component>
+<component>
+<section ID="section003sub1-019">
+<id root="section003sub1-019"/>
+<!-- <id compId="section003sub1-019" root="section003sub1-019"/> -->
+<title>
+<content styleCode="bold">Special Populations</content>
+</title>
+<component>
+<section ID="section003sub2-020">
+<id root="section003sub2-020"/>
+<!-- <id compId="section003sub2-020" root="section003sub2-020"/> -->
+<title language="local">
+<content styleCode="bold">Renal Insufficiency:</content>
+</title>
+<component>
+<section ID="section003sub3-021">
+<id root="section003sub3-021"/>
+<!-- <id compId="section003sub3-021" root="section003sub3-021"/> -->
+<title>
+<content styleCode="italics">Pioglitazone hydrochloride</content>
+</title>
+<text>
+<paragraph>The serum elimination <?penta [ch?>half-<?penta [ch?>life of pioglitazone, <?penta [ch?>M-<?penta [ch?>III and <?penta [ch?>M-<?penta [ch?>IV remains unchanged in patients with moderate (creatinine clearance 30 to 60 mL/min) to severe (creatinine clearance &lt; 30 mL/min) renal impairment when compared to normal subjects. No dose adjustment in patients with renal dysfunction is recommended.</paragraph>
+</text>
+</section>
+</component>
+<component>
+<section ID="section003sub3-022">
+<id root="section003sub3-022"/>
+<!-- <id compId="section003sub3-022" root="section003sub3-022"/> -->
+<title>
+<content styleCode="italics">Glimepiride</content>
+</title>
+<text>
+<paragraph>A <?penta [ch?>single-<?penta [ch?>dose, <?penta [ch?>open-<?penta [ch?>label study was conducted in 15 patients with renal impairment. Glimepiride (3 mg) was administered to 3 groups of patients with different levels of mean creatinine clearance (CLcr); (Group I, CLcr = 77.7 mL/min, n = 5), (Group II, CLcr = 27.7 mL/min, n = 3), and (Group III, CLcr = 9.4 mL/min, n = 7). Glimepiride was found to be well tolerated in all 3 groups. The results showed that glimepiride serum levels decreased as renal function decreased. However, M1 and M2 serum levels (mean AUC values) increased 2.3 and 8.6 times from Group I to Group III. The apparent terminal <?penta [ch?>half-<?penta [ch?>life (T<sub>½</sub>) for glimepiride did not change, while the <?penta [ch?>half-<?penta [ch?>lives for M1 and M2 increased as renal function decreased. Mean urinary excretion of M1 plus M2 as percent of dose, however, decreased (44.4%, 21.9%, and 9.3% for Groups I to III).</paragraph> <paragraph styleCode="SeeAlso_crossref">A <?penta [ch?>multiple-<?penta [ch?>dose titration study was also conducted in 16 patients with type 2 diabetes and with renal impairment using doses ranging from 1-8 mg daily for 3 months. The results were consistent with those observed after single doses. All patients with a CLcr less than 22 mL/min had adequate control of their glucose levels with a dosage regimen of only 1 mg daily. The results from this study suggested that a starting dose of 1 mg glimepiride may be given to patients with type 2 diabetes and kidney disease, and the dose may be titrated based on fasting blood glucose levels (see <content styleCode="bold">
+<content styleCode="cross-ref">
+<linkHtml href="#section010sub1-007" name="ref_section010sub1-007-001">DOSAGE AND ADMINISTRATION, 
+		
+		
+			&lt;- -<content styleCode="sans-serif">- -&gt;Special Patient Populations&lt;- -</content>- -&gt;
+		
+		
+	
+</linkHtml>
+</content>
+</content>).</paragraph>
+</text>
+</section>
+</component>
+</section>
+</component>
+<component>
+<section ID="section003sub2-023">
+<id root="section003sub2-023"/>
+<!-- <id compId="section003sub2-023" root="section003sub2-023"/> -->
+<title language="local">
+<content styleCode="bold">Hepatic Insufficiency:</content>
+</title>
+<component>
+<section ID="section003sub3-024">
+<id root="section003sub3-024"/>
+<!-- <id compId="section003sub3-024" root="section003sub3-024"/> -->
+<title>
+<content styleCode="italics">Pioglitazone hydrochloride</content>
+</title>
+<text>
+<paragraph>Compared with normal controls, subjects with impaired hepatic function (<?penta [ch?>Child-<?penta [ch?>Pugh Grade B/C) have an approximate 45% reduction in pioglitazone and total pioglitazone mean peak concentrations but no change in the mean AUC values.</paragraph> <paragraph styleCode="SeeAlso_crossref">Therapy with DUETACT should not be initiated if the patient exhibits clinical evidence of active liver disease or serum transaminase levels (ALT) exceed 2.5 times the upper limit of normal (see <content styleCode="cross-ref">
+<linkHtml href="#section007sub2-008" name="ref_section007sub2-008-001">
+
+		
+		
+			&lt;- -<content styleCode="bold">- -&gt;PRECAUTIONS&lt;- -</content>- -&gt;
+		
+		
+	, 
+		
+		
+			&lt;- -<content styleCode="sans-serif">- -&gt;
+General: Pioglitazone hydrochloride, Hepatic Effects
+&lt;- -</content>- -&gt;
+		
+		
+	
+</linkHtml>
+</content>).</paragraph>
+</text>
+</section>
+</component>
+<component>
+<section ID="section003sub3-025">
+<id root="section003sub3-025"/>
+<!-- <id compId="section003sub3-025" root="section003sub3-025"/> -->
+<title>
+<content styleCode="italics">Glimepiride</content>
+</title>
+<text>
+<paragraph>No studies were performed in patients with hepatic insufficiency.</paragraph>
+</text>
+</section>
+</component>
+</section>
+</component>
+<component>
+<section ID="section003sub2-026">
+<id root="section003sub2-026"/>
+<!-- <id compId="section003sub2-026" root="section003sub2-026"/> -->
+<title language="local">
+<content styleCode="bold">Elderly:</content>
+</title>
+<component>
+<section ID="section003sub3-027">
+<id root="section003sub3-027"/>
+<!-- <id compId="section003sub3-027" root="section003sub3-027"/> -->
+<title>
+<content styleCode="italics">Pioglitazone hydrochloride</content>
+</title>
+<text>
+<paragraph>In healthy elderly subjects, peak serum concentrations of pioglitazone and total pioglitazone are not significantly different, but AUC values are slightly higher and the terminal <?penta [ch?>half-<?penta [ch?>life values slightly longer than for younger subjects. These changes were not of a magnitude that would be considered clinically relevant.</paragraph>
+</text>
+</section>
+</component>
+<component>
+<section ID="section003sub3-028">
+<id root="section003sub3-028"/>
+<!-- <id compId="section003sub3-028" root="section003sub3-028"/> -->
+<title>
+<content styleCode="italics">Glimepiride</content>
+</title>
+<text>
+<paragraph>Comparison of glimepiride pharmacokinetics in patients with type 2 diabetes ≤65 years and those &gt;65 years was performed in a study using a dosing regimen of 6 mg daily. There were no significant differences in glimepiride pharmacokinetics between the two age groups. The mean AUC at <?penta [ch?>steady-<?penta [ch?>state for the older patients was about 13% lower than that for the younger patients; the mean <?penta [ch?>weight-<?penta [ch?>adjusted clearance for the older patients was about 11% higher than that for the younger patients.</paragraph>
+</text>
+</section>
+</component>
+</section>
+</component>
+<component>
+<section ID="section003sub2-029">
+<id root="section003sub2-029"/>
+<!-- <id compId="section003sub2-029" root="section003sub2-029"/> -->
+<title language="local">
+<content styleCode="plain-text">
+</content> <content styleCode="sans-serif">
+<content styleCode="bold">Pediatrics:</content>
+</content>
+</title>
+<text>
+<paragraph>No pharmacokinetic studies of DUETACT were performed in pediatric patients.</paragraph>
+</text>
+</section>
+</component>
+<component>
+<section ID="section003sub2-030">
+<id root="section003sub2-030"/>
+<!-- <id compId="section003sub2-030" root="section003sub2-030"/> -->
+<title language="local">
+<content styleCode="plain-text">
+</content> <content styleCode="sans-serif">
+<content styleCode="bold">Gender:</content>
+</content>
+</title>
+<component>
+<section ID="section003sub3-031">
+<id root="section003sub3-031"/>
+<!-- <id compId="section003sub3-031" root="section003sub3-031"/> -->
+<title>
+<content styleCode="italics">Pioglitazone hydrochloride</content>
+</title>
+<text>
+<paragraph>As monotherapy and in combination with sulfonylurea, metformin, or insulin, pioglitazone improved glycemic control in both males and females. The mean C<sub>max</sub> and AUC values were increased 20% to 60% in females. In controlled clinical trials, hemoglobin A1C (A1C) decreases from baseline were generally greater for females than for males (average mean difference in A1C 0.5%). Since therapy should be individualized for each patient to achieve glycemic control, no dose adjustment is recommended based on gender alone.</paragraph>
+</text>
+</section>
+</component>
+<component>
+<section ID="section003sub3-032">
+<id root="section003sub3-032"/>
+<!-- <id compId="section003sub3-032" root="section003sub3-032"/> -->
+<title>
+<content styleCode="italics">Glimepiride</content>
+</title>
+<text>
+<paragraph>There were no differences between males and females in the pharmacokinetics of glimepiride when adjustment was made for differences in body weight.</paragraph>
+</text>
+</section>
+</component>
+</section>
+</component>
+<component>
+<section ID="section003sub2-033">
+<id root="section003sub2-033"/>
+<!-- <id compId="section003sub2-033" root="section003sub2-033"/> -->
+<title language="local">
+<content styleCode="plain-text">
+</content> <content styleCode="sans-serif">
+<content styleCode="bold">Ethnicity:</content>
+</content>
+</title>
+<component>
+<section ID="section003sub3-034">
+<id root="section003sub3-034"/>
+<!-- <id compId="section003sub3-034" root="section003sub3-034"/> -->
+<title>
+<content styleCode="italics">Pioglitazone hydrochloride</content>
+</title>
+<text>
+<paragraph>Pharmacokinetic data among various ethnic groups are not available.</paragraph>
+</text>
+</section>
+</component>
+<component>
+<section ID="section003sub3-035">
+<id root="section003sub3-035"/>
+<!-- <id compId="section003sub3-035" root="section003sub3-035"/> -->
+<title>
+<content styleCode="italics">Glimepiride</content>
+</title>
+<text>
+<paragraph>No pharmacokinetic studies to assess the effects of race have been performed, but in <?penta [ch?>placebo-<?penta [ch?>controlled studies of glimepiride in patients with type 2 diabetes, the antihyperglycemic effect was comparable in whites (n = 536), blacks (n = 63), and Hispanics (n = 63).</paragraph>
+</text>
+</section>
+</component>
+</section>
+</component>
+<component>
+<section ID="section003sub2-036">
+<id root="section003sub2-036"/>
+<!-- <id compId="section003sub2-036" root="section003sub2-036"/> -->
+<title language="local">
+<content styleCode="plain-text">
+</content> <content styleCode="sans-serif">
+<content styleCode="bold">Other Populations:</content>
+</content>
+</title>
+<component>
+<section ID="section003sub3-037">
+<id root="section003sub3-037"/>
+<!-- <id compId="section003sub3-037" root="section003sub3-037"/> -->
+<title>
+<content styleCode="italics">Glimepiride</content>
+</title>
+<text>
+<paragraph>There were no important differences in glimepiride metabolism in subjects identified as phenotypically different <?penta [ch?>drug-<?penta [ch?>metabolizers by their metabolism of sparteine. The pharmacokinetics of glimepiride in morbidly obese patients were similar to those in the normal weight group, except for a lower C<sub>max</sub> and AUC. However, since neither C<sub>max</sub> nor AUC values were normalized for body surface area, the lower values of C<sub>max</sub> and AUC for the obese patients were likely the result of their excess weight and not due to a difference in the kinetics of glimepiride.</paragraph>
+</text>
+</section>
+</component>
+</section>
+</component>
+</section>
+</component>
+<component>
+<section ID="section003sub1-038">
+<id root="section003sub1-038"/>
+<!-- <id compId="section003sub1-038" root="section003sub1-038"/> -->
+<title>
+<content styleCode="bold">
+<?penta [ch?>Drug-<?penta [ch?>Drug Interactions</content>
+</title>
+<text>
+<paragraph>
+<?penta [ch?>Co-<?penta [ch?>administration of pioglitazone (45 mg) and a<?penta [fj?> sulfonyl<?penta [ch?>urea (5 mg glipizide) administered orally once daily for 7 days did not alter the <?penta [ch?>steady-<?penta [ch?>state pharmacokinetics of glipizide. Glimepiride and glipizide have similar metabolic pathways and are mediated by CYP2C9; therefore, <?penta [ch?>drug-<?penta [ch?>drug interaction between pioglitazone and glimepiride is considered unlikely. Specific pharmacokinetic drug interaction studies with DUETACT have not been performed, although such studies have been conducted with the individual pioglitazone and glimepiride components.</paragraph>
+</text>
+<component>
+<section ID="section003sub2-039">
+<id root="section003sub2-039"/>
+<!-- <id compId="section003sub2-039" root="section003sub2-039"/> -->
+<title language="local">
+<content styleCode="plain-text">
+</content> <content styleCode="sans-serif">
+<content styleCode="italics">Pioglitazone hydrochloride</content>
+</content>
+</title>
+<text>
+<paragraph>The following drugs were studied in healthy volunteers with <?penta [ch?>co-<?penta [ch?>administration of pioglitazone 45 mg once daily. Results are listed below:</paragraph> <list styleCode="run-in" listType="unordered">
+<item>
+<paragraph>
+<content styleCode="underline">Oral Contraceptives</content>: <?penta [ch?>Co-<?penta [ch?>administration of pioglitazone (45 mg once daily) and an oral contraceptive (1 mg norethindrone plus 0.035 mg ethinyl estradiol once daily) for 21 days, resulted in 11% and 11-14% decrease in ethinyl estradiol AUC (0-24h) and C<sub>max</sub> respectively. There were no significant changes in norethindrone AUC (0-24h) and C<sub>max</sub>. In view of the high variability of ethinyl estradiol pharmacokinetics, the clinical significance of this finding is unknown.</paragraph>
+</item>
+<item>
+<paragraph>
+<content styleCode="underline">Midazolam</content>: Administration of pioglitazone for 15 days followed by a single 7.5 mg dose of midazolam syrup resulted in a 26% reduction in midazolam C<sub>max</sub> and AUC.</paragraph>
+</item>
+<item>
+<paragraph>
+<content styleCode="underline">Nifedipine ER</content>: <?penta [ch?>Co-<?penta [ch?>administration of pioglitazone for 7 days with 30 mg nifedipine ER administered orally once daily for 4 days to male and female volunteers resulted in a ratio of least square mean (90% CI) values for unchanged nifedipine of 0.83 (0.73 - 0.95) for C<sub>max</sub> and 0.88 (0.80 - 0.96) for AUC. In view of the high variability of nifedipine pharmacokinetics, the clinical significance of this finding is unknown.</paragraph>
+</item>
+<item>
+<paragraph>
+<content styleCode="underline">Ketoconazole</content>: <?penta [ch?>Co-<?penta [ch?>administration of pioglitazone for 7 days with ketoconazole 200 mg administered twice daily resulted in a ratio of least square mean (90% CI) values for unchanged pioglitazone of 1.14 (1.06 - 1.23) for C<sub>max</sub>, 1.34 (1.26 - 1.41) for AUC and 1.87 (1.71 - 2.04) for C<sub>min</sub>.</paragraph>
+</item>
+<item>
+<paragraph>
+<content styleCode="underline">Atorvastatin Calcium</content>: <?penta [ch?>Co-<?penta [ch?>administration of pioglitazone for 7 days with atorvastatin calcium (LIPITOR<sup>®</sup>) 80 mg once daily resulted in a ratio of least square mean (90% CI) values for unchanged pioglitazone of 0.69 (0.57 - 0.85) for C<sub>max</sub>, 0.76 (0.65 - 0.88) for AUC and 0.96 (0.87 - 1.05) for C<sub>min</sub>. For unchanged atorvastatin, the ratio of least square mean (90% CI) values were 0.77 (0.66 - 0.90) for C<sub>max</sub>, 0.86 (0.78 - 0.94) for AUC and 0.92 (0.82 - 1.02) for C<sub>min</sub>.</paragraph>
+</item>
+<item>
+<paragraph styleCode="SeeAlso_crossref">
+<content styleCode="underline">Cytochrome P450</content>: See <content styleCode="bold">
+<content styleCode="cross-ref">
+<linkHtml href="#section007sub2-015" name="ref_section007sub2-015-002">PRECAUTIONS, 
+		
+		
+			&lt;- -<content styleCode="sans-serif">- -&gt;Drug Interactions, Pioglitazone hydrochloride
+&lt;- -</content>- -&gt;
+		
+		
+	
+</linkHtml>
+</content>
+</content>
+</paragraph>
+</item>
+</list> <paragraph>In other <?penta [ch?>drug-<?penta [ch?>drug interaction studies, pioglitazone had no significant effect on the pharmacokinetics of fexofenadine, metformin, digoxin, warfarin, ranitidine, or theophylline.</paragraph>
+</text>
+</section>
+</component>
+<component>
+<section ID="section003sub2-040">
+<id root="section003sub2-040"/>
+<!-- <id compId="section003sub2-040" root="section003sub2-040"/> -->
+<title>
+<content styleCode="italics">Glimepiride</content>
+</title>
+<text>
+<paragraph>The hypoglycemic action of sulfonylureas may be potentiated by certain drugs, including nonsteroidal <?penta [ch?>anti-<?penta [ch?>inflammatory drugs and other drugs that are highly protein bound, such as salicylates, sulfonamides, chloramphenicol, coumarins, probenecid, monoamine oxidase inhibitors, and beta adrenergic blocking agents. Due to the potential drug interaction between these drugs and glimepiride, the patient should be observed closely for hypoglycemia when these drugs are <?penta [ch?>co-<?penta [ch?>administered. Conversely, when these drugs are withdrawn, the patient should be observed closely for loss of glycemic control.</paragraph> <paragraph>Certain drugs tend to produce hyperglycemia and may lead to loss of control. These drugs include the thiazides and other diuretics, corticosteroids, phenothiazines, thyroid products, estrogens, oral contraceptives, phenytoin, nicotinic acid, sympathomimetics, and isoniazid. Due to the potential drug interaction between these drugs and glimepiride, the patient should be observed closely for loss of glycemic control when these drugs are <?penta [ch?>co-<?penta [ch?>administered. Conversely, when these drugs are withdrawn, the patient should be observed closely for hypoglycemia.</paragraph>
+</text>
+<component>
+<section ID="section003sub3-041">
+<id root="section003sub3-041"/>
+<!-- <id compId="section003sub3-041" root="section003sub3-041"/> -->
+<title styleCode="run-in">
+<content styleCode="underline">Aspirin</content>: </title>
+<text>
+<paragraph>
+<?penta [ch?>Co-<?penta [ch?>administration of aspirin (1 g three times daily) and glimepiride led to a 34% decrease in the mean glimepiride AUC and, therefore, a 34% increase in the mean CL/f. The mean C<sub>max</sub> had a decrease of 4%. Blood glucose and serum <?penta [ch?>C-<?penta [ch?>peptide concentrations were unaffected and no hypoglycemic symptoms were reported. Pooled data from clinical trials showed no evidence of clinically significant adverse interactions with uncontrolled concurrent administration of aspirin and other salicylates.</paragraph>
+</text>
+</section>
+</component>
+<component>
+<section ID="section003sub3-042">
+<id root="section003sub3-042"/>
+<!-- <id compId="section003sub3-042" root="section003sub3-042"/> -->
+<title styleCode="run-in">
+<content styleCode="underline">Cimetidine/Ranitidine</content>: </title>
+<text>
+<paragraph>
+<?penta [ch?>Co-<?penta [ch?>administration of either cimetidine (800 mg once daily) or ranitidine (150 mg twice daily) with a single <?penta [ch?>4-<?penta [ch?>mg oral dose of glimepiride did not significantly alter the absorption and disposition of <?sgmlp pgbrk pg="3228"?>glimepiride, and no differences were seen in hypoglycemic symptomatology. Pooled data from clinical trials showed no evidence of clinically significant adverse interactions with uncontrolled concurrent administration of <?penta [ch?>H2-<?penta [ch?>receptor antagonists.</paragraph>
+</text>
+</section>
+</component>
+<component>
+<section ID="section003sub3-043">
+<id root="section003sub3-043"/>
+<!-- <id compId="section003sub3-043" root="section003sub3-043"/> -->
+<title styleCode="run-in">
+<content styleCode="underline">
+<?penta [iw-1]?>Propranolol</content>: </title>
+<text>
+<paragraph>Concomitant administration of propranolol (40 mg three times daily) and glimepiride significantly increased C<sub>max</sub>, AUC, and T<sub>½</sub> of glimepiride by 23%, 22%, and 15%, respectively, and it decreased CL/f<?penta ;t2;t2?> by 18%. The <?penta [iw0][ch?>recovery of M1 and M2 from urine, however, did not change. The pharmacodynamic responses to glimepiride were nearly identical in normal subjects receiving propranolol and placebo. Pooled data from clinical trials in patients with type 2 diabetes showed no evidence of clinically significant adverse interactions with uncontrolled concurrent administration of <?penta [ch?>beta-<?penta [ch?>blockers. However, if <?penta [ch?>beta-<?penta [ch?>blockers are used, caution should be exercised and patients should be warned about the potential for hypoglycemia.</paragraph>
+</text>
+</section>
+</component>
+<component>
+<section ID="section003sub3-044">
+<id root="section003sub3-044"/>
+<!-- <id compId="section003sub3-044" root="section003sub3-044"/> -->
+<title styleCode="run-in">
+<content styleCode="underline">Warfarin</content>: </title>
+<text>
+<paragraph>Concomitant administration of glimepiride (4 mg once daily) did not alter the pharmacokinetic characteristics of R- and <?penta [ch?>S-<?penta [ch?>warfarin enantiomers following administration of a single dose (25 mg) of racemic warfarin to healthy subjects. No changes were observed in warfarin plasma protein binding. Glimepiride treatment did result in a slight, but statistically significant, decrease in the pharmacodynamic response to warfarin. The reductions in mean area under the prothrombin time (PT) curve and maximum PT values during glimepiride treatment were very small (3.3% and 9.9%, respectively) and are unlikely to be clinically important.</paragraph>
+</text>
+</section>
+</component>
+<component>
+<section ID="section003sub3-045">
+<id root="section003sub3-045"/>
+<!-- <id compId="section003sub3-045" root="section003sub3-045"/> -->
+<title styleCode="run-in">
+<content styleCode="underline">Ramipril</content>: </title>
+<text>
+<paragraph>The responses of serum glucose, insulin,<?penta [fj?> C-peptide, and plasma glucagon to 2 mg glimepiride were unaffected by <?penta [ch?>co-<?penta [ch?>administration of ramipril (an ACE inhibitor) 5 mg once daily in normal subjects. No hypoglycemic symptoms were reported. Pooled data from clinical trials in patients with type 2 diabetes showed no evidence of clinically significant adverse interactions with uncontrolled concurrent administration of ACE inhibitors.</paragraph>
+</text>
+</section>
+</component>
+<component>
+<section ID="section003sub3-046">
+<id root="section003sub3-046"/>
+<!-- <id compId="section003sub3-046" root="section003sub3-046"/> -->
+<title styleCode="run-in">
+<content styleCode="underline">Miconazole</content>: </title>
+<text>
+<paragraph>A potential interaction between oral miconazole and oral hypoglycemic agents leading to severe hypoglycemia has been reported. Whether this interaction also occurs with the intravenous, topical, or vaginal preparations of miconazole is not known. There is a potential interaction of glimepiride with inhibitors (e.g. fluconazole) and inducers (e.g. rifampicin) of cytochrome P450 2C9.</paragraph> <paragraph>Although no specific interaction studies were performed with glimepiride, pooled data from clinical trials showed no evidence of clinically significant adverse interactions with uncontrolled concurrent administration of <?penta [ch?>calcium-<?penta [ch?>channel blockers, estrogens, fibrates, NSAIDS, HMG CoA reductase inhibitors, sulfonamides, or thyroid hormone.</paragraph>
+</text>
+</section>
+</component>
+</section>
+</component>
+</section>
+</component>
+<component>
+<section ID="section003sub1-047">
+<id root="section003sub1-047"/>
+<!-- <id compId="section003sub1-047" root="section003sub1-047"/> -->
+<title>
+<content styleCode="bold">Pharmacodynamics and Clinical Effects</content>
+</title>
+<component>
+<section ID="section003sub2-048">
+<id root="section003sub2-048"/>
+<!-- <id compId="section003sub2-048" root="section003sub2-048"/> -->
+<title language="local">
+<content styleCode="italics">
+<?penta [sp[cf2]?>Pioglitazone hydrochloride<?penta [rp?>
+</content>
+</title>
+<text>
+<paragraph>Clinical studies demonstrate that pioglitazone improves insulin sensitivity in <?penta [ch?>insulin-<?penta [ch?>resistant patients. Pioglitazone enhances cellular responsiveness to insulin, increases <?penta [ch?>insulin-<?penta [ch?>dependent glucose disposal, improves hepatic sensitivity to insulin, and improves dysfunctional glucose homeostasis. In patients with type 2 diabetes, the decreased insulin resistance produced by pioglitazone results in lower plasma glucose concentrations, lower plasma insulin levels, and lower A1C values. Based on results from an <?penta [ch?>open-<?penta [ch?>label extension study, the <?penta [ch?>glucose-<?penta [ch?>lowering effects of pioglitazone appear to persist for at least one year. In controlled clinical studies, pioglitazone in combination with a sulfonylurea had an additive effect on glycemic control.</paragraph> <paragraph>Patients with lipid abnormalities were included in <?penta [ch?>placebo-<?penta [ch?>controlled monotherapy clinical studies with pioglitazone. Overall, patients treated with pioglitazone had mean decreases in triglycerides, mean increases in HDL cholesterol, and no consistent mean changes in LDL cholesterol and total cholesterol compared to the placebo group. A similar pattern of results was seen in <?penta [ch?>16-<?penta [ch?>week and <?penta [ch?>24-<?penta [ch?>week combination therapy studies of pioglitazone with a sulfonylurea.</paragraph>
+</text>
+</section>
+</component>
+<component>
+<section ID="section003sub2-049">
+<id root="section003sub2-049"/>
+<!-- <id compId="section003sub2-049" root="section003sub2-049"/> -->
+<title>
+<content styleCode="italics">
+<?penta [sp[cf2]?>Glimepiride<?penta [rp?>
+</content>
+</title>
+<text>
+<paragraph>A mild <?penta [ch?>glucose-<?penta [ch?>lowering effect first appeared following single oral doses as low as 0.5-0.6 mg in healthy subjects. The time required to reach the maximum effect (i.e., minimum blood glucose level [T<sub>min</sub>]) was about 2 to 3 hours. In patients with type 2 diabetes, both fasting and <?penta [ch?>2-<?penta [ch?>hour postprandial glucose levels were significantly lower with glimepiride (1, 2, 4, and 8 mg once daily) than with placebo after 14 days of oral dosing. The <?penta [ch?>glucose-<?penta [ch?>lowering effect in all active treatment groups was maintained over 24 hours.</paragraph> <paragraph>In larger <?penta [ch?>dose-<?penta [ch?>ranging studies, blood glucose and A1C were found to respond in a <?penta [ch?>dose-<?penta [ch?>dependent manner over the range of 1 to 4 mg/day of glimepiride. Some patients, particularly those with higher fasting plasma glucose (FPG) levels, may benefit from doses of glimepiride up to 8 mg once daily. No difference in response was found when glimepiride was administered once or twice daily.</paragraph> <paragraph>In two <?penta [ch?>14-<?penta [ch?>week, <?penta [ch?>placebo-<?penta [ch?>controlled studies in 720 subjects, the average net reduction in A1C for patients treated with 8 mg of glimepiride once daily was 2.0% in absolute units compared with <?penta [ch?>placebo-<?penta [ch?>treated patients. In a <?penta [ch?>long-<?penta [ch?>term, randomized, <?penta [ch?>placebo-<?penta [ch?>controlled study of patients with type 2 diabetes unresponsive to dietary management, glimepiride therapy improved postprandial insulin/<?penta [fj?>C-<?penta [ch?>peptide responses, and 75% of patients achieved and maintained control of blood glucose and A1C. Efficacy results were not affected by age, gender, weight, or race. In <?penta [ch?>long-<?penta [ch?>term extension trials with <?penta [ch?>previously-<?penta [ch?>treated patients, no meaningful deterioration in mean fasting plasma glucose (FPG) or A1C levels was seen after 2 ½ years of glimepiride therapy.</paragraph> <paragraph>Glimepiride therapy is effective in controlling blood glucose without deleterious changes in the plasma lipoprotein profiles of patients treated for type 2 diabetes.</paragraph>
+</text>
+</section>
+</component>
+</section>
+</component>
+<component>
+<section ID="section003sub1-050">
+<id root="section003sub1-050"/>
+<!-- <id compId="section003sub1-050" root="section003sub1-050"/> -->
+<code code="34092-7" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="CLINICAL_STUDIES_SECTION"/>
+<title>
+<content styleCode="bold">Clinical Studies</content>
+</title>
+<text>
+<paragraph styleCode="SeeAlso_crossref">There have been no clinical efficacy studies conducted with DUETACT. However, the efficacy and safety of the separate components have been previously established. The <?penta [ch?>co-<?penta [ch?>administration of pioglitazone and a sulfonylurea, including glimepiride, has been evaluated for efficacy and safety in two clinical studies. These clinical studies established an added benefit of pioglitazone in glycemic control of patients with inadequately controlled type 2 diabetes while on <?penta [ch?>sulfonylurea therapy. Bioequivalence of DUETACT with <?penta [ch?>co-<?penta [ch?>administered pioglitazone and glimepiride tablets was demonstrated at the 30 mg/2 mg and 30 mg/4 mg dosage strengths (see <content styleCode="bold">
+<content styleCode="cross-ref">
+<linkHtml href="#section003sub2-006" name="ref_section003sub2-006-001">CLINICAL PHARMACOLOGY, 
+		
+		
+			&lt;- -<content styleCode="sans-serif">- -&gt;Pharmacokinetics and Drug Metabolism, Absorption and Bioavailability&lt;- -</content>- -&gt;
+		
+		
+	
+</linkHtml>
+</content>
+</content>).</paragraph>
+</text>
+<component>
+<section ID="section003sub2-051">
+<id root="section003sub2-051"/>
+<!-- <id compId="section003sub2-051" root="section003sub2-051"/> -->
+<title language="local">
+<content styleCode="bold">Clinical Studies of Pioglitazone <?penta [ch?>Add-<?penta [ch?>On Therapy in Patients Not Adequately Controlled on a Sulfonylurea</content>
+</title>
+<text>
+<paragraph>Two <?penta [ch?>treatment-<?penta [ch?>randomized, controlled clinical studies in patients with type 2 diabetes were conducted to evaluate the safety and efficacy of pioglitazone plus a sulfonylurea. Both studies included patients receiving a sulfonylurea, either alone or in combination with another antihyperglycemic agent, who had inadequate glycemic control. Excluding the sulfonylurea agent, all other antihyperglycemic agents were discontinued prior to starting study treatment. In the first study, 560 patients were randomized to receive 15 mg or 30 mg of pioglitazone or placebo once daily in addition to their current sulfonylurea regimen for 16 weeks. In the second study, 702 patients were randomized to receive 30 mg or 45 mg of pioglitazone once daily in addition to their current sulfonylurea regimen for 24 weeks.</paragraph> <paragraph>In the first study, the addition of pioglitazone 15 mg or 30 mg once daily to treatment with a sulfonylurea after 16 weeks significantly reduced the mean A1C by 0.88% and 1.28% and the mean FPG by 39.4 mg/dL and 57.9 mg/dL, respectively, from that observed with sulfonylurea treatment alone. In the second study, the mean reductions from baseline at Week 24 in A1C were 1.55% and 1.67% for the 30 mg and 45 mg doses, respectively. Mean reductions from baseline in FPG were 51.5 mg/dL and 56.1 mg/dL, respectively. Based on these reductions in A1C and FPG (<content styleCode="bold">Table 2</content>), the addition of pioglitazone to sulfonylurea resulted in significant improvements in glycemic control irrespective of the sulfonylurea dosage.</paragraph> <paragraph styleCode="comp-generated">[See table 2 below]&lt;!- -<table-here rid="pdr8075-0250-tbl002" insert-type="float"/>- -&gt;
+</paragraph>
+</text>
+</section>
+</component>
+</section>
+</component>
+</section>
+</component>
+<component>
+<section ID="section004">
+<id root="section004"/>
+<!-- <id compId="section004" root="section004"/> -->
+<code code="34067-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="INDICATIONS_USAGE_SECTION"/>
+<title>INDICATIONS AND USAGE</title>
+<text>
+<paragraph>DUETACT is indicated as an adjunct to diet and exercise as a <?penta [ch?>once-<?penta [ch?>daily combination therapy to improve glycemic control in patients with type 2 diabetes who are already treated with a combination of pioglitazone and a sulfonyl<?penta [ch?>urea or whose diabetes is not adequately controlled with a sulfonylurea alone, or for those patients who have initially responded to pioglitazone alone and require additional glycemic control.</paragraph> <paragraph>Management of type 2 diabetes should also include nutritional counseling, weight reduction as needed, and exercise. These efforts are important not only in the primary treatment of type 2 diabetes, but also to maintain the efficacy of drug therapy.</paragraph>
+</text>
+</section>
+</component>
+<component>
+<section ID="section005">
+<id root="section005"/>
+<!-- <id compId="section005" root="section005"/> -->
+<code code="34070-3" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="CONTRAINDICATIONS_SECTION"/>
+<title>CONTRAINDICATIONS</title>
+<text>
+<paragraph>DUETACT (pioglitazone hydrochloride and glimepiride) is contraindicated in patients with:</paragraph> <list styleCode="Arabic" listType="ordered">
+<!-- type="numbered" class="indent" indent="emsp" -->
+<item>
+<paragraph>Known hypersensitivity to pioglitazone, glimepiride or any other component of DUETACT.</paragraph>
+</item>
+<item>
+<paragraph>Diabetic ketoacidosis, with or without coma. This condition should be treated with insulin.</paragraph>
+</item>
+</list>
+</text>
+</section>
+</component>
+<component>
+<section ID="section006">
+<id root="section006"/>
+<!-- <id compId="section006" root="section006"/> -->
+<code code="34071-1" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="WARNINGS_SECTION"/>
+<title>WARNINGS</title>
+<component>
+<section ID="section006sub1-001">
+<id root="section006sub1-001"/>
+<!-- <id compId="section006sub1-001" root="section006sub1-001"/> -->
+<title language="local">
+<content styleCode="bold-italics">Glimepiride</content>
+</title>
+<component>
+<section ID="section006sub2-002">
+<id root="section006sub2-002"/>
+<!-- <id compId="section006sub2-002" root="section006sub2-002"/> -->
+<title language="local">
+<content styleCode="bold">SPECIAL WARNING ON INCREASED RISK OF CARDIOVASCULAR MORTALITY</content>
+</title>
+<text>
+<paragraph>
+<content styleCode="bold">The administration of oral hypoglycemic drugs has been reported to be associated with increased cardiovascular mortality as compared to treatment with diet alone or diet plus insulin. This warning is based on the study conducted by the University Group Diabetes Program (UGDP), a <?penta [ch?>long-<?penta [ch?>term, prospective clinical trial designed to evaluate the effectiveness of <?penta [ch?>glucose-<?penta [ch?>lowering drugs in preventing or delaying vascular complications in patients with <?penta [ch?>non-<?penta [ch?>insulin-<?penta [ch?>dependent diabetes. The study involved 823 patients who were randomly assigned to one of four treatment groups (Diabetes, 19 supp. 2: <?penta [ch?>747-<?penta [ch?>830, 1970).</content>
+</paragraph> <paragraph>
+<content styleCode="bold">UGDP reported that patients treated for 5 to 8 years with diet plus a fixed dose of tolbutamide (1.5 grams per day) had a rate of cardiovascular mortality approximately <?penta [ch?>2-<?penta [ch?>1/2 times that of patients treated with diet alone. A significant increase in total mortality was not observed, but the use of tolbutamide was discontinued based on the increase in cardiovascular mortality, thus limiting the opportunity for the study to show an increase in overall mortality. Despite controversy regarding the interpretation of these results, the findings of the UGDP study provide an adequate basis for this warning. The patient should be informed of the potential risks and advantages of glimepiride tablets and of alternative modes of therapy.</content>
+</paragraph> <paragraph>
+<content styleCode="bold">Although only one drug in the sulfonylurea class (tolbutamide) was included in this study, it is prudent from a safety standpoint to consider that this warning may also apply to other oral hypoglycemic drugs in this class, in view of their close similarities in mode of action and chemical structure.</content>
+</paragraph>
+</text>
+</section>
+</component>
+</section>
+</component>
+<component>
+<section ID="section006sub1-003">
+<id root="section006sub1-003"/>
+<!-- <id compId="section006sub1-003" root="section006sub1-003"/> -->
+<title language="local">
+<content styleCode="bold-italics">Pioglitazone hydrochloride</content>
+</title>
+<component>
+<section ID="section006sub2-004">
+<id root="section006sub2-004"/>
+<!-- <id compId="section006sub2-004" root="section006sub2-004"/> -->
+<title language="local">
+<content styleCode="bold">Cardiac Failure and Other Cardiac Effects</content>
+</title>
+<text>
+<paragraph styleCode="SeeAlso_crossref">Pioglitazone, like other thiazolidinediones, can cause fluid retention when used alone or in combination with other <?sgmlp pgbrk pg="3229"?>antidiabetic agents, including insulin. Fluid retention may lead to or exacerbate heart failure. Patients should be observed for signs and symptoms of heart failure (see <content styleCode="bold">
+<content styleCode="cross-ref">
+<linkHtml href="#section007sub1-013" name="ref_section007sub1-013-001">
+
+		
+		
+			&lt;- -<content styleCode="sans-serif">- -&gt;Information for Patients&lt;- -</content>- -&gt;
+		
+		
+	
+</linkHtml>
+</content>
+</content>). Pioglitazone should be discontinued if any deterioration in cardiac status occurs. Patients with New York Heart Association (NYHA) Class III and IV cardiac status were not studied during <?penta [ch?>pre-<?penta [ch?>approval clinical trials; pioglitazone is not recommended in these patients (see <content styleCode="cross-ref">
+<linkHtml href="#section007sub2-003" name="ref_section007sub2-003-001">
+
+		
+		
+			&lt;- -<content styleCode="bold">- -&gt;PRECAUTIONS&lt;- -</content>- -&gt;
+		
+		
+	, 
+		
+		
+			&lt;- -<content styleCode="sans-serif">- -&gt;
+General: Pioglitazone hydrochloride, Cardiovascular
+&lt;- -</content>- -&gt;
+		
+		
+	
+</linkHtml>
+</content>).</paragraph> <paragraph>In one <?penta [ch?>16-<?penta [ch?>week U.S. <?penta [ch?>double-<?penta [ch?>blind, <?penta [ch?>placebo-<?penta [ch?>controlled clinical trial involving 566 patients with type 2 diabetes, pioglitazone at doses of 15 mg and 30 mg in combination with insulin was compared to insulin therapy alone. This trial included patients with <?penta [ch?>long-<?penta [ch?>standing diabetes and a high prevalence of <?penta [ch?>pre-<?penta [ch?>existing medical conditions as follows: arterial hypertension (57.2%), peripheral neuropathy (22.6%), coronary heart disease (19.6%), retinopathy (13.1%), myocardial infarction (8.8%), vascular disease (6.4%), angina pectoris (4.4%), stroke and/or transient ischemic attack (4.1%), and congestive heart failure (2.3%).</paragraph> <paragraph>In this study, two of the 191 patients receiving 15 mg pioglitazone plus insulin (1.1%) and two of the 188 patients receiving 30 mg pioglitazone plus insulin (1.1%) developed congestive heart failure compared with none of the 187 patients on insulin therapy alone. All four of these patients had previous histories of cardiovascular conditions including coronary artery disease, previous CABG procedures, and myocardial infarction. In a <?penta [ch?>24-<?penta [ch?>week <?penta [ch?>dose-<?penta [ch?>controlled study in which pioglitazone was coadministered with insulin, 0.3% of patients (1/345) on 30 mg and 0.9% (3/345) of patients on 45 mg reported CHF as a serious adverse event.</paragraph> <paragraph>Analysis of data from these studies did not identify specific factors that predict increased risk of congestive heart failure on combination therapy with insulin.</paragraph> <paragraph>
+<content styleCode="italics">In type 2 diabetes and congestive heart failure (systolic dysfunction)</content>
+</paragraph> <paragraph>A <?penta [ch?>24-<?penta [ch?>week <?penta [ch?>post-<?penta [ch?>marketing safety study was performed to compare pioglitazone (n<?penta [hm-..5]?>=<?penta [hm-..5]?>262) to glyburide (n<?penta [hm-..5]?>=<?penta [hm-..5]?>256) in uncontrolled diabetic patients (mean A1C 8.8% at baseline) with NYHA Class II and III heart failure and ejection fraction less than 40% (mean EF 30% at baseline). Over the course of the study, overnight hospitalization for congestive heart failure was reported in 9.9% of patients on pioglitazone compared to 4.7% of patients on glyburide with a treatment difference observed from 6 weeks. This adverse event associated with pioglitazone was more marked in patients using insulin at baseline and in patients over 64 years of age. No difference in cardiovascular mortality between the treatment groups was observed.</paragraph> <paragraph styleCode="SeeAlso_crossref">Pioglitazone should be initiated at the lowest approved dose if it is prescribed for patients with type 2 diabetes and systolic heart failure (NYHA Class II). If subsequent dose escalation is necessary, the dose should be increased gradually only after several months of treatment with careful monitoring for weight gain, edema, or signs and symptoms of CHF exacerbation (see <content styleCode="cross-ref">
+<linkHtml href="#section010sub1-007" name="ref_section010sub1-007-002">
+
+		
+		
+			&lt;- -<content styleCode="bold">- -&gt;DOSAGE AND ADMINISTRATION, Special Patient Populations
+&lt;- -</content>- -&gt;
+		
+		
+	
+</linkHtml>
+</content>).</paragraph>
+</text>
+</section>
+</component>
+</section>
+</component>
+</section>
+</component>
+<component>
+<section ID="section007">
+<id root="section007"/>
+<!-- <id compId="section007" root="section007"/> -->
+<code code="42232-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="PRECAUTIONS_SECTION"/>
+<title>PRECAUTIONS</title>
+<component>
+<section ID="section007sub1-001">
+<id root="section007sub1-001"/>
+<!-- <id compId="section007sub1-001" root="section007sub1-001"/> -->
+<code code="34072-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="GENERAL_PRECAUTIONS_SECTION"/>
+<title language="local">
+<content styleCode="bold">General:</content> <content styleCode="bold-italics">Pioglitazone hydrochloride</content>
+</title>
+<text>
+<paragraph>Pioglitazone exerts its antihyperglycemic effect only in the presence of insulin. Therefore, DUETACT should not be used in patients with type 1 diabetes or for the treatment of diabetic ketoacidosis.</paragraph>
+</text>
+<component>
+<section ID="section007sub2-002">
+<id root="section007sub2-002"/>
+<!-- <id compId="section007sub2-002" root="section007sub2-002"/> -->
+<title styleCode="run-in" language="local">
+<content styleCode="plain-text">
+<content styleCode="underline">Hypoglycemia</content>
+</content>: </title>
+<text>
+<paragraph>Patients receiving pioglitazone in combination with insulin or oral hypoglycemic agents may be at risk for hypoglycemia, and a reduction in the dose of the concomitant agent may be necessary.</paragraph>
+</text>
+</section>
+</component>
+<component>
+<section ID="section007sub2-003">
+<id root="section007sub2-003"/>
+<!-- <id compId="section007sub2-003" root="section007sub2-003"/> -->
+<title styleCode="run-in" language="local">
+<content styleCode="plain-text">
+<content styleCode="underline">Cardiovascular:</content>
+</content> </title>
+<text>
+<paragraph styleCode="SeeAlso_crossref">In U.S. <?penta [ch?>placebo-<?penta [ch?>controlled clinical trials that excluded patients with New York Heart Association (NYHA) Class III and IV cardiac status, the incidence of serious cardiac adverse events related to volume expansion was not increased in patients treated with pioglitazone as monotherapy or in combination with sulfonylureas or metformin vs. <?penta [ch?>placebo-<?penta [ch?>treated patients. In insulin combination studies, a small number of patients with a history of previously existing cardiac disease developed congestive heart failure when treated with pioglitazone in combination with insulin (see <content styleCode="cross-ref">
+<linkHtml href="#section006sub2-004" name="ref_section006sub2-004-001">
+
+		
+		
+			&lt;- -<content styleCode="bold">- -&gt;WARNINGS&lt;- -</content>- -&gt;
+		
+		
+	, 
+		
+		
+			&lt;- -<content styleCode="sans-serif">- -&gt;
+Pioglitazone hydrochloride, Cardiac Failure and Other Cardiac Effects
+&lt;- -</content>- -&gt;
+		
+		
+	
+</linkHtml>
+</content>). Patients with NYHA Class III and IV cardiac status were not studied in <?penta [ch?>pre-<?penta [ch?>approval pioglitazone clinical trials. Pioglitazone is not indicated in patients with NYHA Class III or IV cardiac status.</paragraph> <paragraph>In postmarketing experience with pioglitazone, cases of congestive heart failure have been reported in patients both with and without previously known heart disease.</paragraph>
+</text>
+</section>
+</component>
+<component>
+<section ID="section007sub2-004">
+<id root="section007sub2-004"/>
+<!-- <id compId="section007sub2-004" root="section007sub2-004"/> -->
+<title styleCode="run-in" language="local">
+<content styleCode="plain-text">
+<content styleCode="underline">Edema:</content>
+</content> </title>
+<text>
+<paragraph styleCode="SeeAlso_crossref">In all U.S. clinical trials with pioglitazone, edema was reported more frequently in patients treated with pioglitazone than in <?penta [ch?>placebo-<?penta [ch?>treated patients and appears to be dose related (see <content styleCode="cross-ref">
+<linkHtml href="#section008sub2-002" name="ref_section008sub2-002-001">
+
+		
+		
+			&lt;- -<content styleCode="bold">- -&gt;ADVERSE REACTIONS&lt;- -</content>- -&gt;
+		
+		
+	, 
+		
+		
+			&lt;- -<content styleCode="sans-serif">- -&gt;
+
+Pioglitazone hydrochloride
+
+&lt;- -</content>- -&gt;
+		
+		
+	
+</linkHtml>
+</content>). In postmarketing experience, reports of initiation or worsening of edema have been received. DUETACT should be used with caution in patients with edema.</paragraph>
+</text>
+</section>
+</component>
+<component>
+<section ID="section007sub2-005">
+<id root="section007sub2-005"/>
+<!-- <id compId="section007sub2-005" root="section007sub2-005"/> -->
+<title styleCode="run-in" language="local">
+<content styleCode="plain-text">
+<content styleCode="underline">Weight Gain:</content>
+</content> </title>
+<text>
+<paragraph>Dose related weight gain was observed with pioglitazone alone and in combination with other hypoglycemic agents (<content styleCode="bold">Table 3</content>). The mechanism of weight gain is unclear but probably involves a combination of fluid retention and fat accumulation.</paragraph> <paragraph styleCode="comp-generated">[See table 3 above]&lt;!- -<table-here rid="pdr8075-0250-tbl003" insert-type="float"/>- -&gt;
+</paragraph>
+</text>
+</section>
+</component>
+<component>
+<section ID="section007sub2-006">
+<id root="section007sub2-006"/>
+<!-- <id compId="section007sub2-006" root="section007sub2-006"/> -->
+<title styleCode="run-in" language="local">
+<content styleCode="underline">
+<content styleCode="plain-text">Ovulation:</content>
+</content> </title>
+<text>
+<paragraph>Therapy with pioglitazone, like other thiazolidinediones, may result in ovulation in some premenopausal anovulatory women. Thus, adequate contraception in premenopausal women should be recommended while taking DUETACT. This possible effect has not been investigated in clinical studies so the frequency of this occurrence is not known.</paragraph>
+</text>
+</section>
+</component>
+<component>
+<section ID="section007sub2-007">
+<id root="section007sub2-007"/>
+<!-- <id compId="section007sub2-007" root="section007sub2-007"/> -->
+<title styleCode="run-in" language="local">
+<content styleCode="plain-text">
+<content styleCode="underline">Hematologic:</content>
+</content> </title>
+<text>
+<paragraph styleCode="SeeAlso_crossref">Across all clinical studies with pioglitazone, mean hemoglobin values declined by 2% to 4% in patients treated with pioglitazone. These changes primarily occurred within the first 4 to 12 weeks of therapy and remained relatively constant thereafter. These changes may be related to increased plasma volume and have rarely been associated with any significant hematologic clinical effects (see <content styleCode="cross-ref">
+<linkHtml href="#section008sub3-011" name="ref_section008sub3-011-001">
+
+		
+		
+			&lt;- -<content styleCode="bold">- -&gt;ADVERSE REACTIONS&lt;- -</content>- -&gt;
+		
+		
+	, 
+		
+		
+			&lt;- -<content styleCode="sans-serif">- -&gt;
+Laboratory Abnormalities, 
+Pioglitazone hydrochloride
+, Hematologic
+&lt;- -</content>- -&gt;
+		
+		
+	
+</linkHtml>
+</content>). <?penta [ch?>DUETACT may cause decreases in hemoglobin and hematocrit.</paragraph>
+</text>
+</section>
+</component>
+<component>
+<section ID="section007sub2-008">
+<id root="section007sub2-008"/>
+<!-- <id compId="section007sub2-008" root="section007sub2-008"/> -->
+<title styleCode="run-in" language="local">
+<content styleCode="plain-text">
+<content styleCode="underline">Hepatic Effects:</content>
+</content> </title>
+<text>
+<paragraph>In <?penta [ch?>pre-<?penta [ch?>approval clinical studies worldwide, over 4500 subjects were treated with pioglitazone. In U.S. clinical studies, over 4700 patients with type 2 diabetes received pioglitazone. There was no evidence of <?penta [ch?>drug-<?penta [ch?>induced hepatotoxicity or elevation of ALT levels in the clinical studies.</paragraph> <paragraph>During <?penta [ch?>pre-<?penta [ch?>approval <?penta [ch?>placebo-<?penta [ch?>controlled clinical trials in the U.S., a total of 4 of 1526 (0.26%) patients treated with pioglitazone and 2 of 793 (0.25%) <?penta [ch?>placebo-<?penta [ch?>treated patients had ALT values ≥ 3 times the upper limit of normal. The ALT elevations in patients treated with pioglitazone were reversible and were not clearly related to therapy with pioglitazone.</paragraph> <paragraph>In postmarketing experience with pioglitazone, reports of hepatitis and of hepatic enzyme elevations to 3 or more times the upper limit of normal have been received. Very rarely, these reports have involved hepatic failure with and without fatal outcome, although causality has not been established.</paragraph> <paragraph>Pending the availability of the results of additional large, <?penta [ch?>long-<?penta [ch?>term controlled clinical trials and additional postmarketing safety data on pioglitazone, it is recommended that patients treated with DUETACT undergo periodic monitoring of liver enzymes.</paragraph> <paragraph>Serum ALT (alanine aminotransferase) levels should be evaluated prior to the initiation of therapy with DUETACT in all patients and periodically thereafter per the clinical judgment of the health care professional. Liver function tests should also be obtained for patients if symptoms suggestive of hepatic dysfunction occur, e.g., nausea, vomiting, abdominal pain, fatigue, anorexia, or dark urine. The decision whether to continue the patient on therapy with <?penta [ch?>DUETACT should be guided by clinical judgment pending laboratory evaluations. If jaundice is observed, drug therapy should be discontinued.</paragraph> <paragraph>Therapy with DUETACT should not be initiated if the patient exhibits clinical evidence of active liver disease or the ALT levels exceed 2.5 times the upper limit of normal. Patients with mildly elevated liver enzymes (ALT levels at 1 to 2.5 times the upper limit of normal) at baseline or any time during therapy with DUETACT should be evaluated to determine the cause of the liver enzyme elevation. Initiation or continuation of therapy with DUETACT in patients with mildly elevated liver enzymes should proceed with caution and include appropriate clinical <?penta [ch?>follow-<?penta [ch?>up which may include more frequent liver enzyme monitoring. If serum transaminase levels are increased (ALT &gt; 2.5 times the upper limit of normal), liver function tests should be evaluated more frequently until the levels return to normal or pretreatment values. If ALT levels exceed 3 times the upper limit of normal, the test should be repeated as soon as possible. If ALT levels remain &gt; 3 times the upper limit of normal or if the patient is jaundiced, DUETACT therapy should be discontinued.</paragraph>
+</text>
+</section>
+</component>
+</section>
+</component>
+<component>
+<section ID="section007sub1-009">
+<id root="section007sub1-009"/>
+<!-- <id compId="section007sub1-009" root="section007sub1-009"/> -->
+<title language="local">
+<content styleCode="bold">General:</content> <content styleCode="bold-italics">Glimepiride</content>
+</title>
+<component>
+<section ID="section007sub2-010">
+<id root="section007sub2-010"/>
+<!-- <id compId="section007sub2-010" root="section007sub2-010"/> -->
+<title styleCode="run-in" language="local">
+<content styleCode="plain-text">
+<content styleCode="underline">Hypoglycemia:</content>
+</content> </title>
+<text>
+<paragraph styleCode="SeeAlso_crossref">All sulfonylurea drugs are capable of producing severe hypoglycemia. Proper patient selection, dosage, and instructions are important to avoid hypoglycemic episodes. Patients with impaired renal function may be more sensitive to the <?penta [ch?>glucose-<?penta [ch?>lowering effect of glimepiride. A starting dose of 1 mg of glimepiride once daily followed by appropriate dose titration is recommended in those patients (see <content styleCode="bold">
+<content styleCode="cross-ref">
+<linkHtml href="#section010sub1-007" name="ref_section010sub1-007-003">DOSAGE AND ADMINISTRATION, 
+		
+		
+			&lt;- -<content styleCode="sans-serif">- -&gt;Special Patient Populations&lt;- -</content>- -&gt;
+		
+		
+	
+</linkHtml>
+</content>
+</content>). Debilitated or malnourished patients, and those with adrenal, pituitary, or hepatic insufficiency are particularly susceptible to the hypoglycemic action of <?penta [ch?>glucose-<?penta [ch?>lowering drugs. Hypoglycemia may be difficult to recognize in the elderly and in people who are taking <?penta [ch?>beta-<?penta [ch?>adrenergic blocking drugs or other sympatholytic agents. Hypoglycemia is more likely to occur when caloric intake is deficient, after severe or prolonged exercise, when alcohol is ingested, or when more than one <?penta [ch?>glucose-<?penta [ch?>lowering drug is used. Combined use of glimepiride with insulin or metformin may increase the potential for hypoglycemia.</paragraph>
+</text>
+</section>
+</component>
+<component>
+<section ID="section007sub2-011">
+<id root="section007sub2-011"/>
+<!-- <id compId="section007sub2-011" root="section007sub2-011"/> -->
+<title styleCode="run-in" language="local">
+<content styleCode="plain-text">
+<content styleCode="underline">Loss of control of blood glucose:</content>
+</content> </title>
+<text>
+<paragraph>When a patient stabilized on any diabetic regimen is exposed to stress such as fever, trauma, infection, or surgery, a loss of control may occur. The effectiveness of any oral hypoglycemic drug, including DUETACT, in lowering blood glucose to a desired level decreases in many patients over a period of time, which may be due to progression of the severity of the diabetes or to diminished responsiveness to the drug.</paragraph>
+</text>
+</section>
+</component>
+</section>
+</component>
+<component>
+<section ID="section007sub1-012">
+<id root="section007sub1-012"/>
+<!-- <id compId="section007sub1-012" root="section007sub1-012"/> -->
+<code code="34075-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="LABORATORY_TESTS_SECTION"/>
+<title>
+<content styleCode="bold">Laboratory Tests</content>
+</title>
+<text>
+<paragraph>FPG and A1C measurements should be performed periodically to monitor glycemic control and therapeutic response to DUETACT.</paragraph> <paragraph styleCode="SeeAlso_crossref">Liver enzyme monitoring is recommended prior to initiation of therapy with DUETACT in all patients and periodically thereafter per the clinical judgment of the health care professional (see <content styleCode="cross-ref">
+<linkHtml href="#section007sub2-008" name="ref_section007sub2-008-002">
+
+		
+		
+			&lt;- -<content styleCode="bold">- -&gt;PRECAUTIONS&lt;- -</content>- -&gt;
+		
+		
+	, 
+		
+		
+			&lt;- -<content styleCode="sans-serif">- -&gt;
+General: Pioglitazone hydrochloride, Hepatic Effects
+&lt;- -</content>- -&gt;
+		
+		
+	
+</linkHtml>
+</content> and <content styleCode="cross-ref">
+<linkHtml href="#section008sub3-012" name="ref_section008sub3-012-001">
+
+		
+		
+			&lt;- -<content styleCode="bold">- -&gt;ADVERSE REACTIONS&lt;- -</content>- -&gt;
+		
+		
+	, 
+		
+		
+			&lt;- -<content styleCode="sans-serif">- -&gt;
+Laboratory Abnormalities, 
+Pioglitazone hydrochloride
+, Serum Transaminase Levels
+&lt;- -</content>- -&gt;
+		
+		
+	
+</linkHtml>
+</content>).</paragraph>
+</text>
+</section>
+</component>
+<component>
+<section ID="section007sub1-013">
+<id root="section007sub1-013"/>
+<!-- <id compId="section007sub1-013" root="section007sub1-013"/> -->
+<code code="34076-0" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="INFORMATION_FOR_PATIENTS_SECTION"/>
+<title>
+<content styleCode="bold">Information for Patients</content>
+</title>
+<text>
+<paragraph>Patients should be instructed regarding the importance of adhering to dietary instructions, a regular exercise program, and regular testing of blood glucose and A1C. During periods of stress such as fever, trauma, infection, or surgery, medication requirements may change and patients should be reminded to seek medical advice promptly. Patients should also be informed of the potential risks and advantages of DUETACT and of alternative modes of therapy.</paragraph> <paragraph styleCode="SeeAlso_crossref">Prior to initiation of DUETACT therapy, the risks of hypoglycemia, its symptoms and treatment, and conditions that predispose to its development should be explained to patients and responsible family members (see <content styleCode="cross-ref">
+<linkHtml href="#section007sub1-001" name="ref_section007sub1-001-001">
+
+		
+		
+			&lt;- -<content styleCode="bold">- -&gt;PRECAUTIONS&lt;- -</content>- -&gt;
+		
+		
+	, 
+		
+		
+			&lt;- -<content styleCode="sans-serif">- -&gt;
+General: Pioglitazone hydrochloride
+&lt;- -</content>- -&gt;
+		
+		
+	
+</linkHtml>
+</content> and <content styleCode="cross-ref">
+<linkHtml href="#section007sub2-010" name="ref_section007sub2-010-001">
+
+		
+		
+			&lt;- -<content styleCode="sans-serif">- -&gt;
+Glimepiride, Hypoglycemia
+&lt;- -</content>- -&gt;
+		
+		
+	
+</linkHtml>
+</content>). Combination therapy of DUETACT with other antihyperglycemic agents may also cause hypoglycemia.</paragraph> <paragraph>Patients who experience an unusually rapid increase in weight or edema or who develop shortness of breath or other symptoms of heart failure while on DUETACT should immediately report these symptoms to their physician.</paragraph> <paragraph>Patients should be told that blood tests for liver function will be performed prior to the start of therapy and periodically thereafter per the clinical judgment of the health care professional. Patients should be told to seek immediate medical advice for unexplained nausea, vomiting, abdominal pain, fatigue, anorexia, or dark urine.</paragraph> <paragraph styleCode="SeeAlso_crossref">Therapy with a thiazolidinedione, including the active pioglitazone component of the DUETACT tablet, may result in ovulation in some premenopausal anovulatory women. As a result, these patients may be at an increased risk for pregnancy while taking DUETACT. The possible effect has not been investigated in clinical studies so the frequency of this occurrence is not known. Thus, adequate contraception in premenopausal women should be recommended. Patients who become pregnant while on <?penta [ch?>DUETACT or are planning a pregnancy should be advised to discuss with their physician a regimen appropriate for maintaining adequate glycemic control (see <content styleCode="cross-ref">
+<linkHtml href="#section007sub2-025" name="ref_section007sub2-025-001">
+
+		
+		
+			&lt;- -<content styleCode="bold">- -&gt;PRECAUTIONS&lt;- -</content>- -&gt;
+		
+		
+	, 
+		
+		
+			&lt;- -<content styleCode="sans-serif">- -&gt;
+Pregnancy: Pregnancy Category C
+&lt;- -</content>- -&gt;
+		
+		
+	
+</linkHtml>
+</content>).</paragraph> <paragraph styleCode="SeeAlso_crossref">Patients should be told to take a single dose of DUETACT once daily with the first main meal and instructed that any change in dosing should be made only if directed by their physician (see <content styleCode="bold">
+<content styleCode="cross-ref">
+<linkHtml href="#section010sub1-008" name="ref_section010sub1-008-001">DOSAGE AND ADMINISTRATION, 
+		
+		
+			&lt;- -<content styleCode="sans-serif">- -&gt;Maximum Recommended Dose&lt;- -</content>- -&gt;
+		
+		
+	
+</linkHtml>
+</content>
+</content>).</paragraph>
+</text>
+</section>
+</component>
+<component>
+<section ID="section007sub1-014">
+<id root="section007sub1-014"/>
+<!-- <id compId="section007sub1-014" root="section007sub1-014"/> -->
+<code code="34073-7" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="DRUG_INTERACTIONS_SECTION"/>
+<title>
+<content styleCode="bold">Drug Interactions</content>
+</title>
+<component>
+<section ID="section007sub2-015">
+<id root="section007sub2-015"/>
+<!-- <id compId="section007sub2-015" root="section007sub2-015"/> -->
+<title language="local">
+<content styleCode="plain-text">
+</content> <content styleCode="sans-serif">
+<content styleCode="italics">Pioglitazone hydrochloride</content>
+</content>
+</title>
+<text>
+<paragraph>
+<content styleCode="italics">In vivo</content> <?penta [ch?>drug-<?penta [ch?>drug interaction studies have suggested that pioglitazone may be a weak inducer of CYP 450 isoform 3A4 substrate.</paragraph>
+<?sgmlp pgbrk pg="3230"?>
+</text>
+</section>
+</component>
+<component>
+<section ID="section007sub2-016">
+<id root="section007sub2-016"/>
+<!-- <id compId="section007sub2-016" root="section007sub2-016"/> -->
+<title language="local">
+<content styleCode="plain-text">
+</content> <content styleCode="sans-serif">
+<content styleCode="italics">Glimepiride</content>
+</content>
+</title>
+<text>
+<paragraph styleCode="SeeAlso_crossref">(See <content styleCode="cross-ref">
+<linkHtml href="#section003sub1-038" name="ref_section003sub1-038-001">
+
+		
+		
+			&lt;- -<content styleCode="bold">- -&gt;CLINICAL PHARMACOLOGY&lt;- -</content>- -&gt;
+		
+		
+	, 
+		
+		
+			&lt;- -<content styleCode="sans-serif">- -&gt;
+
+Drug-Drug Interactions, 
+
+
+
+Glimepiride
+
+
+
+
+&lt;- -</content>- -&gt;
+		
+		
+	
+</linkHtml>
+</content>)</paragraph>
+</text>
+</section>
+</component>
+</section>
+</component>
+<component>
+<section ID="section007sub1-017">
+<id root="section007sub1-017"/>
+<!-- <id compId="section007sub1-017" root="section007sub1-017"/> -->
+<code code="34083-6" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="CARCINOGENESIS_MUTAGENESIS_IMPAIRMENT_OF_FERTILITY_SECTION"/>
+<title>
+<content styleCode="bold">Carcinogenesis, Mutagenesis, Impairment of Fertility</content>
+</title>
+<component>
+<section ID="section007sub2-018">
+<id root="section007sub2-018"/>
+<!-- <id compId="section007sub2-018" root="section007sub2-018"/> -->
+<title language="local">
+<content styleCode="plain-text">
+</content> <content styleCode="sans-serif">
+<content styleCode="italics">DUETACT</content>
+</content>
+</title>
+<text>
+<paragraph>No animal studies have been conducted with DUETACT. The following data are based on findings in studies performed with pioglitazone or glimepiride individually.</paragraph>
+</text>
+</section>
+</component>
+<component>
+<section ID="section007sub2-019">
+<id root="section007sub2-019"/>
+<!-- <id compId="section007sub2-019" root="section007sub2-019"/> -->
+<title language="local">
+<?penta [cf2]?>Pioglitazone hydrochloride</title>
+<text>
+<paragraph>A <?penta [ch?>two-<?penta [ch?>year carcinogenicity study was conducted in male and female rats at oral doses up to 63 mg/kg (approximately 14 times the maximum recommended human oral dose of 45 mg based on mg/m<sup>2</sup>). <?penta [ch?>Drug-<?penta [ch?>induced tumors were not observed in any organ except for the urinary bladder. Benign and/or malignant transitional cell neoplasms were observed in male rats at 4 mg/kg/day and above (approximately equal to the maximum recommended human oral dose based on mg/m<sup>2</sup>). A <?penta [ch?>two-<?penta [ch?>year carcinogenicity study was conducted in male and female mice at oral doses up to 100 mg/kg/day (approximately 11 times the maximum recommended human oral dose based on mg/m<sup>2</sup>). No <?penta [ch?>drug-<?penta [ch?>induced tumors were observed in any organ.</paragraph> <paragraph>During prospective evaluation of urinary cytology involving more than 1800 patients receiving pioglitazone in clinical trials up to one year in duration, no new cases of bladder tumors were identified. In two 3 year studies in which pioglitazone was compared to placebo or glyburide, there were 16/3656 (0.44%) reports of bladder cancer in patients taking pioglitazone compared to 5/3679 (0.14%) in patients not taking pioglitazone. After excluding patients in whom exposure to study drug was less than one year at the time of diagnosis of bladder cancer, there were six cases (0.16%) on pioglitazone and two (0.05%) on placebo.</paragraph> <paragraph>Pioglitazone hydrochloride was not mutagenic in a battery of genetic toxicology studies, including the Ames bacterial assay, a mammalian cell forward gene mutation assay (CHO/HPRT and AS52/XPRT), an <content styleCode="italics">in vitro</content> cytogenetics assay using CHL cells, an unscheduled DNA synthesis assay, and an <content styleCode="italics">in vivo</content> micronucleus assay.</paragraph> <paragraph>No adverse effects upon fertility were observed in male and female rats at oral doses up to 40 mg/kg pioglitazone <?penta [ch?>hydrochloride daily prior to and throughout mating and gestation (approximately 9 times the maximum recommended human oral dose based on mg/m<sup>2</sup>).</paragraph>
+</text>
+</section>
+</component>
+<component>
+<section ID="section007sub2-020">
+<id root="section007sub2-020"/>
+<!-- <id compId="section007sub2-020" root="section007sub2-020"/> -->
+<title language="local">
+<content styleCode="plain-text">
+</content> <content styleCode="sans-serif">
+<content styleCode="italics">Glimepiride</content>
+</content>
+</title>
+<text>
+<paragraph>Studies in rats at doses of up to 5000 ppm in complete feed (approximately 340 times the maximum recommended human dose, based on surface area) for 30 months showed no evidence of carcinogenesis. In mice, administration of glimepiride for 24 months resulted in an increase in benign pancreatic adenoma formation which was dose related and is thought to be the result of chronic pancreatic stimulation. The <?penta [ch?>no-<?penta [ch?>effect dose for adenoma formation in mice in this study was 320 ppm in complete feed, or <?penta [ch?>46-<?penta [ch?>54 mg/kg body weight/day. This is about 35 times the maximum human recommended dose of 8 mg once daily based on surface area.</paragraph> <paragraph>Glimepiride was <?penta [ch?>non-<?penta [ch?>mutagenic in a battery of <content styleCode="italics">in vitro</content> and <content styleCode="italics">in vivo</content> mutagenicity studies (Ames test, somatic cell mutation, chromosomal aberration, unscheduled DNA synthesis, mouse micronucleus test).</paragraph> <paragraph>There was no effect of glimepiride on male mouse fertility in animals exposed up to 2500 mg/kg body weight (&gt;1,700 times the maximum recommended human dose based on surface area). Glimepiride had no effect on the fertility of male and female rats administered up to 4000 mg/kg body weight (approximately 4,000 times the maximum recommended human dose based on surface area).</paragraph>
+</text>
+</section>
+</component>
+</section>
+</component>
+<component>
+<section ID="section007sub1-021">
+<id root="section007sub1-021"/>
+<!-- <id compId="section007sub1-021" root="section007sub1-021"/> -->
+<code code="34091-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="ANIMAL_PHARMACOLOGY_TOXICOLOGY_SECTION"/>
+<title>
+<content styleCode="bold">Animal Toxicology</content>
+</title>
+<component>
+<section ID="section007sub2-022">
+<id root="section007sub2-022"/>
+<!-- <id compId="section007sub2-022" root="section007sub2-022"/> -->
+<title language="local">
+<content styleCode="plain-text">
+</content> <content styleCode="sans-serif">
+<content styleCode="italics">Pioglitazone hydrochloride</content>
+</content>
+</title>
+<text>
+<paragraph>Heart enlargement has been observed in mice (100 mg/kg), rats (4 mg/kg and above) and dogs (3 mg/kg) treated orally with pioglitazone hydrochloride (approximately 11, 1, and 2 times the maximum recommended human oral dose for mice, rats, and dogs, respectively, based on mg/m<sup>2</sup>). In a <?penta [ch?>one-<?penta [ch?>year rat study, <?penta [ch?>drug-<?penta [ch?>related early death due to apparent heart dysfunction occurred at an oral dose of 160 mg/kg/day (approximately 35 times the maximum recommended human oral dose based on mg/m<sup>2</sup>). Heart enlargement was seen in a <?penta [ch?>13-<?penta [ch?>week study in monkeys at oral doses of 8.9 mg/kg and above (approximately 4 times the maximum recommended human oral dose based on mg/m<sup>2</sup>), but not in a <?penta [ch?>52-<?penta [ch?>week study at oral doses up to 32 mg/kg (approximately 13 times the maximum recommended human oral dose based on mg/m<sup>2</sup>).</paragraph>
+</text>
+</section>
+</component>
+<component>
+<section ID="section007sub2-023">
+<id root="section007sub2-023"/>
+<!-- <id compId="section007sub2-023" root="section007sub2-023"/> -->
+<title language="local">
+<content styleCode="plain-text">
+</content> <content styleCode="sans-serif">
+<content styleCode="italics">Glimepiride</content>
+</content>
+</title>
+<text>
+<paragraph>Reduced serum glucose values and degranulation of the pancreatic beta cells were observed in beagle dogs exposed to 320 mg glimepiride/kg/day for 12 months (approximately 1,000 times the recommended human dose based on surface area). No evidence of tumor formation was observed in any organ. One female and one male dog developed bilateral subcapsular cataracts. <?penta [ch?>Non-<?penta [ch?>GLP studies indicated that glimepiride was unlikely to exacerbate cataract formation. Evaluation of the <?penta [ch?>co-<?penta [ch?>cataractogenic potential of glimepiride in several diabetic and cataract rat models was negative and there was no adverse effect of glimepiride on bovine ocular lens metabolism in organ culture.</paragraph>
+</text>
+</section>
+</component>
+</section>
+</component>
+<component>
+<section ID="section007sub1-024">
+<id root="section007sub1-024"/>
+<!-- <id compId="section007sub1-024" root="section007sub1-024"/> -->
+<code code="42228-7" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="PREGNANCY"/>
+<title styleCode="run-in">Pregnancy: </title>
+<component>
+<section ID="section007sub2-025">
+<id root="section007sub2-025"/>
+<!-- <id compId="section007sub2-025" root="section007sub2-025"/> -->
+<title language="local">
+<content styleCode="bold">Pregnancy Category C</content>
+</title>
+<component>
+<section ID="section007sub3-026">
+<id root="section007sub3-026"/>
+<!-- <id compId="section007sub3-026" root="section007sub3-026"/> -->
+<title>
+<content styleCode="italics">DUETACT</content>
+</title>
+<text>
+<paragraph>Because current information strongly suggests that abnormal blood glucose levels during pregnancy are associated with a higher incidence of congenital anomalies, as well as increased neonatal morbidity and mortality, most experts recommend that insulin be used during pregnancy to maintain blood glucose levels as close to normal as possible. DUETACT should not be used during pregnancy unless the potential benefit justifies the potential risk to the fetus.</paragraph> <paragraph>There are no adequate and <?penta [ch?>well-<?penta [ch?>controlled studies in pregnant women with DUETACT or its individual components. No animal studies have been conducted with the combined products in DUETACT. The following data are based on findings in studies performed with pioglitazone or glimepiride individually.</paragraph>
+</text>
+</section>
+</component>
+<component>
+<section ID="section007sub3-027">
+<id root="section007sub3-027"/>
+<!-- <id compId="section007sub3-027" root="section007sub3-027"/> -->
+<title>
+<content styleCode="italics">Pioglitazone hydrochloride</content>
+</title>
+<text>
+<paragraph>Pioglitazone was not teratogenic in rats at oral doses up to 80 mg/kg or in rabbits given up to 160 mg/kg during organogenesis (approximately 17 and 40 times the maximum recommended human oral dose based on mg/m<sup>2</sup>, respectively). Delayed parturition and embryotoxicity (as evidenced by increased postimplantation losses, delayed development and reduced fetal weights) were observed in rats at oral doses of 40 mg/kg/day and above (approximately 10 times the maximum recommended human oral dose based on mg/m<sup>2</sup>). No functional or behavioral toxicity was observed in offspring of rats. In rabbits, embryotoxicity was observed at an oral dose of 160 mg/kg (approximately 40 times the maximum recommended human oral dose based on mg/m<sup>2</sup>). Delayed postnatal development, attributed to decreased body weight, was observed in offspring of rats at oral doses of 10 mg/kg and above during late gestation and lactation periods (approximately 2 times the maximum recommended human oral dose based on mg/m<sup>2</sup>).</paragraph>
+</text>
+</section>
+</component>
+<component>
+<section ID="section007sub3-028">
+<id root="section007sub3-028"/>
+<!-- <id compId="section007sub3-028" root="section007sub3-028"/> -->
+<title>
+<content styleCode="italics">Glimepiride</content>
+</title>
+<component>
+<section ID="section007sub4-029">
+<id root="section007sub4-029"/>
+<!-- <id compId="section007sub4-029" root="section007sub4-029"/> -->
+<title styleCode="run-in">
+<content styleCode="underline">Teratogenic Effects:</content> </title>
+<text>
+<paragraph>Glimepiride did not produce teratogenic effects in rats exposed orally up to 4000 mg/kg body weight (approximately 4000 times the maximum recommended human dose based on surface area) or in rabbits exposed up to 32 mg/kg body weight (approximately 60 times the maximum recommended human dose based on surface area). Glimepiride has been shown to be associated with intrauterine fetal death in rats when given in doses as low as 50 times the human dose based on surface area and in rabbits when given in doses as low as 0.1 times the human dose based on surface area. This fetotoxicity, observed only at doses inducing maternal hypoglycemia, has been similarly noted with other sulfonylureas, and is believed to be directly related to the pharmacologic (hypoglycemic) action of glimepiride.</paragraph>
+</text>
+</section>
+</component>
+<component>
+<section ID="section007sub4-030">
+<id root="section007sub4-030"/>
+<!-- <id compId="section007sub4-030" root="section007sub4-030"/> -->
+<title styleCode="run-in">
+<content styleCode="underline">Nonteratogenic Effects:</content> </title>
+<text>
+<paragraph>In some studies in rats, offspring of dams exposed to high levels of glimepiride during pregnancy and lactation developed skeletal deformities consisting of shortening, thickening, and bending of the humerus during the postnatal period. Significant concentrations of glimepiride were observed in the serum and breast milk of the dams as well as in the serum of the pups. These skeletal deformations were determined to be the result of nursing from mothers exposed to glimepiride.</paragraph> <paragraph>Prolonged severe hypoglycemia (4 to 10 days) has been reported in neonates born to mothers who were receiving a sulfonylurea drug at the time of delivery. This has been reported more frequently with the use of agents with prolonged <?penta [ch?>half-<?penta [ch?>lives. Patients who are planning a pregnancy should consult their physician, and it is recommended that they change over to insulin for the entire course of pregnancy and lactation.</paragraph>
+</text>
+</section>
+</component>
+</section>
+</component>
+</section>
+</component>
+</section>
+</component>
+<component>
+<section ID="section007sub1-031">
+<id root="section007sub1-031"/>
+<!-- <id compId="section007sub1-031" root="section007sub1-031"/> -->
+<code code="34080-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="NURSING_MOTHERS_SECTION"/>
+<title>
+<content styleCode="bold">Nursing Mothers</content>
+</title>
+<text>
+<paragraph styleCode="SeeAlso_crossref">No studies have been conducted with the combined components of DUETACT. In studies performed with the individual components, pioglitazone was secreted in the milk of lactating rats and significant concentrations of glimepiride were observed in the serum and breast milk of the dams and serum of the pups. It is not known whether pioglitazone or glimepiride are secreted in human milk. However, other sulfonylureas are excreted in human milk. Because the potential for hypoglycemia in nursing infants may exist, and because of the effects on nursing animals, DUETACT should not be administered to a woman breastfeeding. If DUETACT is discontinued, and if diet alone is inadequate for controlling blood glucose, insulin therapy should be considered (see <content styleCode="cross-ref">
+<linkHtml href="#section007sub4-030" name="ref_section007sub4-030-001">
+
+		
+		
+			&lt;- -<content styleCode="bold">- -&gt;PRECAUTIONS&lt;- -</content>- -&gt;
+		
+		
+	, 
+		
+		
+			&lt;- -<content styleCode="sans-serif">- -&gt;
+Pregnancy: Pregnancy Category C, 
+Glimepiride
+, Nonteratogenic Effects
+&lt;- -</content>- -&gt;
+		
+		
+	
+</linkHtml>
+</content>).</paragraph>
+</text>
+</section>
+</component>
+<component>
+<section ID="section007sub1-032">
+<id root="section007sub1-032"/>
+<!-- <id compId="section007sub1-032" root="section007sub1-032"/> -->
+<code code="34081-0" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="PEDIATRIC_USE_SECTION"/>
+<title>
+<content styleCode="bold">Pediatric Use</content>
+</title>
+<text>
+<paragraph>Safety and effectiveness of DUETACT in pediatric patients have not been established.</paragraph>
+</text>
+</section>
+</component>
+<component>
+<section ID="section007sub1-033">
+<id root="section007sub1-033"/>
+<!-- <id compId="section007sub1-033" root="section007sub1-033"/> -->
+<title>
+<content styleCode="bold">Elderly Use</content>
+</title>
+<component>
+<section ID="section007sub2-034">
+<id root="section007sub2-034"/>
+<!-- <id compId="section007sub2-034" root="section007sub2-034"/> -->
+<title language="local">
+<content styleCode="plain-text">
+</content> <content styleCode="sans-serif">
+<content styleCode="italics">Pioglitazone hydrochloride</content>
+</content>
+</title>
+<text>
+<paragraph>Approximately 500 patients in <?penta [ch?>placebo-<?penta [ch?>controlled clinical trials of pioglitazone were 65 and over. No significant differences in effectiveness and safety were observed between these patients and younger patients.</paragraph>
+</text>
+</section>
+</component>
+<component>
+<section ID="section007sub2-035">
+<id root="section007sub2-035"/>
+<!-- <id compId="section007sub2-035" root="section007sub2-035"/> -->
+<title language="local">
+<content styleCode="plain-text">
+</content> <content styleCode="sans-serif">
+<content styleCode="italics">Glimepiride</content>
+</content>
+</title>
+<text>
+<paragraph>In U.S. clinical studies of glimepiride, 608 of 1986 patients were 65 and over. No overall differences in safety or effectiveness were observed between these subjects and younger subjects, but greater sensitivity of some older individuals cannot be ruled out.</paragraph> <paragraph styleCode="SeeAlso_crossref">Comparison of glimepiride pharmacokinetics in patients with type 2 diabetes ≤65 years (n<?penta [hm-..5]?>=<?penta [hm-..5]?>49) and those &gt;65 years (n<?penta [hm-..5]?>=<?penta [hm-..5]?>42) was performed in a study using a dosing regimen of 6 mg daily. There were no significant differences in glimepiride pharmacokinetics between the two age groups (see <content styleCode="cross-ref">
+<linkHtml href="#section003sub3-028" name="ref_section003sub3-028-001">
+
+		
+		
+			&lt;- -<content styleCode="bold">- -&gt;CLINICAL PHARMACOLOGY&lt;- -</content>- -&gt;
+		
+		
+	, 
+		
+		
+			&lt;- -<content styleCode="sans-serif">- -&gt;
+Special Populations, Elderly: 
+Glimepiride
+
+&lt;- -</content>- -&gt;
+		
+		
+	
+</linkHtml>
+</content>).</paragraph> <paragraph>Glimepiride is known to be substantially excreted by the kidney, and the risk of toxic reactions to this drug may be greater in patients with impaired renal function. Because elderly patients are more likely to have decreased renal function, care should be taken in dose selection, and it may be useful to monitor renal function.</paragraph> <paragraph styleCode="SeeAlso_crossref">Elderly patients are particularly susceptible to hypoglycemic action of <?penta [ch?>glucose-<?penta [ch?>lowering drugs. In elderly, debilitated, or malnourished patients, or in patients with renal and hepatic insufficiency, the initial dosing, dose increments, and maintenance dosage should be conservative based upon blood glucose levels prior to and after initiation of treatment to avoid hypoglycemic reactions. Hypoglycemia may be difficult to recognize in the elderly and in people who are taking <?penta [ch?>beta-<?penta [ch?>adrenergic blocking drugs or other sympatholytic agents (see <content styleCode="cross-ref">
+<linkHtml href="#section003sub3-022" name="ref_section003sub3-022-001">
+
+		
+		
+			&lt;- -<content styleCode="bold">- -&gt;CLINICAL PHARMACOLOGY&lt;- -</content>- -&gt;
+		
+		
+	, 
+		
+		
+			&lt;- -<content styleCode="sans-serif">- -&gt;
+Special Populations, Renal Insufficiency: 
+Glimepiride
+
+&lt;- -</content>- -&gt;
+		
+		
+	
+</linkHtml>
+</content>; <content styleCode="bold">
+<linkHtml href="#section007sub2-010" name="ref_section007sub2-010-001">PRECAUTIONS, 
+		
+		
+			&lt;- -<content styleCode="sans-serif">- -&gt;General:&lt;- -</content>- -&gt;
+		
+		
+	 <?penta [sp[cf2]?>Glimepiride<?penta [rp?>, 
+		
+		
+			&lt;- -<content styleCode="underline">- -&gt;Hypoglycemia&lt;- -</content>- -&gt;
+		
+		
+	
+</linkHtml>
+</content> and <content styleCode="bold">
+<linkHtml href="#section010sub1-007" name="ref_section010sub1-007-004">DOSAGE AND ADMINISTRATION, 
+		
+		
+			&lt;- -<content styleCode="sans-serif">- -&gt;Special Patient Populations&lt;- -</content>- -&gt;
+		
+		
+	
+</linkHtml>).</content>
+</paragraph>
+</text>
+</section>
+</component>
+</section>
+</component>
+</section>
+</component>
+<component>
+<section ID="section008">
+<id root="section008"/>
+<!-- <id compId="section008" root="section008"/> -->
+<code code="34084-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="ADVERSE_REACTIONS_SECTION"/>
+<title>ADVERSE REACTIONS</title>
+<text>
+<paragraph>The adverse events reported in at least 5% of patients in the controlled <?penta [ch?>16-<?penta [ch?>week clinical studies between placebo plus a sulfonylurea and pioglitazone (15 mg and 30 mg combined) plus <?penta [ch?>sulfonylurea-<?penta [ch?>treatment arms were upper respiratory tract infection (15.5% and 16.6%), accidental injury (8.6% and 3.5%) and combined edema/peripheral edema (2.1% and 7.2%), respectively.</paragraph> <paragraph>The incidence and type of adverse events reported in at least 5% of patients in any combined treatment group from the <?penta [ch?>24-<?penta [ch?>week study comparing pioglitazone 30 mg plus a sulfonylurea and pioglitazone 45 mg plus a sulfonylurea are shown in Table 4; the rate of adverse events resulting in study discontinuation between the two treatment groups was 6.0% and 9.7%, respectively.</paragraph> <!-- CALS Table from SPLPlus:<table-wrap id="pdr8075-0250-tbl004" insert-type="fixed" tablewidth="1pgcol">
+<cals-table frame="topbot">
+<title>
+<content styleCode="bold">Table 4. Adverse Events That Occurred in &#x2265;&#x00A0;5% of Patients in Any Treatment Group During the <?penta [ch?>24-<?penta [ch?>Week Study</content>
+</title>
+<tgroup cols="3" colsep="g.6,v7">
+<colspec colname="col1" align="left"/>
+<colspec colname="col2" align="center"/>
+<colspec colname="col3" align="center"/>
+<thead>
+<row valign="top" rowsep="1">
+<entry colname="col1">
+<content styleCode="bold">Adverse Event</content>
+</entry>
+<entry colname="col2">
+<content styleCode="bold">Pioglitazone 30&#x00A0;mg<br/>&#x002B; sulfonylurea<br/>N&#x003D;351<br/>n (%)</content>
+</entry>
+<entry colname="col3">
+<content styleCode="bold">Pioglitazone 45&#x00A0;mg<br/>&#x002B; sulfonylurea<br/>N&#x003D;351<br/>n (%)</content>
+</entry>
+</row>
+</thead>
+<tbody>
+<row rowsep="1">
+<entry colname="col1">Hypoglycemia</entry>
+<entry colname="col2">47 (13.4)</entry>
+<entry colname="col3">55 (15.7)</entry>
+</row>
+<row rowsep="1">
+<entry colname="col1">Upper Respiratory Tract Infection</entry>
+<entry colname="col2">43 (12.3)</entry>
+<entry colname="col3">52 (14.8)</entry>
+</row>
+<row rowsep="1">
+<entry colname="col1">Weight Increased</entry>
+<entry colname="col2">32 (9.1)</entry>
+<entry colname="col3">47 (13.4)</entry>
+</row>
+<row rowsep="1">
+<entry colname="col1">Edema Lower Limb</entry>
+<entry colname="col2">20 (5.7)</entry>
+<entry colname="col3">43 (12.3)</entry>
+</row>
+<row rowsep="1">
+<entry colname="col1">Headache</entry>
+<entry colname="col2">25 (7.1)</entry>
+<entry colname="col3">14 (4.0)</entry>
+</row>
+<row rowsep="1">
+<entry colname="col1">Urinary Tract Infection</entry>
+<entry colname="col2">20 (5.7)</entry>
+<entry colname="col3">24 (6.8)</entry>
+</row>
+<row rowsep="1">
+<entry colname="col1">Diarrhea</entry>
+<entry colname="col2">21 (6.0)</entry>
+<entry colname="col3">15 (4.3)</entry>
+</row>
+<row rowsep="1">
+<entry colname="col1">Nausea</entry>
+<entry colname="col2">18 (5.1)</entry>
+<entry colname="col3">14 (4.0)</entry>
+</row>
+<row>
+<entry colname="col1">Pain in Limb</entry>
+<entry colname="col2">19 (5.4)</entry>
+<entry colname="col3">14 (4.0)</entry>
+</row>
+</tbody>
+</tgroup>
+</cals-table>
+</table-wrap>END of CALS Table --> <table ID="pdr8075-0250-tbl004" width="323" frame="hsides">
+<caption>
+<!-- <content styleCode="bold"> -->Table 4. Adverse Events That Occurred in ≥ 5% of Patients in Any Treatment Group During the <?penta [ch?>24-<?penta [ch?>Week Study<!-- </content> -->
+</caption>
+<colgroup styleCode="colsep-1.6">
+<col ID="pdr8075-0250-tbl004-col1" align="left"/>
+<col ID="pdr8075-0250-tbl004-col2" align="center"/>
+<col ID="pdr8075-0250-tbl004-col3" align="center"/>
+</colgroup>
+<thead>
+<tr valign="top" styleCode="rowsep-1">
+<th>
+<content styleCode="bold">Adverse Event</content>
+</th>
+<th>
+<content styleCode="bold">Pioglitazone 30 mg<br/>+ sulfonylurea<br/>N=351<br/>n (%)</content>
+</th>
+<th>
+<content styleCode="bold">Pioglitazone 45 mg<br/>+ sulfonylurea<br/>N=351<br/>n (%)</content>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr styleCode="rowsep-1">
+<td>Hypoglycemia</td>
+<td>47 (13.4)</td>
+<td>55 (15.7)</td>
+</tr>
+<tr styleCode="rowsep-1">
+<td>Upper Respiratory Tract Infection</td>
+<td>43 (12.3)</td>
+<td>52 (14.8)</td>
+</tr>
+<tr styleCode="rowsep-1">
+<td>Weight Increased</td>
+<td>32 (9.1)</td>
+<td>47 (13.4)</td>
+</tr>
+<tr styleCode="rowsep-1">
+<td>Edema Lower Limb</td>
+<td>20 (5.7)</td>
+<td>43 (12.3)</td>
+</tr>
+<tr styleCode="rowsep-1">
+<td>Headache</td>
+<td>25 (7.1)</td>
+<td>14 (4.0)</td>
+</tr>
+<tr styleCode="rowsep-1">
+<td>Urinary Tract Infection</td>
+<td>20 (5.7)</td>
+<td>24 (6.8)</td>
+</tr>
+<tr styleCode="rowsep-1">
+<td>Diarrhea</td>
+<td>21 (6.0)</td>
+<td>15 (4.3)</td>
+</tr>
+<tr styleCode="rowsep-1">
+<td>Nausea</td>
+<td>18 (5.1)</td>
+<td>14 (4.0)</td>
+</tr>
+<tr>
+<td>Pain in Limb</td>
+<td>19 (5.4)</td>
+<td>14 (4.0)</td>
+</tr>
+</tbody>
+</table> <paragraph styleCode="SeeAlso_crossref">In U.S. <?penta [ch?>double-<?penta [ch?>blind studies, anemia was reported in ≤ 2% of patients treated with pioglitazone plus a sulfonylurea (see <content styleCode="cross-ref">
+<linkHtml href="#section007sub1-001" name="ref_section007sub1-001-002">
+
+		
+		
+			&lt;- -<content styleCode="bold">- -&gt;PRECAUTIONS&lt;- -</content>- -&gt;
+		
+		
+	, 
+		
+		
+			&lt;- -<content styleCode="sans-serif">- -&gt;
+General: Pioglitazone hydrochloride
+&lt;- -</content>- -&gt;
+		
+		
+	
+</linkHtml>
+</content>).</paragraph>
+</text>
+<component>
+<section ID="section008sub1-001">
+<id root="section008sub1-001"/>
+<!-- <id compId="section008sub1-001" root="section008sub1-001"/> -->
+<component>
+<section ID="section008sub2-002">
+<id root="section008sub2-002"/>
+<!-- <id compId="section008sub2-002" root="section008sub2-002"/> -->
+<title language="local">
+<content styleCode="plain-text">
+</content> <content styleCode="sans-serif">
+<content styleCode="italics">Pioglitazone hydrochloride</content>
+</content>
+</title>
+<text>
+<paragraph>Most clinical adverse events were similar between groups treated with pioglitazone in combination with a sulfonyl<?penta [ch?>urea and those treated with pioglitazone monotherapy. Other adverse events reported in at least 5% of patients in controlled clinical studies between placebo and pioglitazone monotherapy included myalgia (2.7% and 5.4%), tooth disorder (2.3% and 5.3%), diabetes mellitus aggravated (8.1% and 5.1%) and pharyngitis (0.8% and 5.1%), respectively.</paragraph> <paragraph styleCode="SeeAlso_crossref">In monotherapy studies, edema was reported for 4.8% (with doses from 7.5 mg to 45 mg) of patients treated with pioglitazone versus 1.2% of <?penta [ch?>placebo-<?penta [ch?>treated patients. Most of these events were considered mild or moderate in intensity (see <content styleCode="cross-ref">
+<linkHtml href="#section007sub2-004" name="ref_section007sub2-004-001">
+
+		
+		
+			&lt;- -<content styleCode="bold">- -&gt;PRECAUTIONS&lt;- -</content>- -&gt;
+		
+		
+	, 
+		
+		
+			&lt;- -<content styleCode="sans-serif">- -&gt;
+General: Pioglitazone hydrochloride, Edema
+&lt;- -</content>- -&gt;
+		
+		
+	
+</linkHtml>
+</content>).</paragraph>
+</text>
+</section>
+</component>
+<component>
+<section ID="section008sub2-003">
+<id root="section008sub2-003"/>
+<!-- <id compId="section008sub2-003" root="section008sub2-003"/> -->
+<title language="local">
+<content styleCode="plain-text">
+</content> <content styleCode="sans-serif">
+<content styleCode="italics">Glimepiride</content>
+</content>
+</title>
+<text>
+<paragraph>Adverse events that occurred in controlled clinical trials with placebo and glimepiride monotherapy, other than hypoglycemia, headache and nausea, also included dizziness (0.3% and 1.7%) and asthenia (1.0% and 1.6%), respectively.</paragraph>
+</text>
+<component>
+<section ID="section008sub3-004">
+<id root="section008sub3-004"/>
+<!-- <id compId="section008sub3-004" root="section008sub3-004"/> -->
+<title styleCode="run-in">
+<content styleCode="underline">Gastrointestinal Reactions</content>: </title>
+<text>
+<paragraph>Vomiting, gastrointestinal pain, and diarrhea have been reported with glimepiride, but the incidence in <?penta [ch?>placebo-<?penta [ch?>controlled trials was less than 1%. In rare cases, there may be an elevation of liver enzyme levels. In isolated instances, impairment of liver function (e.g. with cholestasis and jaundice), as well as hepatitis, which may also lead to liver failure have been reported with sulfonylureas, including glimepiride.</paragraph>
+</text>
+</section>
+</component>
+<component>
+<section ID="section008sub3-005">
+<id root="section008sub3-005"/>
+<!-- <id compId="section008sub3-005" root="section008sub3-005"/> -->
+<title styleCode="run-in">
+<content styleCode="underline">Dermatologic Reactions:</content> </title>
+<text>
+<paragraph>Allergic skin reactions, e.g., pruritus, erythema, urticaria, and morbilliform or maculopapular eruptions, occur in less than 1% of <?penta [ch?>glimepiride-<?penta [ch?>treated patients. These may be transient and may disappear despite continued use of glimepiride. If those hypersensitivity reactions persist or worsen, the drug should be discontinued. Porphyria cutanea tarda, photosensitivity reactions, and allergic vasculitis have been reported with sulfonylureas.</paragraph>
+</text>
+</section>
+</component>
+<component>
+<section ID="section008sub3-006">
+<id root="section008sub3-006"/>
+<!-- <id compId="section008sub3-006" root="section008sub3-006"/> -->
+<title styleCode="run-in">
+<content styleCode="underline">Metabolic <?sgmlp pgbrk pg="3231"?>Reactions</content>: </title>
+<text>
+<paragraph>Hepatic porphyria reactions and <?penta [ch?>disulfiram-<?penta [ch?>like reactions have been reported with sulfonylureas; however, no cases have yet been reported with glimepiride tablets. Cases of hyponatremia have been reported with glimepiride and all other sulfonylureas, most often in patients who are on other medications or have medical conditions known to cause hyponatremia or increase release of antidiuretic hormone. The syndrome of inappropriate antidiuretic hormone (SIADH) secretion has been reported with certain other sulfonylureas, and it has been suggested that these sulfonylureas may augment the peripheral (antidiuretic) action of ADH and/or increase release of ADH.</paragraph>
+</text>
+</section>
+</component>
+<component>
+<section ID="section008sub3-007">
+<id root="section008sub3-007"/>
+<!-- <id compId="section008sub3-007" root="section008sub3-007"/> -->
+<title styleCode="run-in">
+<content styleCode="underline">Hematologic Reactions</content>: </title>
+<text>
+<paragraph>Leukopenia, agranulocytosis, thrombocytopenia, hemolytic anemia, aplastic anemia, and pancytopenia have been reported with sulfonylureas.</paragraph>
+</text>
+</section>
+</component>
+<component>
+<section ID="section008sub3-008">
+<id root="section008sub3-008"/>
+<!-- <id compId="section008sub3-008" root="section008sub3-008"/> -->
+<title styleCode="run-in">
+<content styleCode="underline">Other Reactions</content>: </title>
+<text>
+<paragraph>Changes in accommodation and/or blurred vision may occur with the use of glimepiride. In <?penta [ch?>placebo-<?penta [ch?>controlled trials of glimepiride, the incidence of blurred vision with placebo was 0.7%, and with glimepiride, 0.4%. This is thought to be due to changes in blood glucose, and may be more pronounced when treatment is initiated. This condition is also seen in untreated diabetic patients, and may actually be reduced by treatment.</paragraph>
+</text>
+</section>
+</component>
+</section>
+</component>
+</section>
+</component>
+<component>
+<section ID="section008sub1-009">
+<id root="section008sub1-009"/>
+<!-- <id compId="section008sub1-009" root="section008sub1-009"/> -->
+<title>
+<content styleCode="bold">Laboratory Abnormalities</content>
+</title>
+<component>
+<section ID="section008sub2-010">
+<id root="section008sub2-010"/>
+<!-- <id compId="section008sub2-010" root="section008sub2-010"/> -->
+<title language="local">
+<content styleCode="plain-text">
+</content> <content styleCode="sans-serif">
+<content styleCode="italics">Pioglitazone hydrochloride</content>
+</content>
+</title>
+<component>
+<section ID="section008sub3-011">
+<id root="section008sub3-011"/>
+<!-- <id compId="section008sub3-011" root="section008sub3-011"/> -->
+<title styleCode="run-in">
+<content styleCode="underline">Hematologic:</content> </title>
+<text>
+<paragraph styleCode="SeeAlso_crossref">Pioglitazone may cause decreases in hemoglobin and hematocrit. The fall in hemoglobin and hematocrit with pioglitazone appears to be dose related. Across all clinical studies, mean hemoglobin values declined by 2% to 4% in patients treated with pioglitazone. These changes generally occurred within the first 4 to 12 weeks of therapy and remained relatively stable thereafter. These changes may be related to increased plasma volume associated with pioglitazone therapy and have rarely been associated with any significant hematologic clinical effects (see <content styleCode="cross-ref">
+<linkHtml href="#section007sub2-007" name="ref_section007sub2-007-001">
+
+		
+		
+			&lt;- -<content styleCode="bold">- -&gt;PRECAUTIONS&lt;- -</content>- -&gt;
+		
+		
+	, 
+		
+		
+			&lt;- -<content styleCode="sans-serif">- -&gt;
+General: Pioglitazone hydrochloride, Hematologic
+&lt;- -</content>- -&gt;
+		
+		
+	
+</linkHtml>
+</content>).</paragraph>
+</text>
+</section>
+</component>
+<component>
+<section ID="section008sub3-012">
+<id root="section008sub3-012"/>
+<!-- <id compId="section008sub3-012" root="section008sub3-012"/> -->
+<title styleCode="run-in">
+<content styleCode="underline">Serum Transaminase Levels</content>: </title>
+<text>
+<paragraph>During all clinical studies in the U.S., 14 of 4780 (0.30%) patients treated with pioglitazone had ALT values ≥ 3 times the upper limit of normal during treatment. All patients with <?penta [ch?>follow-<?penta [ch?>up values had reversible elevations in ALT. In the population of patients treated with pioglitazone, mean values for bilirubin, AST, ALT, alkaline phosphatase, and GGT were decreased at the final visit compared with baseline. Fewer than 0.9% of patients treated with pioglitazone were withdrawn from clinical trials in the U.S. due to abnormal liver function tests.</paragraph> <paragraph styleCode="SeeAlso_crossref">In <?penta [ch?>pre-<?penta [ch?>approval clinical trials, there were no cases of idiosyncratic drug reactions leading to hepatic failure (see <content styleCode="cross-ref">
+<linkHtml href="#section007sub2-008" name="ref_section007sub2-008-003">
+
+		
+		
+			&lt;- -<content styleCode="bold">- -&gt;PRECAUTIONS&lt;- -</content>- -&gt;
+		
+		
+	, 
+		
+		
+			&lt;- -<content styleCode="sans-serif">- -&gt;
+General: Pioglitazone hydrochloride, Hepatic Effects
+&lt;- -</content>- -&gt;
+		
+		
+	
+</linkHtml>
+</content>).</paragraph>
+</text>
+</section>
+</component>
+<component>
+<section ID="section008sub3-013">
+<id root="section008sub3-013"/>
+<!-- <id compId="section008sub3-013" root="section008sub3-013"/> -->
+<title styleCode="run-in">
+<content styleCode="underline">CPK Levels:</content> </title>
+<text>
+<paragraph>During required laboratory testing in clinical trials with pioglitazone, sporadic, transient elevations in creatine phosphokinase levels (CPK) were observed. An isolated elevation to greater than 10 times the upper limit of normal was noted in 9 patients (values of 2150 to 11400 IU/L). Six of these patients continued to receive pioglitazone, two patients had completed receiving study medication at the time of the elevated value and one patient discontinued study medication due to the elevation. These elevations resolved without any apparent clinical sequelae. The relationship of these events to pioglitazone therapy is unknown.</paragraph>
+</text>
+</section>
+</component>
+</section>
+</component>
+</section>
+</component>
+</section>
+</component>
+<component>
+<section ID="section009">
+<id root="section009"/>
+<!-- <id compId="section009" root="section009"/> -->
+<code code="34088-5" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="OVERDOSAGE_SECTION"/>
+<title>OVERDOSAGE</title>
+<component>
+<section ID="section009sub1-001">
+<id root="section009sub1-001"/>
+<!-- <id compId="section009sub1-001" root="section009sub1-001"/> -->
+<title>
+<content styleCode="italics">
+<?penta [sp[cf2]?>Pioglitazone hydrochloride<?penta [rp?>
+</content>
+</title>
+<text>
+<paragraph>During controlled clinical trials, one case of overdose with pioglitazone was reported. A male patient took 120 mg per day for four days, then 180 mg per day for seven days. The patient denied any clinical symptoms during this period.</paragraph> <paragraph>In the event of overdosage, appropriate supportive treatment should be initiated according to patient’s clinical signs and symptoms.</paragraph>
+</text>
+</section>
+</component>
+<component>
+<section ID="section009sub1-002">
+<id root="section009sub1-002"/>
+<!-- <id compId="section009sub1-002" root="section009sub1-002"/> -->
+<title>
+<?penta [sp[cf2]?>Glimepiride<?penta [rp?>
+</title>
+<text>
+<paragraph>Overdosage of sulfonylureas, including glimepiride, can produce hypoglycemia. Mild hypoglycemic symptoms without loss of consciousness or neurologic findings should be treated aggressively with oral glucose and adjustments in drug dosage and/or meal patterns. Close monitoring should continue until the physician is assured that the patient is out of danger. Severe hypoglycemic reactions with coma, seizure, or other neurological impairment occur infrequently, but constitute medical emergencies requiring <?penta [ch?>immediate hospitalization. If hypoglycemic coma is diagnosed or suspected, the patient should be given a rapid intravenous injection of concentrated (50%) glucose solution. This should be followed by a continuous infusion of a more dilute (10%) glucose solution at a rate that will maintain the blood glucose at a level above 100 mg/dL. Patients should be closely monitored for a minimum of 24 to 48 hours, because hypoglycemia may recur after apparent clinical recovery.</paragraph>
+</text>
+</section>
+</component>
+</section>
+</component>
+<component>
+<section ID="section010">
+<id root="section010"/>
+<!-- <id compId="section010" root="section010"/> -->
+<code code="34068-7" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="DOSAGE_ADMINISTRATION_SECTION"/>
+<title>DOSAGE AND ADMINISTRATION</title>
+<component>
+<section ID="section010sub1-001">
+<id root="section010sub1-001"/>
+<!-- <id compId="section010sub1-001" root="section010sub1-001"/> -->
+<title>
+<content styleCode="bold">General</content>
+</title>
+<text>
+<paragraph>The use of antihyperglycemic therapy in the management of type 2 diabetes should be individualized on the basis of effectiveness and tolerability. Failure to follow an appropriate dosage regimen may precipitate hypoglycemia.</paragraph>
+</text>
+</section>
+</component>
+<component>
+<section ID="section010sub1-002">
+<id root="section010sub1-002"/>
+<!-- <id compId="section010sub1-002" root="section010sub1-002"/> -->
+<title>
+<content styleCode="bold">Dosage Recommendations</content>
+</title>
+<text>
+<paragraph>Selecting the starting dose of DUETACT should be based on the patient's current regimen of pioglitazone and/or sulfonylurea. Those patients who may be more sensitive to antihyperglycemic drugs should be monitored carefully during dose adjustment. It is recommended that a single dose of DUETACT be administered once daily with the first main meal.</paragraph>
+</text>
+</section>
+</component>
+<component>
+<section ID="section010sub1-003">
+<id root="section010sub1-003"/>
+<!-- <id compId="section010sub1-003" root="section010sub1-003"/> -->
+<title>
+<content styleCode="bold">Starting dose for patients currently on glimepiride monotherapy</content>
+</title>
+<text>
+<paragraph>Based on the usual starting dose of pioglitazone (15 mg or 30 mg daily), DUETACT may be initiated at 30 mg/2 mg or 30 mg/4 mg tablet strengths once daily, and adjusted after assessing adequacy of therapeutic response.</paragraph> <paragraph styleCode="SeeAlso_crossref">For patients with type 2 diabetes and systolic dysfunction, see <content styleCode="cross-ref">
+<linkHtml href="#section010sub1-007" name="ref_section010sub1-007-005">
+
+		
+		
+			&lt;- -<content styleCode="bold">- -&gt;DOSAGE AND ADMINISTRATION, Special Patient Populations
+&lt;- -</content>- -&gt;
+		
+		
+	
+</linkHtml>
+</content>.</paragraph>
+</text>
+</section>
+</component>
+<component>
+<section ID="section010sub1-004">
+<id root="section010sub1-004"/>
+<!-- <id compId="section010sub1-004" root="section010sub1-004"/> -->
+<title>
+<content styleCode="bold">Starting dose for patients currently on pioglitazone monotherapy</content>
+</title>
+<text>
+<paragraph>Based on the usual starting doses of glimepiride (1 mg or 2 mg once daily), and pioglitazone 15 mg or 30 mg, <?penta [ch?>DUETACT may be initiated at 30 mg/2 mg once daily,<?penta [fj?> and adjusted after assessing adequacy of therapeutic response.</paragraph> <paragraph styleCode="SeeAlso_crossref">For patients who are not currently on glimepiride and may be more sensitive to hypoglycemia, see <content styleCode="cross-ref">
+<linkHtml href="#section010sub1-007" name="ref_section010sub1-007-006">
+
+		
+		
+			&lt;- -<content styleCode="bold">- -&gt;DOSAGE AND ADMINISTRATION, Special Patient Populations
+&lt;- -</content>- -&gt;
+		
+		
+	.</linkHtml>
+</content>
+</paragraph>
+</text>
+</section>
+</component>
+<component>
+<section ID="section010sub1-005">
+<id root="section010sub1-005"/>
+<!-- <id compId="section010sub1-005" root="section010sub1-005"/> -->
+<title>
+<content styleCode="bold">Starting dose for patients switching from combination therapy of pioglitazone plus glimepiride as separate tablets</content>
+</title>
+<text>
+<paragraph>DUETACT may be initiated with 30 mg/2 mg or 30 mg/4 mg tablet strengths based on the dose of pioglitazone and glimepiride already being taken. Patients who are not controlled with 15 mg of pioglitazone in combination with glimepiride should be carefully monitored when switched to DUETACT.</paragraph>
+</text>
+</section>
+</component>
+<component>
+<section ID="section010sub1-006">
+<id root="section010sub1-006"/>
+<!-- <id compId="section010sub1-006" root="section010sub1-006"/> -->
+<title>
+<content styleCode="bold">Starting dose for patients currently on a different<?penta [fj?> sulfonylurea monotherapy or switching from combination therapy of pioglitazone plus a different sulfonylurea (e.g. glyburide, glipizide, chlorpropamide, tolbutamide, acetohexamide)</content>
+</title>
+<text>
+<paragraph>No exact dosage relationship exists between glimepiride and the other sulfonylurea agents. Therefore, based on the maximum starting dose of 2 mg glimepiride, DUETACT should be limited initially to a starting dose of 30 mg/2 mg once daily, and adjusted after assessing adequacy of therapeutic response.</paragraph> <paragraph>Any change in diabetic therapy should be undertaken with care and appropriate monitoring as changes in glycemic control can occur. Patients should be observed carefully for hypoglycemia (1-2 weeks) when being transferred to <?penta [ch?>DUETACT, especially from longer <?penta [ch?>half-<?penta [ch?>life sulfonylureas (e.g. chlorpropamide) due to potential overlapping of drug effect.</paragraph> <paragraph>Sufficient time should be given to assess adequacy of therapeutic response. Ideally, the response to therapy should be evaluated using A1C, which is a better indicator of <?penta [ch?>long-<?penta [ch?>term glycemic control than FPG alone. A1C reflects glycemia over the past two to three months. In clinical use, it is recommended that patients be treated with DUETACT for a period of time adequate to evaluate change in A1C<?penta [fj?> (8-12 weeks) unless glycemic control as measured by FPG deteriorates.</paragraph>
+</text>
+</section>
+</component>
+<component>
+<section ID="section010sub1-007">
+<id root="section010sub1-007"/>
+<!-- <id compId="section010sub1-007" root="section010sub1-007"/> -->
+<title>
+<content styleCode="bold">Special Patient Populations</content>
+</title>
+<text>
+<paragraph>DUETACT is not recommended for use in pregnancy, nursing mothers or for use in pediatric patients.</paragraph> <paragraph styleCode="SeeAlso_crossref">In elderly, debilitated, or malnourished patients, or in patients with renal or hepatic insufficiency, the initial dosing, dose increments, and maintenance dosage of DUETACT should be conservative to avoid hypoglycemic reactions. These patients should be started at 1 mg of glimepiride prior to prescribing DUETACT. During initiation of <?penta [ch?>DUETACT therapy and any subsequent dose adjustment, patients should be observed carefully for hypoglycemia (see <content styleCode="cross-ref">
+<linkHtml href="#section007sub2-010" name="ref_section007sub2-010-002">
+
+		
+		
+			&lt;- -<content styleCode="bold">- -&gt;PRECAUTIONS&lt;- -</content>- -&gt;
+		
+		
+	, 
+		
+		
+			&lt;- -<content styleCode="sans-serif">- -&gt;
+General: Glimepiride, Hypoglycemia
+&lt;- -</content>- -&gt;
+		
+		
+	
+</linkHtml>
+</content>).</paragraph> <paragraph styleCode="SeeAlso_crossref">Therapy with DUETACT should not be initiated if the patient exhibits clinical evidence of active liver disease or increased serum transaminase levels (ALT greater than 2.5 times the upper limit of normal) at start of therapy (see <content styleCode="cross-ref">
+<linkHtml href="#section007sub2-008" name="ref_section007sub2-008-004">
+
+		
+		
+			&lt;- -<content styleCode="bold">- -&gt;PRECAUTIONS&lt;- -</content>- -&gt;
+		
+		
+	, 
+		
+		
+			&lt;- -<content styleCode="sans-serif">- -&gt;
+General: Pioglitazone hydrochloride, Hepatic Effects
+&lt;- -</content>- -&gt;
+		
+		
+	
+</linkHtml>
+</content> and <content styleCode="cross-ref">
+<linkHtml href="#section003sub3-024" name="ref_section003sub3-024-001">
+
+		
+		
+			&lt;- -<content styleCode="bold">- -&gt;CLINICAL PHARMACOLOGY&lt;- -</content>- -&gt;
+		
+		
+	, 
+		
+		
+			&lt;- -<content styleCode="sans-serif">- -&gt;
+Special Populations, Hepatic Insufficiency: 
+Pioglitazone hydrochloride
+
+&lt;- -</content>- -&gt;
+		
+		
+	
+</linkHtml>
+</content>). Liver enzyme monitoring is recommended in all patients prior to initiation of therapy with DUETACT and periodically thereafter (see <content styleCode="cross-ref">
+<linkHtml href="#section007sub2-008" name="ref_section007sub2-008-005">
+
+		
+		
+			&lt;- -<content styleCode="bold">- -&gt;PRECAUTIONS&lt;- -</content>- -&gt;
+		
+		
+	, 
+		
+		
+			&lt;- -<content styleCode="sans-serif">- -&gt;
+General: Pioglitazone hydrochloride, Hepatic Effects
+&lt;- -</content>- -&gt;
+		
+		
+	
+</linkHtml>
+</content> and <content styleCode="cross-ref">
+<linkHtml href="#section007sub1-012" name="ref_section007sub1-012-001">
+
+		
+		
+			&lt;- -<content styleCode="bold">- -&gt;PRECAUTIONS, Laboratory Tests
+&lt;- -</content>- -&gt;
+		
+		
+	
+</linkHtml>
+</content>).</paragraph> <paragraph styleCode="SeeAlso_crossref">The lowest approved dose of DUETACT therapy should be prescribed to patients with type 2 diabetes and systolic dysfunction only after titration from 15 mg to 30 mg of pioglitazone has been safely tolerated. If subsequent dose adjustment is necessary, patients should be carefully monitored for weight gain, edema, or signs and symptoms of CHF exacerbation (see <content styleCode="cross-ref">
+<linkHtml href="#section006sub2-004" name="ref_section006sub2-004-002">
+
+		
+		
+			&lt;- -<content styleCode="bold">- -&gt;WARNINGS&lt;- -</content>- -&gt;
+		
+		
+	, 
+		
+		
+			&lt;- -<content styleCode="sans-serif">- -&gt;
+Pioglitazone Hydrochloride, Cardiac Failure and Other Cardiac Effects
+&lt;- -</content>- -&gt;
+		
+		
+	
+</linkHtml>
+</content>).</paragraph>
+</text>
+</section>
+</component>
+<component>
+<section ID="section010sub1-008">
+<id root="section010sub1-008"/>
+<!-- <id compId="section010sub1-008" root="section010sub1-008"/> -->
+<title>
+<content styleCode="bold">Maximum Recommended Dose</content>
+</title>
+<text>
+<paragraph>DUETACT tablets are available as a 30 mg pioglitazone plus 2 mg glimepiride or a 30 mg pioglitazone plus 4 mg glimepiride formulation for oral administration. The maximum recommended daily dose for pioglitazone is 45 mg and the maximum recommended daily dose for glimepiride is 8 mg.</paragraph> <paragraph>DUETACT should therefore not be given more than once daily at any of the tablet strengths.</paragraph>
+</text>
+</section>
+</component>
+</section>
+</component>
+<component>
+<section ID="section011">
+<id root="section011"/>
+<!-- <id compId="section011" root="section011"/> -->
+<code code="34069-5" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="HOW_SUPPLIED_SECTION"/>
+<title>HOW SUPPLIED</title>
+<text>
+<paragraph>DUETACT is available in 30 mg pioglitazone plus 2 mg glimepiride or 30 mg pioglitazone plus 4 mg glimepiride tablets as follows:</paragraph> <paragraph>30 mg/2 mg tablet: white to <?penta [ch?>off-<?penta [ch?>white, round, convex, uncoated tablet, debossed with 30/2 on one side and 4833G on the other, available in:</paragraph> <paragraph styleCode="NDC">NDC <?penta [ch?>64764-<?penta [ch?>302-<?penta [ch?>30 Bottles of 30 tablets with desiccant</paragraph> <paragraph styleCode="NDC">NDC <?penta [ch?>64764-<?penta [ch?>302-<?penta [ch?>90 Bottles of 90 tablets with desiccant</paragraph> <paragraph>30 mg/4 mg tablet: white to <?penta [ch?>off-<?penta [ch?>white, round, convex, uncoated tablet, debossed with 30/4 on one side and 4833G on the other, available in:</paragraph> <paragraph styleCode="NDC">NDC <?penta [ch?>64764-<?penta [ch?>304-<?penta [ch?>30 Bottles of 30 tablets with desiccant</paragraph> <paragraph styleCode="NDC">NDC <?penta [ch?>64764-<?penta [ch?>304-<?penta [ch?>90 Bottles of 90 tablets with desiccant</paragraph>
+</text>
+</section>
+</component>
+<component>
+<section ID="section012">
+<id root="section012"/>
+<!-- <id compId="section012" root="section012"/> -->
+<title>STORAGE</title>
+<text>
+<paragraph>
+<content styleCode="bold">Store at 25°C (77°F); excursions permitted to 15-30°C (59-86°F) [see USP Controlled Room Temperature]. Keep container tightly closed and protect from moisture and hu<?penta [ch?>midity.</content>
+</paragraph>
+</text>
+</section>
+</component>
+<component>
+<section ID="section013">
+<id root="section013"/>
+<!-- <id compId="section013" root="section013"/> -->
+<code code="38056-8" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="SUPPLEMENTAL_PATIENT_MATERIAL_SECTION"/>
+<title>HUMAN OPHTHALMOLOGY DATA</title>
+<component>
+<section ID="section013sub1-001">
+<id root="section013sub1-001"/>
+<!-- <id compId="section013sub1-001" root="section013sub1-001"/> -->
+<title language="local">
+<content styleCode="plain-text">
+</content> <content styleCode="sans-serif">
+<content styleCode="italics">Glimepiride</content>
+</content>
+</title>
+<text>
+<paragraph>Ophthalmic examinations were carried out in over 500 subjects during <?penta [ch?>long-<?penta [ch?>term studies using the methodology of Taylor and West and Laties et al. No significant differences were seen between glimepiride and glyburide in the number of subjects with clinically important changes in visual acuity, intraocular tension, or in any of the five <?penta [ch?>lens-<?penta [ch?>related variables examined.</paragraph> <paragraph>Ophthalmic examinations were carried out during <?penta [ch?>long-<?penta [ch?>term studies using the method of Chylack et al. No significant or clinically meaningful differences were seen between glimepiride and glipizide with respect to cataract progression by subjective LOCS II grading and objective image analysis systems, visual acuity, intraocular pressure, and general ophthalmic examination.</paragraph>
+</text>
+</section>
+</component>
+</section>
+</component>
+<component>
+<section ID="section014">
+<id root="section014"/>
+<!-- <id compId="section014" root="section014"/> -->
+<code code="CLOSER" codeSystem="comp" codeSystemName="comp" displayName="Comp-closer_section"/>
+<text>
+<paragraph>
+<content styleCode="bold">Rx only</content>
+</paragraph> <paragraph>ACTOS<sup>®</sup> and DUETACT™ are trademarks of Takeda Pharmaceutical Company Limited and used under license by Takeda Pharmaceuticals America, Inc.</paragraph> <paragraph>Manufactured by:</paragraph> <paragraph>
+<content styleCode="bold">Takeda Pharmaceutical Company Limited</content>
+</paragraph> <paragraph>540-8645 Osaka, JAPAN</paragraph> <paragraph>Marketed by:</paragraph> <paragraph>
+<content styleCode="bold">Takeda Pharmaceuticals America, Inc.</content>
+</paragraph> <paragraph>475 Half Day Road</paragraph> <paragraph>Lincolnshire, IL 60069</paragraph> <paragraph>Item No: 05-1120<content styleCode="space-leader-fill">
+</content>Rev. Date: 7/06</paragraph> <paragraph>L-PI0SU-00006</paragraph> <paragraph styleCode="ProdGuide_crossref">334</paragraph>
+</text>
+</section>
+</component>
+<!--Inserts sections-->
+<!--Float Figures inserts section-->
+<component>
+<section type="inserts">
+<?sgmlp pgbrk pg="3227"?>
+<id root="section999Fg"/>
+<!-- <id compId="section999Fg" root="section999Fg"/> -->
+<code code="FlFgIS" codeSystem="comp" codeSystemName="comp" displayName="Float-Figures_inserts_section"/>
+<component>
+<observationMedia ID="MM1">
+<value mediaType="image/tiff">
+<reference value="80750250_fg01.tif">
+</reference>
+</value>
+</observationMedia>
+</component>
+<component>
+<observationMedia ID="MM2">
+<value mediaType="image/tiff">
+<reference value="80750250_fg02.tif">
+</reference>
+</value>
+</observationMedia>
+</component>
+</section>
+</component>
+<!--Float Footnotes inserts section-->
+<component>
+<section ID="section999Fn" type="inserts">
+<id root="section999Fn"/>
+<!-- <id compId="section999Fn" root="section999Fn"/> -->
+<code code="FlFnIS" codeSystem="comp" codeSystemName="comp" displayName="Float-Footnotes_inserts_section"/>
+</section>
+</component>
+<!--Float Tables inserts section-->
+<component>
+<section ID="section999Tb" type="inserts">
+<id root="section999Tb"/>
+<!-- <id compId="section999Tb" root="section999Tb"/> -->
+<code code="FlTbIS" codeSystem="comp" codeSystemName="comp" displayName="Float-Tables_inserts_section"/>
+<text>
+<!-- CALS Table from SPLPlus:<table-wrap id="pdr8075-0250-tbl001" insert-type="float" tablewidth="2pgcol">
+<cals-table frame="bottom">
+<title>
+<content styleCode="bold">Table 1. Mean (SD) Pharmacokinetic Parameters for DUETACT</content>
+</title>
+<tgroup cols="10" colsep="g.6,v7">
+<colspec colname="col1" colwidth="4" align="center"/>
+<colspec colname="col2" align="center"/>
+<colspec colname="col3" align="center"/>
+<colspec colname="col4" align="center"/>
+<colspec colname="col5" align="center"/>
+<colspec colname="col6" align="center"/>
+<colspec colname="col7" align="center"/>
+<colspec colname="col8" align="center"/>
+<colspec colname="col9" align="center"/>
+<colspec colname="col10" align="center"/>
+<thead>
+<row rowsep="1">
+<entry colname="col1">
+<content styleCode="bold">Regimen</content>
+</entry>
+<entry colname="col2">
+</entry>
+<entry colname="col3">
+<content styleCode="bold">N</content>
+</entry>
+<entry colname="col4">
+<content styleCode="bold">AUC(0&#x2013;inf)<br/>(ng&#x00B7;h/mL)</content>
+</entry>
+<entry colname="col5">
+<content styleCode="bold">N</content>
+</entry>
+<entry colname="col6">
+<content styleCode="bold">C<sub>max</sub>
+<br/>(ng&#x002F;mL)</content>
+</entry>
+<entry colname="col7">
+<content styleCode="bold">N</content>
+</entry>
+<entry colname="col8">
+<content styleCode="bold">T<sub>max</sub>
+<br/>(h)</content>
+</entry>
+<entry colname="col9">
+<content styleCode="bold">N</content>
+</entry>
+<entry colname="col10">
+<content styleCode="bold">T<sub>&#x00BD;</sub>
+<br/>(h)</content>
+</entry>
+</row>
+</thead>
+<tbody>
+<row valign="middle">
+<entry colname="col1" morerows="1">30&#x00A0;mg&#x002F;2&#x00A0;mg<br/>DUETACT</entry>
+<entry colname="col2">pioglitazone</entry>
+<entry colname="col3">32</entry>
+<entry colname="col4">10116<br/>(3641)</entry>
+<entry colname="col5">34</entry>
+<entry colname="col6">986<br/>(433)</entry>
+<entry colname="col7">34</entry>
+<entry colname="col8">2.12<br/>(1.10)</entry>
+<entry colname="col9">32</entry>
+<entry colname="col10">10.43<br/>(5.08)</entry>
+</row>
+<?penta [bt[ol6][ep[et[bt[nt[ds9][ol0][ru7,,1][ep[et?>
+<row valign="middle" rowsep="1">
+<entry colname="col2">glimepiride</entry>
+<entry colname="col3">34</entry>
+<entry colname="col4">871<br/>(342)</entry>
+<entry colname="col5">34</entry>
+<entry colname="col6">168<br/>(57.1)</entry>
+<entry colname="col7">34</entry>
+<entry colname="col8">2.53<br/>(0.73)</entry>
+<entry colname="col9">34</entry>
+<entry colname="col10">8.23<br/>(4.18)</entry>
+</row>
+<row valign="middle">
+<entry colname="col1" morerows="1">30&#x00A0;mg<br/>pioglitazone &#x002B;<br/>2&#x00A0;mg<br/>glimepiride<br/>tablets</entry>
+<entry colname="col2">pioglitazone</entry>
+<entry colname="col3">32</entry>
+<entry colname="col4">11870<br/>(3779)</entry>
+<entry colname="col5">34</entry>
+<entry colname="col6">1011<br/>(406)</entry>
+<entry colname="col7">34</entry>
+<entry colname="col8">2.22<br/>(1.38)</entry>
+<entry colname="col9">32</entry>
+<entry colname="col10">11.83<br/>(4.39)</entry>
+</row>
+<?penta [bt[ol6][ep[et[bt[nt[ds9][ol0][ru7,,1][ep[et?>
+<row valign="middle" rowsep="1">
+<entry colname="col2">glimepiride</entry>
+<entry colname="col3">34</entry>
+<entry colname="col4">863<br/>(340)</entry>
+<entry colname="col5">34</entry>
+<entry colname="col6">190<br/>(61.6)</entry>
+<entry colname="col7">34</entry>
+<entry colname="col8">2.29<br/>(1.17)</entry>
+<entry colname="col9">34</entry>
+<entry colname="col10">6.47<br/>(2.76)</entry>
+</row>
+<row rowsep="1">
+<entry namest="col1" nameend="col10">
+<?penta [ol3]?>
+</entry>
+</row>
+<row valign="middle">
+<entry colname="col1" morerows="1">30&#x00A0;mg&#x002F;4&#x00A0;mg<br/>DUETACT</entry>
+<entry colname="col2">pioglitazone</entry>
+<entry colname="col3">36</entry>
+<entry colname="col4">10676<br/>(3031)</entry>
+<entry colname="col5">37</entry>
+<entry colname="col6">1103<br/>(317)</entry>
+<entry colname="col7">37</entry>
+<entry colname="col8">1.84<br/>(0.96)</entry>
+<entry colname="col9">36</entry>
+<entry colname="col10">9.64<br/>(3.63)</entry>
+</row>
+<?penta [bt[ol6][ep[et[bt[nt[ds9][ol0][ru7,,1][ep[et?>
+<row valign="middle" rowsep="1">
+<entry colname="col2">glimepiride</entry>
+<entry colname="col3">36</entry>
+<entry colname="col4">2435<br/>(3063)</entry>
+<entry colname="col5">37</entry>
+<entry colname="col6">308<br/>(110)</entry>
+<entry colname="col7">37</entry>
+<entry colname="col8">2.71<br/>(0.67)</entry>
+<entry colname="col9">36</entry>
+<entry colname="col10">11.01<br/>(5.34)</entry>
+</row>
+<row valign="middle">
+<entry colname="col1" morerows="1">30&#x00A0;mg<br/>pioglitazone &#x002B;<br/>4&#x00A0;mg<br/>glimepiride<br/>tablets</entry>
+<entry colname="col2">pioglitazone</entry>
+<entry colname="col3">36</entry>
+<entry colname="col4">12179<br/>(3481)</entry>
+<entry colname="col5">37</entry>
+<entry colname="col6">1188<br/>(342)</entry>
+<entry colname="col7">37</entry>
+<entry colname="col8">2.17<br/>(1.06)</entry>
+<entry colname="col9">36</entry>
+<entry colname="col10">10.47<br/>(4.65)</entry>
+</row>
+<?penta [bt[ol6][ep[et[bt[nt[ds9][ol0][ru7,,1][ep[et?>
+<row valign="middle">
+<entry colname="col2">glimepiride</entry>
+<entry colname="col3">36</entry>
+<entry colname="col4">2432<br/>(3217)</entry>
+<entry colname="col5">37</entry>
+<entry colname="col6">360<br/>(133)</entry>
+<entry colname="col7">37</entry>
+<entry colname="col8">2.73<br/>(1.15)</entry>
+<entry colname="col9">36</entry>
+<entry colname="col10">9.56<br/>(4.32)</entry>
+</row>
+</tbody>
+</tgroup>
+</cals-table>
+</table-wrap>END of CALS Table --> <table ID="pdr8075-0250-tbl001" width="595" frame="below">
+<caption>
+<!-- <content styleCode="bold"> -->Table 1. Mean (SD) Pharmacokinetic Parameters for DUETACT<!-- </content> -->
+</caption>
+<colgroup styleCode="colsep-1.6">
+<col ID="pdr8075-0250-tbl001-col1" width="4" align="center"/>
+<col ID="pdr8075-0250-tbl001-col2" align="center"/>
+<col ID="pdr8075-0250-tbl001-col3" align="center"/>
+<col ID="pdr8075-0250-tbl001-col4" align="center"/>
+<col ID="pdr8075-0250-tbl001-col5" align="center"/>
+<col ID="pdr8075-0250-tbl001-col6" align="center"/>
+<col ID="pdr8075-0250-tbl001-col7" align="center"/>
+<col ID="pdr8075-0250-tbl001-col8" align="center"/>
+<col ID="pdr8075-0250-tbl001-col9" align="center"/>
+<col ID="pdr8075-0250-tbl001-col10" align="center"/>
+</colgroup>
+<thead>
+<tr styleCode="rowsep-1">
+<th>
+<content styleCode="bold">Regimen</content>
+</th>
+<th>
+</th>
+<th>
+<content styleCode="bold">N</content>
+</th>
+<th>
+<content styleCode="bold">AUC(0–inf)<br/>(ng·h/mL)</content>
+</th>
+<th>
+<content styleCode="bold">N</content>
+</th>
+<th>
+<content styleCode="bold">C<sub>max</sub> <br/>(ng/mL)</content>
+</th>
+<th>
+<content styleCode="bold">N</content>
+</th>
+<th>
+<content styleCode="bold">T<sub>max</sub> <br/>(h)</content>
+</th>
+<th>
+<content styleCode="bold">N</content>
+</th>
+<th>
+<content styleCode="bold">T<sub>½</sub> <br/>(h)</content>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr valign="middle">
+<td rowspan="1">30 mg/2 mg<br/>DUETACT</td>
+<td>pioglitazone</td>
+<td>32</td>
+<td>10116<br/>(3641)</td>
+<td>34</td>
+<td>986<br/>(433)</td>
+<td>34</td>
+<td>2.12<br/>(1.10)</td>
+<td>32</td>
+<td>10.43<br/>(5.08)</td>
+</tr>
+<?penta [bt[ol6][ep[et[bt[nt[ds9][ol0][ru7,,1][ep[et?>
+<tr valign="middle" styleCode="rowsep-1">
+<td>glimepiride</td>
+<td>34</td>
+<td>871<br/>(342)</td>
+<td>34</td>
+<td>168<br/>(57.1)</td>
+<td>34</td>
+<td>2.53<br/>(0.73)</td>
+<td>34</td>
+<td>8.23<br/>(4.18)</td>
+</tr>
+<tr valign="middle">
+<td rowspan="1">30 mg<br/>pioglitazone +<br/>2 mg<br/>glimepiride<br/>tablets</td>
+<td>pioglitazone</td>
+<td>32</td>
+<td>11870<br/>(3779)</td>
+<td>34</td>
+<td>1011<br/>(406)</td>
+<td>34</td>
+<td>2.22<br/>(1.38)</td>
+<td>32</td>
+<td>11.83<br/>(4.39)</td>
+</tr>
+<?penta [bt[ol6][ep[et[bt[nt[ds9][ol0][ru7,,1][ep[et?>
+<tr valign="middle" styleCode="rowsep-1">
+<td>glimepiride</td>
+<td>34</td>
+<td>863<br/>(340)</td>
+<td>34</td>
+<td>190<br/>(61.6)</td>
+<td>34</td>
+<td>2.29<br/>(1.17)</td>
+<td>34</td>
+<td>6.47<br/>(2.76)</td>
+</tr>
+<tr styleCode="rowsep-1">
+<td colspan="10">
+<?penta [ol3]?>
+</td>
+</tr>
+<tr valign="middle">
+<td rowspan="1">30 mg/4 mg<br/>DUETACT</td>
+<td>pioglitazone</td>
+<td>36</td>
+<td>10676<br/>(3031)</td>
+<td>37</td>
+<td>1103<br/>(317)</td>
+<td>37</td>
+<td>1.84<br/>(0.96)</td>
+<td>36</td>
+<td>9.64<br/>(3.63)</td>
+</tr>
+<?penta [bt[ol6][ep[et[bt[nt[ds9][ol0][ru7,,1][ep[et?>
+<tr valign="middle" styleCode="rowsep-1">
+<td>glimepiride</td>
+<td>36</td>
+<td>2435<br/>(3063)</td>
+<td>37</td>
+<td>308<br/>(110)</td>
+<td>37</td>
+<td>2.71<br/>(0.67)</td>
+<td>36</td>
+<td>11.01<br/>(5.34)</td>
+</tr>
+<tr valign="middle">
+<td rowspan="1">30 mg<br/>pioglitazone +<br/>4 mg<br/>glimepiride<br/>tablets</td>
+<td>pioglitazone</td>
+<td>36</td>
+<td>12179<br/>(3481)</td>
+<td>37</td>
+<td>1188<br/>(342)</td>
+<td>37</td>
+<td>2.17<br/>(1.06)</td>
+<td>36</td>
+<td>10.47<br/>(4.65)</td>
+</tr>
+<?penta [bt[ol6][ep[et[bt[nt[ds9][ol0][ru7,,1][ep[et?>
+<tr valign="middle">
+<td>glimepiride</td>
+<td>36</td>
+<td>2432<br/>(3217)</td>
+<td>37</td>
+<td>360<br/>(133)</td>
+<td>37</td>
+<td>2.73<br/>(1.15)</td>
+<td>36</td>
+<td>9.56<br/>(4.32)</td>
+</tr>
+</tbody>
+</table> <?sgmlp pgbrk pg="3228"?> <!-- CALS Table from SPLPlus:<table-wrap id="pdr8075-0250-tbl002" insert-type="float" tablewidth="2pgcol">
+<cals-table frame="top">
+<title>
+<content styleCode="bold">Table 2. Glycemic Parameters in <?penta [ch?>16-<?penta [ch?>Week and <?penta [ch?>24-<?penta [ch?>Week Pioglitazone Hydrochloride &#x002B; Sulfonylurea Combination Studies</content>
+</title>
+<tgroup cols="4">
+<colspec colname="col1" align="left"/>
+<colspec colname="col2" align="center"/>
+<colspec colname="col3" align="center"/>
+<colspec colname="col4" align="center"/>
+<thead>
+<row valign="top" rowsep="1">
+<entry colname="col1" align="left">
+<content styleCode="bold">Parameter</content>
+</entry>
+<entry colname="col2">
+<content styleCode="bold">Placebo &#x002B;<br/>sulfonylurea</content>
+</entry>
+<entry colname="col3">
+<content styleCode="bold">Pioglitazone<br/>15&#x00A0;mg &#x002B;<br/>sulfonylurea</content>
+</entry>
+<entry colname="col4">
+<content styleCode="bold">Pioglitazone<br/>30&#x00A0;mg &#x002B;<br/>sulfonylurea</content>
+</entry>
+</row>
+</thead>
+<tbody>
+<row rowsep="1">
+<entry colname="col1" align="center">
+<content styleCode="bold">
+<?penta [ch?>16-<?penta [ch?>Week Study</content>
+</entry>
+<entry colname="col2" align="char" char=".">
+</entry>
+<entry colname="col3" align="char" char=".">
+</entry>
+<entry colname="col4" align="char" char=".">
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="col1">
+<content styleCode="bold">A1C (%)</content>
+</entry>
+<entry colname="col2">
+<?penta [ta-1][rc?>
+<content styleCode="bold">N<?penta [hm-..5]?>&#x003D;<?penta [hm-..5]?>181</content>
+</entry>
+<entry colname="col3">
+<?penta [ta-1][rc?>
+<content styleCode="bold">N<?penta [hm-..5]?>&#x003D;<?penta [hm-..5]?>176</content>
+</entry>
+<entry colname="col4">
+<?penta [ta-1][rc?>
+<content styleCode="bold">N<?penta [hm-..5]?>&#x003D;<?penta [hm-..5]?>182</content>
+</entry>
+</row>
+<row>
+<entry colname="col1">&#x2003;Baseline mean</entry>
+<entry colname="col2">9.86</entry>
+<entry colname="col3">
+<?penta [ta.]?>10.01</entry>
+<entry colname="col4">
+<?penta [ta.]?>9.93</entry>
+</row>
+<row>
+<entry colname="col1">&#x2003;Mean change from baseline at 16 weeks</entry>
+<entry colname="col2">0.06</entry>
+<entry colname="col3">&#x2212;0.82<footnoteRef IDREF="pdr8075-0250_fn001"/>&#x002A;<footnoteRef IDREF="pdr8075-0250_fn002"/>
+<sup>&#x2020;</sup>
+</entry>
+<entry colname="col4">&#x2212;1.22<footnoteRef IDREF="pdr8075-0250_fn001"/>&#x002A;<footnoteRef IDREF="pdr8075-0250_fn002"/>
+<sup>&#x2020;</sup>
+</entry>
+</row>
+<row>
+<entry colname="col1">&#x2003;Difference in change from placebo &#x002B;</entry>
+<entry colname="col2">
+</entry>
+<entry colname="col3">&#x2212;0.88</entry>
+<entry colname="col4">&#x2212;1.28</entry>
+</row>
+<row rowsep="1">
+<entry colname="col1">&#x2003;sulfonylurea</entry>
+<entry colname="col2">
+</entry>
+<entry colname="col3">
+</entry>
+<entry colname="col4">
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="col1">
+<content styleCode="bold">Responder rate (%) <footnoteRef IDREF="pdr8075-0250_fn003"/>(a)</content>
+</entry>
+<entry colname="col2">
+<content styleCode="bold">
+<?penta [hm-.8]?>23.8</content>
+</entry>
+<entry colname="col3">
+<content styleCode="bold">56.8</content>
+</entry>
+<entry colname="col4">
+<content styleCode="bold">74.2</content>
+</entry>
+</row>
+<row>
+<entry colname="col1">
+<content styleCode="bold">FPG (mg&#x002F;dL)</content>
+</entry>
+<entry colname="col2">
+<?penta [ta-1][rc?>
+<content styleCode="bold">N<?penta [hm-..5]?>&#x003D;<?penta [hm-..5]?>182</content>
+</entry>
+<entry colname="col3">
+<?penta [ta-1][rc?>
+<content styleCode="bold">N<?penta [hm-..5]?>&#x003D;<?penta [hm-..5]?>179</content>
+</entry>
+<entry colname="col4">
+<?penta [ta-1][rc?>
+<content styleCode="bold">N<?penta [hm-..5]?>&#x003D;<?penta [hm-..5]?>186</content>
+</entry>
+</row>
+<row>
+<entry colname="col1">&#x2003;Baseline mean</entry>
+<entry colname="col2">236<?penta [hm1.6]?>
+</entry>
+<entry colname="col3">
+<?penta [ta.]?>246.8</entry>
+<entry colname="col4">
+<?penta [ta.]?>238.9</entry>
+</row>
+<row>
+<entry colname="col1">&#x2003;Mean change from baseline at 16 weeks</entry>
+<entry colname="col2">
+<?penta [hm-.4]?>5.6</entry>
+<entry colname="col3">&#x2212;33.8<footnoteRef IDREF="pdr8075-0250_fn001"/>&#x002A;<footnoteRef IDREF="pdr8075-0250_fn002"/>
+<sup>&#x2020;</sup>
+</entry>
+<entry colname="col4">&#x2212;52.3<footnoteRef IDREF="pdr8075-0250_fn001"/>&#x002A;<footnoteRef IDREF="pdr8075-0250_fn002"/>
+<sup>&#x2020;</sup>
+</entry>
+</row>
+<row>
+<entry colname="col1">&#x2003;Difference in change from placebo &#x002B;</entry>
+<entry colname="col2">
+</entry>
+<entry colname="col3">&#x2212;39.4</entry>
+<entry colname="col4">&#x2212;57.9</entry>
+</row>
+<row rowsep="1">
+<entry colname="col1">&#x2003;sulfonylurea</entry>
+<entry colname="col2">
+</entry>
+<entry colname="col3">
+</entry>
+<entry colname="col4">
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="col1">
+<content styleCode="bold">Responder rate (%) <footnoteRef IDREF="pdr8075-0250_fn004"/>(b)</content>
+</entry>
+<entry colname="col2">
+<content styleCode="bold">
+<?penta [hm-.8]?>22.0</content>
+</entry>
+<entry colname="col3">
+<content styleCode="bold">55.3</content>
+</entry>
+<entry colname="col4">
+<content styleCode="bold">67.7</content>
+</entry>
+</row>
+<row rowsep="1" valign="top">
+<entry colname="col1">
+<content styleCode="bold">Parameter</content>
+</entry>
+<entry colname="col2">
+<?penta [ta-1]?>
+<content styleCode="bold">
+<?penta [hm7]?>Pioglitazone<br/>
+<?penta [hm7]?>30&#x00A0;mg &#x002B;<br/>
+<?penta [hm7]?>sulfonylurea</content>
+</entry>
+<entry namest="col3" nameend="col4" align="center">
+<?penta [ta-1]?>
+<content styleCode="bold">Pioglitazone<br/>45&#x00A0;mg &#x002B;<br/>sulfonylurea</content>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="col1" align="center">
+<content styleCode="bold">
+<?penta [ch?>24-<?penta [ch?>Week Study</content>
+</entry>
+<entry colname="col2">
+<?penta [ta.]?>
+</entry>
+<entry namest="col3" nameend="col4">
+<?penta [ta.]?>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="col1">
+<content styleCode="bold">A1C (%)</content>
+</entry>
+<entry colname="col2">
+<?penta [ta-1]?>
+<content styleCode="bold">
+<?penta [hm7]?>N<?penta [hm-..5]?>&#x003D;<?penta [hm-..5]?>340</content>
+</entry>
+<entry namest="col3" nameend="col4" align="center">
+<?penta [ta-1][rc?>
+<content styleCode="bold">N<?penta [hm-..5]?>&#x003D;<?penta [hm-..5]?>332</content>
+</entry>
+</row>
+<row>
+<entry colname="col1">&#x2003;Baseline mean</entry>
+<entry colname="col2">
+<?penta [hm7][ta.]?>9.77</entry>
+<entry namest="col3" nameend="col4" align="center">
+<?penta [ta.][hm0p10]?>9.85</entry>
+</row>
+<row>
+<entry colname="col1">&#x2003;Mean change from baseline at 24 weeks</entry>
+<entry colname="col2">
+<?penta [hm7]?>&#x2212;1.55<footnoteRef IDREF="pdr8075-0250_fn001"/>&#x002A;</entry>
+<entry namest="col3" nameend="col4" align="center">
+<?penta [hm0p10]?>&#x2212;1.67<footnoteRef IDREF="pdr8075-0250_fn001"/>&#x002A;</entry>
+</row>
+<row rowsep="1">
+<entry colname="col1">
+<content styleCode="bold">Responder rate (%) <footnoteRef IDREF="pdr8075-0250_fn003"/>(a)</content>
+</entry>
+<entry colname="col2">
+<content styleCode="bold">
+<?penta [hm7]?>77.4</content>
+</entry>
+<entry namest="col3" nameend="col4" align="center">
+<content styleCode="bold">&#x2002;79.5</content>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="col1">
+<content styleCode="bold">FPG (mg&#x002F;dL)</content>
+</entry>
+<entry colname="col2">
+<?penta [ta-1]?>
+<content styleCode="bold">
+<?penta [hm7]?>N<?penta [hm-..5]?>&#x003D;<?penta [hm-..5]?>338</content>
+</entry>
+<entry namest="col3" nameend="col4" align="center">
+<?penta [ta-1][rc?>
+<content styleCode="bold">N<?penta [hm-..5]?>&#x003D;<?penta [hm-..5]?>329</content>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="col1">&#x2003;Baseline mean</entry>
+<entry colname="col2">
+<?penta [hm7][ta.]?>214.4</entry>
+<entry namest="col3" nameend="col4" align="center">
+<?penta [ta.]?>217.2</entry>
+</row>
+<row rowsep="1">
+<entry colname="col1">&#x2003;Mean change from baseline at 24 weeks</entry>
+<entry colname="col2">
+<?penta [hm7]?>&#x2212;51.5<footnoteRef IDREF="pdr8075-0250_fn001"/>&#x002A;</entry>
+<entry namest="col3" nameend="col4" align="center">&#x2002;&#x2212;56.1<footnoteRef IDREF="pdr8075-0250_fn001"/>&#x002A;</entry>
+</row>
+<row rowsep="1">
+<entry colname="col1">
+<content styleCode="bold">Responder rate (%) <footnoteRef IDREF="pdr8075-0250_fn004"/>(b)</content>
+</entry>
+<entry colname="col2">
+<content styleCode="bold">
+<?penta [hm7]?>63.6</content>
+</entry>
+<entry namest="col3" nameend="col4" align="center">
+<content styleCode="bold">&#x2002;71.1</content>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</cals-table>
+<footnote ID="pdr8075-0250_fn001">&#x002A; significant change from baseline p &#x2264;&#x00A0;0.050</footnote>
+<footnote ID="pdr8075-0250_fn002">
+<sup>&#x2020;</sup> significant difference from placebo plus sulfonylurea, p &#x2264;&#x00A0;0.050</footnote>
+<footnote ID="pdr8075-0250_fn003">(a)&#x00A0;patients who achieved an A1C &#x2264;&#x00A0;6.1% or &#x2265;&#x00A0;0.6% decrease from baseline</footnote>
+<footnote ID="pdr8075-0250_fn004">(b)&#x00A0;patients who achieved a decrease in FPG by &#x2265;&#x00A0;30&#x00A0;mg&#x002F;dL</footnote>
+</table-wrap>END of CALS Table --> <table ID="pdr8075-0250-tbl002" width="595" frame="above">
+<caption>
+<!-- <content styleCode="bold"> -->Table 2. Glycemic Parameters in <?penta [ch?>16-<?penta [ch?>Week and <?penta [ch?>24-<?penta [ch?>Week Pioglitazone Hydrochloride + Sulfonylurea Combination Studies<!-- </content> -->
+</caption>
+<colgroup>
+<col ID="pdr8075-0250-tbl002-col1" align="left"/>
+<col ID="pdr8075-0250-tbl002-col2" align="center"/>
+<col ID="pdr8075-0250-tbl002-col3" align="center"/>
+<col ID="pdr8075-0250-tbl002-col4" align="center"/>
+</colgroup>
+<thead>
+<tr valign="top" styleCode="rowsep-1">
+<th align="left">
+<content styleCode="bold">Parameter</content>
+</th>
+<th>
+<content styleCode="bold">Placebo +<br/>sulfonylurea</content>
+</th>
+<th>
+<content styleCode="bold">Pioglitazone<br/>15 mg +<br/>sulfonylurea</content>
+</th>
+<th>
+<content styleCode="bold">Pioglitazone<br/>30 mg +<br/>sulfonylurea</content>
+</th>
+</tr>
+</thead>
+<tfoot>
+<tr>
+<td ID="pdr8075-0250_fn001" colspan="4">* significant change from baseline p ≤ 0.050</td>
+</tr>
+<tr>
+<td ID="pdr8075-0250_fn002" colspan="4">
+<sup>†</sup> significant difference from placebo plus sulfonylurea, p ≤ 0.050</td>
+</tr>
+<tr>
+<td ID="pdr8075-0250_fn003" colspan="4">(a) patients who achieved an A1C ≤ 6.1% or ≥ 0.6% decrease from baseline</td>
+</tr>
+<tr>
+<td ID="pdr8075-0250_fn004" colspan="4">(b) patients who achieved a decrease in FPG by ≥ 30 mg/dL</td>
+</tr>
+</tfoot>
+<tbody>
+<tr styleCode="rowsep-1">
+<td align="center">
+<content styleCode="bold">
+<?penta [ch?>16-<?penta [ch?>Week Study</content>
+</td>
+<td align="char" char=".">
+</td>
+<td align="char" char=".">
+</td>
+<td align="char" char=".">
+</td>
+</tr>
+<tr styleCode="rowsep-1">
+<td>
+<content styleCode="bold">A1C (%)</content>
+</td>
+<td>
+<?penta [ta-1][rc?>
+<content styleCode="bold">N<?penta [hm-..5]?>=<?penta [hm-..5]?>181</content>
+</td>
+<td>
+<?penta [ta-1][rc?>
+<content styleCode="bold">N<?penta [hm-..5]?>=<?penta [hm-..5]?>176</content>
+</td>
+<td>
+<?penta [ta-1][rc?>
+<content styleCode="bold">N<?penta [hm-..5]?>=<?penta [hm-..5]?>182</content>
+</td>
+</tr>
+<tr>
+<td> Baseline mean</td>
+<td>9.86</td>
+<td>
+<?penta [ta.]?>10.01</td>
+<td>
+<?penta [ta.]?>9.93</td>
+</tr>
+<tr>
+<td> Mean change from baseline at 16 weeks</td>
+<td>0.06</td>
+<td>−0.82<footnoteRef IDREF="pdr8075-0250_fn001"/>* <footnoteRef IDREF="pdr8075-0250_fn002"/>
+<sup>†</sup>
+</td>
+<td>−1.22<footnoteRef IDREF="pdr8075-0250_fn001"/>* <footnoteRef IDREF="pdr8075-0250_fn002"/>
+<sup>†</sup>
+</td>
+</tr>
+<tr>
+<td> Difference in change from placebo +</td>
+<td>
+</td>
+<td>−0.88</td>
+<td>−1.28</td>
+</tr>
+<tr styleCode="rowsep-1">
+<td> sulfonylurea</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr styleCode="rowsep-1">
+<td>
+<content styleCode="bold">Responder rate (%) <footnoteRef IDREF="pdr8075-0250_fn003"/>(a)</content>
+</td>
+<td>
+<content styleCode="bold">
+<?penta [hm-.8]?>23.8</content>
+</td>
+<td>
+<content styleCode="bold">56.8</content>
+</td>
+<td>
+<content styleCode="bold">74.2</content>
+</td>
+</tr>
+<tr>
+<td>
+<content styleCode="bold">FPG (mg/dL)</content>
+</td>
+<td>
+<?penta [ta-1][rc?>
+<content styleCode="bold">N<?penta [hm-..5]?>=<?penta [hm-..5]?>182</content>
+</td>
+<td>
+<?penta [ta-1][rc?>
+<content styleCode="bold">N<?penta [hm-..5]?>=<?penta [hm-..5]?>179</content>
+</td>
+<td>
+<?penta [ta-1][rc?>
+<content styleCode="bold">N<?penta [hm-..5]?>=<?penta [hm-..5]?>186</content>
+</td>
+</tr>
+<tr>
+<td> Baseline mean</td>
+<td>236<?penta [hm1.6]?>
+</td>
+<td>
+<?penta [ta.]?>246.8</td>
+<td>
+<?penta [ta.]?>238.9</td>
+</tr>
+<tr>
+<td> Mean change from baseline at 16 weeks</td>
+<td>
+<?penta [hm-.4]?>5.6</td>
+<td>−33.8<footnoteRef IDREF="pdr8075-0250_fn001"/>* <footnoteRef IDREF="pdr8075-0250_fn002"/>
+<sup>†</sup>
+</td>
+<td>−52.3<footnoteRef IDREF="pdr8075-0250_fn001"/>* <footnoteRef IDREF="pdr8075-0250_fn002"/>
+<sup>†</sup>
+</td>
+</tr>
+<tr>
+<td> Difference in change from placebo +</td>
+<td>
+</td>
+<td>−39.4</td>
+<td>−57.9</td>
+</tr>
+<tr styleCode="rowsep-1">
+<td> sulfonylurea</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr styleCode="rowsep-1">
+<td>
+<content styleCode="bold">Responder rate (%) <footnoteRef IDREF="pdr8075-0250_fn004"/>(b)</content>
+</td>
+<td>
+<content styleCode="bold">
+<?penta [hm-.8]?>22.0</content>
+</td>
+<td>
+<content styleCode="bold">55.3</content>
+</td>
+<td>
+<content styleCode="bold">67.7</content>
+</td>
+</tr>
+<tr valign="top" styleCode="rowsep-1">
+<td>
+<content styleCode="bold">Parameter</content>
+</td>
+<td>
+<?penta [ta-1]?>
+<content styleCode="bold">
+<?penta [hm7]?>Pioglitazone<br/>
+<?penta [hm7]?> 30 mg +<br/>
+<?penta [hm7]?> sulfonylurea</content>
+</td>
+<td colspan="2" align="center">
+<?penta [ta-1]?>
+<content styleCode="bold">Pioglitazone<br/>45 mg +<br/>sulfonylurea</content>
+</td>
+</tr>
+<tr styleCode="rowsep-1">
+<td align="center">
+<content styleCode="bold">
+<?penta [ch?>24-<?penta [ch?>Week Study</content>
+</td>
+<td>
+<?penta [ta.]?>
+</td>
+<td colspan="2">
+<?penta [ta.]?>
+</td>
+</tr>
+<tr styleCode="rowsep-1">
+<td>
+<content styleCode="bold">A1C (%)</content>
+</td>
+<td>
+<?penta [ta-1]?>
+<content styleCode="bold">
+<?penta [hm7]?>N<?penta [hm-..5]?>=<?penta [hm-..5]?>340</content>
+</td>
+<td colspan="2" align="center">
+<?penta [ta-1][rc?>
+<content styleCode="bold">N<?penta [hm-..5]?>=<?penta [hm-..5]?>332</content>
+</td>
+</tr>
+<tr>
+<td> Baseline mean</td>
+<td>
+<?penta [hm7][ta.]?>9.77</td>
+<td colspan="2" align="center">
+<?penta [ta.][hm0p10]?>9.85</td>
+</tr>
+<tr>
+<td> Mean change from baseline at 24 weeks</td>
+<td>
+<?penta [hm7]?>−1.55<footnoteRef IDREF="pdr8075-0250_fn001"/>*</td>
+<td colspan="2" align="center">
+<?penta [hm0p10]?>−1.67<footnoteRef IDREF="pdr8075-0250_fn001"/>*</td>
+</tr>
+<tr styleCode="rowsep-1">
+<td>
+<content styleCode="bold">Responder rate (%) <footnoteRef IDREF="pdr8075-0250_fn003"/>(a)</content>
+</td>
+<td>
+<content styleCode="bold">
+<?penta [hm7]?>77.4</content>
+</td>
+<td colspan="2" align="center">
+<content styleCode="bold"> 79.5</content>
+</td>
+</tr>
+<tr styleCode="rowsep-1">
+<td>
+<content styleCode="bold">FPG (mg/dL)</content>
+</td>
+<td>
+<?penta [ta-1]?>
+<content styleCode="bold">
+<?penta [hm7]?>N<?penta [hm-..5]?>=<?penta [hm-..5]?>338</content>
+</td>
+<td colspan="2" align="center">
+<?penta [ta-1][rc?>
+<content styleCode="bold">N<?penta [hm-..5]?>=<?penta [hm-..5]?>329</content>
+</td>
+</tr>
+<tr styleCode="rowsep-1">
+<td> Baseline mean</td>
+<td>
+<?penta [hm7][ta.]?>214.4</td>
+<td colspan="2" align="center">
+<?penta [ta.]?>217.2</td>
+</tr>
+<tr styleCode="rowsep-1">
+<td> Mean change from baseline at 24 weeks</td>
+<td>
+<?penta [hm7]?>−51.5<footnoteRef IDREF="pdr8075-0250_fn001"/>*</td>
+<td colspan="2" align="center"> −56.1<footnoteRef IDREF="pdr8075-0250_fn001"/>*</td>
+</tr>
+<tr styleCode="rowsep-1">
+<td>
+<content styleCode="bold">Responder rate (%) <footnoteRef IDREF="pdr8075-0250_fn004"/>(b)</content>
+</td>
+<td>
+<content styleCode="bold">
+<?penta [hm7]?>63.6</content>
+</td>
+<td colspan="2" align="center">
+<content styleCode="bold"> 71.1</content>
+</td>
+</tr>
+</tbody>
+</table> <?sgmlp pgbrk pg="3229"?> <!-- CALS Table from SPLPlus:<table-wrap id="pdr8075-0250-tbl003" insert-type="float" tablewidth="2pgcol">
+<cals-table frame="bottom">
+<tgroup cols="6" colsep="g1,v7">
+<colspec colname="col1" align="center"/>
+<colspec colname="col2" align="center"/>
+<colspec colname="col3" align="center"/>
+<colspec colname="col4" align="center"/>
+<colspec colname="col5" align="center"/>
+<colspec colname="col6" align="center"/>
+<thead>
+<row rowsep="1">
+<entry namest="col1" nameend="col6">
+<content styleCode="bold">Table 3. Weight Changes (kg) from Baseline During <?penta [ch?>Double-<?penta [ch?>Blind Clinical Trials with Pioglitazone</content>
+</entry>
+</row>
+<row>
+<entry namest="col1" nameend="col2">
+<br/>
+<br/>
+</entry>
+<entry colname="col3" rowsep="1">
+<content styleCode="bold">Control Group<br/>(Placebo)</content>
+</entry>
+<entry colname="col4" rowsep="1">
+<content styleCode="bold">pioglitazone<br/>15&#x00A0;mg</content>
+</entry>
+<entry colname="col5" rowsep="1">
+<content styleCode="bold">pioglitazone<br/>30&#x00A0;mg</content>
+</entry>
+<entry colname="col6" rowsep="1">
+<content styleCode="bold">pioglitazone<br/>45&#x00A0;mg</content>
+</entry>
+</row>
+<row rowsep="1">
+<entry namest="col1" nameend="col2">
+<br/>
+<br/>
+</entry>
+<entry colname="col3">Median<br/>(25<sup>th</sup>/75<sup>th</sup>
+<br/>percentile)</entry>
+<entry colname="col4">Median<br/>(25<sup>th</sup>/75<sup>th</sup>
+<br/>percentile)</entry>
+<entry colname="col5">Median<br/>(25<sup>th</sup>/75<sup>th</sup>
+<br/>percentile)</entry>
+<entry colname="col6">Median<br/>(25<sup>th</sup>/75<sup>th</sup>
+<br/>percentile)</entry>
+</row>
+</thead>
+<tbody>
+<row rowsep="1" valign="middle">
+<entry colname="col1">
+<content styleCode="bold">Monotherapy</content>
+</entry>
+<entry colname="col2">
+</entry>
+<entry colname="col3">&#x2212;1.4 (&#x2212;2.7&#x002F;0.0)<br/>n<?penta [hm-..5]?>&#x003D;<?penta [hm-..5]?>256</entry>
+<entry colname="col4">0.9 (&#x2212;0.5&#x002F;3.4)<br/>n<?penta [hm-..5]?>&#x003D;<?penta [hm-..5]?>79</entry>
+<entry colname="col5">1.0 (&#x2212;0.9&#x002F;3.4)<br/>n<?penta [hm-..5]?>&#x003D;<?penta [hm-..5]?>188</entry>
+<entry colname="col6">2.6 (0.2&#x002F;5.4)<br/>n<?penta [hm-..5]?>&#x003D;<?penta [hm-..5]?>79</entry>
+</row>
+<?penta [bt[ol3][ep[et[ol0][ru7][ep?>
+<row valign="middle">
+<entry colname="col1" morerows="2">
+<content styleCode="bold">Combination<br/>Therapy</content>
+</entry>
+<entry colname="col2">Sulfonylurea</entry>
+<entry colname="col3">&#x2212;0.5 (&#x2212;1.8&#x002F;0.7)<br/>n<?penta [hm-..5]?>&#x003D;<?penta [hm-..5]?>187</entry>
+<entry colname="col4">2.0 (0.2&#x002F;3.2)<br/>n<?penta [hm-..5]?>&#x003D;<?penta [hm-..5]?>183</entry>
+<entry colname="col5">3.1 (1.1&#x002F;5.4)<br/>n<?penta [hm-..5]?>&#x003D;<?penta [hm-..5]?>528</entry>
+<entry colname="col6">4.1 (1.8&#x002F;7.3)<br/>n<?penta [hm-..5]?>&#x003D;<?penta [hm-..5]?>333</entry>
+</row>
+<?penta [bt[ol6][ep[et[bt[nt[ds5][ol0][ru7,,1][ep[et?>
+<row valign="middle">
+<entry colname="col2">Metformin</entry>
+<entry colname="col3">&#x2212;1.4 (&#x2212;3.2&#x002F;0.3)<br/>n<?penta [hm-..5]?>&#x003D;<?penta [hm-..5]?>160</entry>
+<entry colname="col4">N/A</entry>
+<entry colname="col5">0.9 (&#x2212;0.3&#x002F;3.2)<br/>n<?penta [hm-..5]?>&#x003D;<?penta [hm-..5]?>567</entry>
+<entry colname="col6">1.8 (&#x2212;0.9&#x002F;5.0)<br/>n<?penta [hm-..5]?>&#x003D;<?penta [hm-..5]?>407</entry>
+</row>
+<?penta [bt[ol6][ep[et[bt[nt[ds9][ol0][ru7,,1][ep[et?>
+<row valign="middle" rowsep="1">
+<entry colname="col2">Insulin</entry>
+<entry colname="col3">0.2 (&#x2212;1.4&#x002F;1.4)<br/>n<?penta [hm-..5]?>&#x003D;<?penta [hm-..5]?>182</entry>
+<entry colname="col4">2.3 (0.5&#x002F;4.3)<br/>n<?penta [hm-..5]?>&#x003D;<?penta [hm-..5]?>190</entry>
+<entry colname="col5">3.3 (0.9&#x002F;6.3)<br/>n<?penta [hm-..5]?>&#x003D;<?penta [hm-..5]?>522</entry>
+<entry colname="col6">4.1 (1.4&#x002F;6.8)<br/>n<?penta [hm-..5]?>&#x003D;<?penta [hm-..5]?>338</entry>
+</row>
+</tbody>
+</tgroup>
+</cals-table>
+<footnote>Note: Trial durations of 16 to 26 weeks</footnote>
+</table-wrap>END of CALS Table --> <table ID="pdr8075-0250-tbl003" width="595" frame="below">
+<colgroup styleCode="colsep-1">
+<col ID="pdr8075-0250-tbl003-col1" align="center"/>
+<col ID="pdr8075-0250-tbl003-col2" align="center"/>
+<col ID="pdr8075-0250-tbl003-col3" align="center"/>
+<col ID="pdr8075-0250-tbl003-col4" align="center"/>
+<col ID="pdr8075-0250-tbl003-col5" align="center"/>
+<col ID="pdr8075-0250-tbl003-col6" align="center"/>
+</colgroup>
+<thead>
+<tr styleCode="rowsep-1">
+<th colspan="6">
+<content styleCode="bold">Table 3. Weight Changes (kg) from Baseline During <?penta [ch?>Double-<?penta [ch?>Blind Clinical Trials with Pioglitazone</content>
+</th>
+</tr>
+<tr>
+<th colspan="2">
+<br/> <br/>
+</th>
+<th styleCode="rowsep-1">
+<content styleCode="bold">Control Group<br/>(Placebo)</content>
+</th>
+<th styleCode="rowsep-1">
+<content styleCode="bold">pioglitazone<br/>15 mg</content>
+</th>
+<th styleCode="rowsep-1">
+<content styleCode="bold">pioglitazone<br/>30 mg</content>
+</th>
+<th styleCode="rowsep-1">
+<content styleCode="bold">pioglitazone<br/>45 mg</content>
+</th>
+</tr>
+<tr styleCode="rowsep-1">
+<th colspan="2">
+<br/> <br/>
+</th>
+<th>Median<br/>(25<sup>th</sup>/75<sup>th</sup> <br/>percentile)</th>
+<th>Median<br/>(25<sup>th</sup>/75<sup>th</sup> <br/>percentile)</th>
+<th>Median<br/>(25<sup>th</sup>/75<sup>th</sup> <br/>percentile)</th>
+<th>Median<br/>(25<sup>th</sup>/75<sup>th</sup> <br/>percentile)</th>
+</tr>
+</thead>
+<tfoot>
+<tr>
+<td colspan="6">Note: Trial durations of 16 to 26 weeks</td>
+</tr>
+</tfoot>
+<tbody>
+<tr valign="middle" styleCode="rowsep-1">
+<td>
+<content styleCode="bold">Monotherapy</content>
+</td>
+<td>
+</td>
+<td>−1.4 (−2.7/0.0)<br/>n<?penta [hm-..5]?>=<?penta [hm-..5]?>256</td>
+<td>0.9 (−0.5/3.4)<br/>n<?penta [hm-..5]?>=<?penta [hm-..5]?>79</td>
+<td>1.0 (−0.9/3.4)<br/>n<?penta [hm-..5]?>=<?penta [hm-..5]?>188</td>
+<td>2.6 (0.2/5.4)<br/>n<?penta [hm-..5]?>=<?penta [hm-..5]?>79</td>
+</tr>
+<?penta [bt[ol3][ep[et[ol0][ru7][ep?>
+<tr valign="middle">
+<td rowspan="2">
+<content styleCode="bold">Combination<br/>Therapy</content>
+</td>
+<td>Sulfonylurea</td>
+<td>−0.5 (−1.8/0.7)<br/>n<?penta [hm-..5]?>=<?penta [hm-..5]?>187</td>
+<td>2.0 (0.2/3.2)<br/>n<?penta [hm-..5]?>=<?penta [hm-..5]?>183</td>
+<td>3.1 (1.1/5.4)<br/>n<?penta [hm-..5]?>=<?penta [hm-..5]?>528</td>
+<td>4.1 (1.8/7.3)<br/>n<?penta [hm-..5]?>=<?penta [hm-..5]?>333</td>
+</tr>
+<?penta [bt[ol6][ep[et[bt[nt[ds5][ol0][ru7,,1][ep[et?>
+<tr valign="middle">
+<td>Metformin</td>
+<td>−1.4 (−3.2/0.3)<br/>n<?penta [hm-..5]?>=<?penta [hm-..5]?>160</td>
+<td>N/A</td>
+<td>0.9 (−0.3/3.2)<br/>n<?penta [hm-..5]?>=<?penta [hm-..5]?>567</td>
+<td>1.8 (−0.9/5.0)<br/>n<?penta [hm-..5]?>=<?penta [hm-..5]?>407</td>
+</tr>
+<?penta [bt[ol6][ep[et[bt[nt[ds9][ol0][ru7,,1][ep[et?>
+<tr valign="middle" styleCode="rowsep-1">
+<td>Insulin</td>
+<td>0.2 (−1.4/1.4)<br/>n<?penta [hm-..5]?>=<?penta [hm-..5]?>182</td>
+<td>2.3 (0.5/4.3)<br/>n<?penta [hm-..5]?>=<?penta [hm-..5]?>190</td>
+<td>3.3 (0.9/6.3)<br/>n<?penta [hm-..5]?>=<?penta [hm-..5]?>522</td>
+<td>4.1 (1.4/6.8)<br/>n<?penta [hm-..5]?>=<?penta [hm-..5]?>338</td>
+</tr>
+</tbody>
+</table>
+</text>
+</section>
+</component>
+</structuredBody>
+</component>
+</document>

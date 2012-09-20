@@ -1,0 +1,30 @@
+from implib.io import write_file, read_file, handle_args
+import glob, sys, os, re
+from rexlib import *
+
+output_dir = 'noHTML_removed'
+if not os.path.isdir(output_dir):
+	os.mkdir(output_dir)
+
+
+files = handle_args(sys.argv[1:])
+for file in files:
+	s = read_file(file)
+
+	tokens = tokenize(s)
+	
+	kill_these_divs = []
+	
+	for token in tokens:
+		if token.isA(Start, 'div'):
+			if token['class'] == 'noHTML':
+				div_to_delete = accumulate_tokens(token, tokens)
+				div_to_delete = concat_tokens(div_to_delete)
+				kill_these_divs.append(div_to_delete)
+	
+	for div in kill_these_divs:
+		s = s.replace(div, '')
+	write_file(os.path.join(output_dir, file), s)
+
+print 'Done.'
+

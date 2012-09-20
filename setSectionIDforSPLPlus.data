@@ -1,0 +1,51 @@
+c:	RE: setting section IDs
+
+
+c:	for run on SPLPlus valid XML [ONLY]
+c:	only works on enumerated prefixes of "pdr" "PDR" and "opt"
+c:	 NOTE:  add more regexes for other Thomson prefix cases, e.g., NPD, etc., as needed 
+
+c:	first re-order id attributes to assure that they all have a fixed order
+s:	<id root="([^"]+)" compId="\1"/>
+r:	<id compId="\1" root="\1"/>
+
+c:	principal case example: <section>\s*<id compId="section004"
+s:	<section>\s*<id compId="([^"]+)"
+r:	<section ID="\1">\n<id compId="\1"
+
+c:	special cases
+s:	<section type="([^"]+)">\s*<id compId="([^"]+)"
+r:	<section ID="\2" type="\1">\n<id compId="\2"
+
+
+c:	ID fix for Pcode="0000" files
+
+c:	avoid duplicate IDs for sections in manufacturer org Pcode="0000" files
+s:	(?s)<structuredBody>(.*?)<section ID="pdr(\d\d\d\d)-0000">(.*?)<section ID="pdr\2-0000">(.*?)<section ID="pdr\2-0000">
+r:	<structuredBody>\1<section ID="pdr\2-0000-01">\3<section ID="pdr\2-0000-02">\4<section ID="pdr\2-0000-03">
+
+c:	avoid duplicate IDs for sections in manufacturer org Pcode="0000" files
+s:	(?s)<structuredBody>(.*?)<section ID="pdr(\d\d\d\d)-0000">(.*?)<section ID="pdr\2-0000">
+r:	<structuredBody>\1<section ID="pdr\2-0000-01">\3<section ID="pdr\2-0000-02">
+
+
+c:	avoid duplicate IDs for sections in manufacturer org Pcode="0000" files
+s:	(?s)<structuredBody>(.*?)<section ID="PDR(\d\d\d\d)-0000">(.*?)<section ID="PDR\2-0000">(.*?)<section ID="PDR\2-0000">
+r:	<structuredBody>\1<section ID="PDR\2-0000-01">\3<section ID="PDR\2-0000-02">\4<section ID="PDR\2-0000-03">
+
+c:	avoid duplicate IDs for sections in manufacturer org Pcode="0000" files
+s:	(?s)<structuredBody>(.*?)<section ID="PDR(\d\d\d\d)-0000">(.*?)<section ID="PDR\2-0000">
+r:	<structuredBody>\1<section ID="PDR\2-0000-01">\3<section ID="PDR\2-0000-02">
+
+c:	avoid duplicate IDs for sections in manufacturer org Pcode="0001" files
+s:	(?s)<structuredBody>(.*?)<section ID="PDR(\d\d\d\d)-0001">(.*?)<section ID="PDR\2-0001">(.*?)<section ID="PDR\2-0001">
+r:	<structuredBody>\1<section ID="PDR\2-0001-01">\3<section ID="PDR\2-0001-02">\4<section ID="PDR\2-0001-03">
+
+c:	avoid duplicate IDs for sections in manufacturer org Pcode="0000" files w/"opt" instead of "pdr" in ID prefix.
+s:	(?s)<structuredBody>(.*?)<section ID="opt(\d\d\d\d)-0000">(.*?)<section ID="opt\2-0000">(.*?)<section ID="opt\2-0000">
+r:	<structuredBody>\1<section ID="opt\2-0000-01">\3<section ID="opt\2-0000-02">\4<section ID="opt\2-0000-03">
+
+ 
+
+ 
+
